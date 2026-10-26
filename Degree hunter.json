@@ -211,6 +211,246 @@
         "name": "9.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "cyberpunk_tileset_64px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyberpunk_tileset_64px.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cyberpunk_pixel_tileset_64px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyberpunk_pixel_tileset_64px.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "vending_machine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vending_machine.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "trash_bin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trash_bin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "traffic_light_pole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "traffic_light_pole.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "traffic_cone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "traffic_cone.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "street_lamp_purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "street_lamp_purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "newspaper_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "newspaper_box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "speaker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "speaker.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "atm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "atm.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "barrel_blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "barrel_blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bollard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bollard.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crate_long_pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crate_long_pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crate_neon_pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crate_neon_pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crate_olive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crate_olive.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "crate_teal_graffiti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crate_teal_graffiti.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "electric_cabinet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "electric_cabinet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fire_hydrant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_hydrant.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "mini_barrier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mini_barrier.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "parking_sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "parking_sign.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sign_OPEN.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sign_OPEN.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "plant_pot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant_pot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "neon_sign_vertical_pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "neon_sign_vertical_pink.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cyberpunk_platforms_prebuilt_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyberpunk_platforms_prebuilt_64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cyberpunk_platforms_tiles_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyberpunk_platforms_tiles_64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Neon Cyberpunk Character Sprite Sheet (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Neon Cyberpunk Character Sprite Sheet (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Neon Cyberpunk Character Sprite Sheet (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Neon Cyberpunk Character Sprite Sheet (1)2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -223,7 +463,19 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/scene-game1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-opening"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-selection"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-win"
     }
   ],
   "externalEvents": [],
