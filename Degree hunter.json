@@ -451,6 +451,14 @@
         "name": "Neon Cyberpunk Character Sprite Sheet (1)2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Cyberpunk Character Animation Sprite Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cyberpunk Character Animation Sprite Sheet.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
