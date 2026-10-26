@@ -491,6 +491,422 @@
         "name": "16.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "shoot left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shoot left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Shoot right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shoot right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cyberpunk_tileset_64px2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyberpunk_tileset_64px2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "cyberpunk_pixel_tileset_64px2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyberpunk_pixel_tileset_64px2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot left",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot left2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot left3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot left4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot left5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/shoot left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "shoot left6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot right",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot right2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot right3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot right4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot right5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Shoot right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Shoot right6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ right10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": " right10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/_left10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "_left10",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
