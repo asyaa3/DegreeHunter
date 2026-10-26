@@ -107,6 +107,110 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Degree Hunter (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Degree Hunter (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Degree Hunter (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Degree Hunter (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Degree Hunter (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Degree Hunter (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Degree Hunter (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Degree Hunter (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
