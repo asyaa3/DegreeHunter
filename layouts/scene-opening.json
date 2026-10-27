@@ -44,6 +44,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Start",
+      "persistentUuid": "f977a191-4f23-4812-80bd-f31a55c7827e",
+      "width": 0,
+      "x": -26,
+      "y": 37,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

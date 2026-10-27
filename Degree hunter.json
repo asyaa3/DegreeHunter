@@ -2211,6 +2211,22 @@
         "name": "cyberpunk_robot_factory_tiles_64.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Degree Hunter_20261027_184201_0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Degree Hunter_20261027_184201_0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Degree Hunter_20261027_184501_0000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Degree Hunter_20261027_184501_0000.png\",\"extension\":\".png\"}",
+        "name": "Degree Hunter_20261027_184501_0000.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
