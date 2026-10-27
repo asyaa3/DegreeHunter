@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Scene Opening",
   "gdVersion": {
     "build": 284,
     "major": 5,
@@ -605,34 +605,34 @@
         "userAdded": false
       },
       {
-        "file": "assets/ right.png",
+        "file": "assets/musuh_right.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right",
+        "name": "musuh_right",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right2.png",
+        "file": "assets/musuh_right2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right2",
+        "name": "musuh_right2",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right3.png",
+        "file": "assets/musuh_right3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right3",
+        "name": "musuh_right3",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right4.png",
+        "file": "assets/musuh_right4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right4",
+        "name": "musuh_right4",
         "smoothed": false,
         "userAdded": false
       },
@@ -813,50 +813,50 @@
         "userAdded": false
       },
       {
-        "file": "assets/ right5.png",
+        "file": "assets/musuh_right5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right5",
+        "name": "musuh_right5",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right6.png",
+        "file": "assets/musuh_right6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right6",
+        "name": "musuh_right6",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right7.png",
+        "file": "assets/musuh_right7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right7",
+        "name": "musuh_right7",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right8.png",
+        "file": "assets/musuh_right8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right8",
+        "name": "musuh_right8",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right9.png",
+        "file": "assets/musuh_right9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right9",
+        "name": "musuh_right9",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "assets/ right10.png",
+        "file": "assets/musuh_right10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": " right10",
+        "name": "musuh_right10",
         "smoothed": false,
         "userAdded": false
       },
@@ -1693,10 +1693,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/idle .png",
+        "file": "assets/idle_0.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "idle ",
+        "name": "idle_0",
         "smoothed": true,
         "userAdded": false
       },
@@ -1917,10 +1917,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/die .png",
+        "file": "assets/die_0.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "die ",
+        "name": "die_0",
         "smoothed": true,
         "userAdded": false
       },
@@ -2227,6 +2227,294 @@
         "name": "Degree Hunter_20261027_184501_0000.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "ui/btn_start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_start.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_start_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_start_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_quit.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_quit_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_quit_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_select.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_select_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_select_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/sorot_kartu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/sorot_kartu.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/peluru_hunter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/peluru_hunter.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/peluru_musuh.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/peluru_musuh.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/overlay_gameover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/overlay_gameover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/panel_gameover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/panel_gameover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/title_game_over.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/title_game_over.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_play_again.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_play_again.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_play_again_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_play_again_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_home.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_home.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/btn_home_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/btn_home_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/ledakan_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/ledakan_8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_bilah_belakang.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_bilah_belakang.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hp_lag.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hp_lag.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hp_fill_hijau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hp_fill_hijau.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hp_fill_kuning.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hp_fill_kuning.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hp_fill_merah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hp_fill_merah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_bilah_depan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_bilah_depan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_potret_nabigh.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_potret_nabigh.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_potret_rupii.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_potret_rupii.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_potret_tasya.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_potret_tasya.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_nama_nabigh.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_nama_nabigh.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_nama_rupii.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_nama_rupii.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/hud_nama_tasya.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/hud_nama_tasya.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },
@@ -2235,7 +2523,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Hunter",
+      "type": "string",
+      "value": "Nabigh"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

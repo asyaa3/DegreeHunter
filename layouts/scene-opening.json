@@ -38,8 +38,8 @@
       "name": "bg1",
       "persistentUuid": "792f7d26-dbbc-4a1c-8578-7a4ee639ed23",
       "width": 0,
-      "x": -2,
-      "y": 1,
+      "x": 0,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -52,11 +52,27 @@
       "keepRatio": true,
       "layer": "",
       "name": "Start",
-      "persistentUuid": "f977a191-4f23-4812-80bd-f31a55c7827e",
+      "persistentUuid": "0def0f63-f862-480e-9ea4-d316f218a981",
       "width": 0,
-      "x": -26,
-      "y": 37,
-      "zOrder": 2,
+      "x": 494,
+      "y": 392,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Quit",
+      "persistentUuid": "3472a5b6-67a8-4529-95c2-3e3e3fa642ef",
+      "width": 0,
+      "x": 497,
+      "y": 506,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -125,10 +141,10 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Start",
-      "persistentUuid": "50aebf07-9179-4a8d-af10-8c664fca4834",
+      "persistentUuid": "c7da5448-3b4b-4a7b-b645-6c15b9a2521d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -136,7 +152,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "normal",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -145,7 +161,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "11.png",
+                  "image": "ui/btn_start.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -161,20 +177,68 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 504,
-                        "y": 318
+                        "x": 10,
+                        "y": 10
                       },
                       {
-                        "x": 776,
-                        "y": 318
+                        "x": 283,
+                        "y": 10
                       },
                       {
-                        "x": 776,
-                        "y": 402
+                        "x": 283,
+                        "y": 94
                       },
                       {
-                        "x": 504,
-                        "y": 402
+                        "x": 10,
+                        "y": 94
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui/btn_start_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 10
+                      },
+                      {
+                        "x": 283,
+                        "y": 10
+                      },
+                      {
+                        "x": 283,
+                        "y": 94
+                      },
+                      {
+                        "x": 10,
+                        "y": 94
                       }
                     ]
                   ]
@@ -186,10 +250,10 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Quit",
-      "persistentUuid": "ded9ce33-a60d-4831-919a-423c4229c51e",
+      "persistentUuid": "9c01315a-a4db-471b-af28-478312cd0ec4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -197,7 +261,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "normal",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -206,7 +270,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "12.png",
+                  "image": "ui/btn_quit.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -222,20 +286,68 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 507,
-                        "y": 320
+                        "x": 10,
+                        "y": 10
                       },
                       {
-                        "x": 772,
-                        "y": 320
+                        "x": 276,
+                        "y": 10
                       },
                       {
-                        "x": 772,
-                        "y": 402
+                        "x": 276,
+                        "y": 93
                       },
                       {
-                        "x": 507,
-                        "y": 402
+                        "x": 10,
+                        "y": 93
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui/btn_quit_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 10
+                      },
+                      {
+                        "x": 276,
+                        "y": 10
+                      },
+                      {
+                        "x": 276,
+                        "y": 93
+                      },
+                      {
+                        "x": 10,
+                        "y": 93
                       }
                     ]
                   ]
@@ -261,7 +373,314 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "r": 255,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
+        "textG": 0,
+        "textB": 0
+      },
+      "comment": "SCENE OPENING  |  Start -> Scene Selection,  Quit -> keluar game.  Tombol menyala saat disorot mouse."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 160,
+      "colorG": 90,
+      "colorR": 70,
+      "creationTime": 0,
+      "name": "Efek hover tombol",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Start",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Start",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Start",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Start",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Quit",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Quit",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Quit",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Quit",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 160,
+      "colorG": 90,
+      "colorR": 70,
+      "creationTime": 0,
+      "name": "Klik tombol",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Start",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene Selection\"",
+                "no"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene Selection\"",
+                "no"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Quit",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
