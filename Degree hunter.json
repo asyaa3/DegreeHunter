@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 284,
+    "build": 285,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -497,7 +497,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -505,7 +505,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -513,7 +513,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -521,7 +521,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -529,7 +529,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -537,7 +537,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -545,7 +545,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -553,7 +553,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -561,7 +561,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite11",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -569,7 +569,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite12",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -577,7 +577,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite13",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -585,7 +585,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite14",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -609,7 +609,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -617,7 +617,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -625,7 +625,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -633,7 +633,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -641,7 +641,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -649,7 +649,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -657,7 +657,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -665,7 +665,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -721,7 +721,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "shoot left",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -729,7 +729,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "shoot left2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -737,7 +737,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "shoot left3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -745,7 +745,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "shoot left4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -753,7 +753,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "shoot left5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -761,7 +761,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "shoot left6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -769,7 +769,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Shoot right",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -777,7 +777,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Shoot right2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -785,7 +785,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Shoot right3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -793,7 +793,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Shoot right4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -801,7 +801,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Shoot right5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -809,7 +809,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Shoot right6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -817,7 +817,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -825,7 +825,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -833,7 +833,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -841,7 +841,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right8",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -849,7 +849,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right9",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -857,7 +857,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": " right10",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -865,7 +865,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -873,7 +873,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -881,7 +881,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -889,7 +889,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left8",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -897,7 +897,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left9",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -905,8 +905,16 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "_left10",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "cyberpunk_robot_factory_tiles_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cyberpunk_robot_factory_tiles_64.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },
