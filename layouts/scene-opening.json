@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.5117784035210173,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -377,30 +377,29 @@
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
-        "r": 255,
-        "g": 230,
         "b": 109,
-        "textR": 0,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
         "textG": 0,
-        "textB": 0
+        "textR": 0
       },
       "comment": "SCENE OPENING  |  Start -> Scene Selection,  Quit -> keluar game.  Tombol menyala saat disorot mouse."
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
       "name": "Efek hover tombol",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -422,8 +421,7 @@
                 "1"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -452,15 +450,13 @@
                 "0"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -482,8 +478,7 @@
                 "1"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -512,27 +507,25 @@
                 "0"
               ]
             }
-          ],
-          "events": []
+          ]
         }
       ],
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
       "name": "Klik tombol",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -542,7 +535,6 @@
             },
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -564,8 +556,7 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -578,7 +569,6 @@
               "subInstructions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "KeyPressed"
                   },
                   "parameters": [
@@ -588,7 +578,6 @@
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "KeyPressed"
                   },
                   "parameters": [
@@ -610,15 +599,13 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -628,7 +615,6 @@
             },
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -648,15 +634,13 @@
                 ""
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -674,8 +658,7 @@
                 ""
               ]
             }
-          ],
-          "events": []
+          ]
         }
       ],
       "parameters": []

@@ -1,7 +1,7 @@
 {
   "firstLayout": "Scene Opening",
   "gdVersion": {
-    "build": 284,
+    "build": 285,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -2513,6 +2513,46 @@
         "kind": "image",
         "metadata": "",
         "name": "ui/hud_nama_tasya.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/win_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/win_bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/win_btn_playagain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/win_btn_playagain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/win_btn_playagain_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/win_btn_playagain_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/win_btn_quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/win_btn_quit.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui/win_btn_quit_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui/win_btn_quit_hover.png",
         "smoothed": false,
         "userAdded": true
       }

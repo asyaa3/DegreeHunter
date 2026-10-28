@@ -566,12 +566,12 @@
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
-        "r": 255,
-        "g": 230,
         "b": 109,
-        "textR": 0,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
         "textG": 0,
-        "textB": 0
+        "textR": 0
       },
       "comment": "SCENE SELECTION  |  Pilih hunter: nama hunter disimpan di variabel global 'Hunter' lalu masuk ke Scene Game1."
     },
@@ -580,7 +580,6 @@
       "conditions": [
         {
           "type": {
-            "inverted": false,
             "value": "DepartScene"
           },
           "parameters": [
@@ -597,24 +596,22 @@
             "SorotKartu"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
       "name": "Efek hover tombol + sorot kartu",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -636,8 +633,7 @@
                 "1"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -666,15 +662,13 @@
                 "0"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -696,8 +690,7 @@
                 "1"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -726,15 +719,13 @@
                 "0"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -756,8 +747,7 @@
                 "1"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -786,15 +776,13 @@
                 "0"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -827,15 +815,13 @@
                 "152"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -868,15 +854,13 @@
                 "152"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -909,8 +893,7 @@
                 "152"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -961,27 +944,25 @@
                 "SorotKartu"
               ]
             }
-          ],
-          "events": []
+          ]
         }
       ],
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
       "name": "Pilih hunter",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -991,7 +972,6 @@
             },
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -1023,15 +1003,13 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -1041,7 +1019,6 @@
             },
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -1073,15 +1050,13 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -1091,7 +1066,6 @@
             },
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -1123,15 +1097,13 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -1161,15 +1133,13 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -1199,15 +1169,13 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -1237,15 +1205,13 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -1265,8 +1231,7 @@
                 "no"
               ]
             }
-          ],
-          "events": []
+          ]
         }
       ],
       "parameters": []
