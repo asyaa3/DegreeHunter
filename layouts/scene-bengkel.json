@@ -1,0 +1,3512 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Scene_32Bengkel",
+  "name": "Scene Bengkel",
+  "r": 0,
+  "renderer3DWorldScale": 100,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": false,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.24672586957406542,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BengkelBG",
+      "persistentUuid": "3edb682e-0d40-4e1b-9141-947319bff378",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnBeli",
+      "persistentUuid": "6d2bfdb8-1a74-4559-805e-3970a5333130",
+      "width": 0,
+      "x": 108,
+      "y": 488,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnBeli",
+      "persistentUuid": "8de0aa22-c7c0-4fed-a8ff-85a1221bade8",
+      "width": 0,
+      "x": 413,
+      "y": 488,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnBeli",
+      "persistentUuid": "4e086934-9670-4699-afb9-691ec5af491b",
+      "width": 0,
+      "x": 718,
+      "y": 488,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnBeli",
+      "persistentUuid": "26065968-7f43-408a-888f-3052534d6283",
+      "width": 0,
+      "x": 1023,
+      "y": 488,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Harga1",
+      "persistentUuid": "af6b821c-1aa1-442a-b192-695bf73bd9ab",
+      "width": 0,
+      "x": 80,
+      "y": 404,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Harga2",
+      "persistentUuid": "377eea94-bbdb-4186-a28e-94a7c740e3aa",
+      "width": 0,
+      "x": 385,
+      "y": 404,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Harga3",
+      "persistentUuid": "d44f95e4-c693-41ce-a0c3-8153d3825818",
+      "width": 0,
+      "x": 690,
+      "y": 404,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Harga4",
+      "persistentUuid": "c5a01b3f-2c54-4615-8448-8907ef68c12a",
+      "width": 0,
+      "x": 995,
+      "y": 404,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TeksChipB",
+      "persistentUuid": "a67a988a-eddf-46c3-834d-090deb34d501",
+      "width": 0,
+      "x": 50,
+      "y": 622,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TeksPesanB",
+      "persistentUuid": "d9a3a0ef-d724-483d-9849-af08a24a05f8",
+      "width": 0,
+      "x": 440,
+      "y": 628,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnKembali",
+      "persistentUuid": "61e0ac53-0340-4815-b41a-e77a92839bca",
+      "width": 0,
+      "x": 1054,
+      "y": 610,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Transisi",
+      "name": "Tirai",
+      "persistentUuid": "a807eddf-fbd4-4e14-b0a4-d9b2fda2013b",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BengkelBG",
+      "persistentUuid": "368b0a2d-79dc-4697-8309-f13bf440aa8f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/bengkel_bg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BtnBeli",
+      "persistentUuid": "47ae464f-c63b-4240-ac98-c4fb371955a6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_beli.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 136,
+                        "y": 12
+                      },
+                      {
+                        "x": 136,
+                        "y": 64
+                      },
+                      {
+                        "x": 12,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_beli_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 136,
+                        "y": 12
+                      },
+                      {
+                        "x": 136,
+                        "y": 64
+                      },
+                      {
+                        "x": 12,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BtnKembali",
+      "persistentUuid": "9ded3a62-c186-4c23-96b6-97c20717b150",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_kembali.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 184,
+                        "y": 12
+                      },
+                      {
+                        "x": 184,
+                        "y": 64
+                      },
+                      {
+                        "x": 12,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_kembali_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 184,
+                        "y": 12
+                      },
+                      {
+                        "x": 184,
+                        "y": 64
+                      },
+                      {
+                        "x": 12,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TeksChipB",
+      "persistentUuid": "e40d3133-9000-42a8-96c7-6c09fc7a5308",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 32,
+        "lineHeight": 0,
+        "color": "120;230;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TeksPesanB",
+      "persistentUuid": "5925e1d3-b1df-4322-8a1e-d18c4a0796af",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 26,
+        "lineHeight": 0,
+        "color": "255;214;80",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Harga1",
+      "persistentUuid": "4adef72b-bca3-4e35-9e14-d1a2c026cc3f",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 26,
+        "lineHeight": 0,
+        "color": "255;255;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Harga2",
+      "persistentUuid": "fe136091-817a-4ac8-b35b-70a10286c636",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 26,
+        "lineHeight": 0,
+        "color": "255;255;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Harga3",
+      "persistentUuid": "0f915725-229d-4c5d-b7ef-eb8c37f2a154",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 26,
+        "lineHeight": 0,
+        "color": "255;255;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Harga4",
+      "persistentUuid": "3ff68c10-7382-4e2b-9851-9468d5d596b9",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 26,
+        "lineHeight": 0,
+        "color": "255;255;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tirai",
+      "persistentUuid": "f6ef105d-d0f0-45ef-9017-260514147790",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/tirai.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "BengkelBG"
+      },
+      {
+        "objectName": "BtnBeli"
+      },
+      {
+        "objectName": "BtnKembali"
+      },
+      {
+        "objectName": "TeksChipB"
+      },
+      {
+        "objectName": "TeksPesanB"
+      },
+      {
+        "objectName": "Harga1"
+      },
+      {
+        "objectName": "Harga2"
+      },
+      {
+        "objectName": "Harga3"
+      },
+      {
+        "objectName": "Harga4"
+      },
+      {
+        "objectName": "Tirai"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "r": 255,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
+        "textG": 0,
+        "textB": 0
+      },
+      "comment": "SCENE BENGKEL LAB  |  Ekonomi game: Chip Data ditukar menjadi atribut (Nyawa maks, kapasitas Energi, Damage, isi ulang Energi). Setiap pembelian langsung disimpan."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 160,
+      "colorG": 90,
+      "colorR": 70,
+      "creationTime": 0,
+      "name": "Awal & teks",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TeksPesanB",
+                "=",
+                "\"Pilih peningkatan lalu klik BELI.\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "MusikNow",
+                    "!=",
+                    "\"ls\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/bgm_levelselect.ogg",
+                    "1",
+                    "yes",
+                    "60*GlobalVariable(VolMusik)/100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "MusikNow",
+                    "=",
+                    "\"ls\""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TeksChipB",
+                "=",
+                "\"CHIP DATA: \" + ToString(GlobalVariable(ChipData))"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Harga1",
+                "=",
+                "182-Harga1.Width()/2",
+                "=",
+                "404"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Harga2",
+                "=",
+                "487-Harga2.Width()/2",
+                "=",
+                "404"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Harga3",
+                "=",
+                "792-Harga3.Width()/2",
+                "=",
+                "404"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Harga4",
+                "=",
+                "1097-Harga4.Width()/2",
+                "=",
+                "404"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "UpNyawa",
+                "<",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Harga1",
+                "=",
+                "\"Lv \" + ToString(GlobalVariable(UpNyawa)) + \"/3  -  \" + ToString(30*(GlobalVariable(UpNyawa)+1)) + \" Chip\""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "UpKapasitas",
+                "<",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Harga2",
+                "=",
+                "\"Lv \" + ToString(GlobalVariable(UpKapasitas)) + \"/3  -  \" + ToString(40*(GlobalVariable(UpKapasitas)+1)) + \" Chip\""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "UpDamage",
+                "<",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Harga3",
+                "=",
+                "\"Lv \" + ToString(GlobalVariable(UpDamage)) + \"/3  -  \" + ToString(50*(GlobalVariable(UpDamage)+1)) + \" Chip\""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "UpNyawa",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Harga1",
+                "=",
+                "\"MAKS\""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "UpKapasitas",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Harga2",
+                "=",
+                "\"MAKS\""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "UpDamage",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Harga3",
+                "=",
+                "\"MAKS\""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Harga4",
+                "=",
+                "\"Energi \" + ToString(floor(GlobalVariable(Energi))) + \"/\" + ToString(GlobalVariable(EnergiMax)) + \"  -  15 Chip\""
+              ]
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 160,
+      "colorG": 90,
+      "colorR": 70,
+      "creationTime": 0,
+      "name": "Beli",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnBeli",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnBeli",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnBeli",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnBeli",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnBeli",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKembali",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnKembali",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKembali",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnKembali",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKembali",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnBeli",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BtnBeli",
+                    "idx",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpNyawa",
+                        "<",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(ChipData)",
+                        ">=",
+                        "30*(GlobalVariable(UpNyawa)+1)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ChipData",
+                        "-",
+                        "30*(GlobalVariable(UpNyawa)+1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "NyawaMax",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UpNyawa",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_beli.ogg",
+                        "no",
+                        "70*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Nyawa maksimal +1!\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageTerbuka\"",
+                            "GlobalVariable(StageTerbuka)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageSelesai\"",
+                            "GlobalVariable(StageSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"ChipData\"",
+                            "GlobalVariable(ChipData)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"XP\"",
+                            "GlobalVariable(XP)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"LevelHunter\"",
+                            "GlobalVariable(LevelHunter)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"NyawaMax\"",
+                            "GlobalVariable(NyawaMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"EnergiMax\"",
+                            "GlobalVariable(EnergiMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Energi\"",
+                            "GlobalVariable(Energi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Damage\"",
+                            "GlobalVariable(Damage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpNyawa\"",
+                            "GlobalVariable(UpNyawa)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpKapasitas\"",
+                            "GlobalVariable(UpKapasitas)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpDamage\"",
+                            "GlobalVariable(UpDamage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"SudahProlog\"",
+                            "GlobalVariable(SudahProlog)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"KepinganTotal\"",
+                            "GlobalVariable(KepinganTotal)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"CatatanLab\"",
+                            "GlobalVariable(CatatanLab)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Tamat\"",
+                            "GlobalVariable(Tamat)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TutorialSelesai\"",
+                            "GlobalVariable(TutorialSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipRobot\"",
+                            "GlobalVariable(TipRobot)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSembunyi\"",
+                            "GlobalVariable(TipSembunyi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipPintu\"",
+                            "GlobalVariable(TipPintu)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBahaya\"",
+                            "GlobalVariable(TipBahaya)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBos\"",
+                            "GlobalVariable(TipBos)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill1\"",
+                            "GlobalVariable(TipSkill1)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill2\"",
+                            "GlobalVariable(TipSkill2)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill3\"",
+                            "GlobalVariable(TipSkill3)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill4\"",
+                            "GlobalVariable(TipSkill4)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill5\"",
+                            "GlobalVariable(TipSkill5)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Hunter\"",
+                            "GlobalVariableString(HunterPilihan)"
+                          ]
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpNyawa",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Sudah maksimal.\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpNyawa",
+                        "<",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(ChipData)",
+                        "<",
+                        "30*(GlobalVariable(UpNyawa)+1)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Chip Data belum cukup. Kumpulkan lagi di stage!\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BtnBeli",
+                    "idx",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpKapasitas",
+                        "<",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(ChipData)",
+                        ">=",
+                        "40*(GlobalVariable(UpKapasitas)+1)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ChipData",
+                        "-",
+                        "40*(GlobalVariable(UpKapasitas)+1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EnergiMax",
+                        "+",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Energi",
+                        "+",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UpKapasitas",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_beli.ogg",
+                        "no",
+                        "70*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Kapasitas energi +20!\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageTerbuka\"",
+                            "GlobalVariable(StageTerbuka)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageSelesai\"",
+                            "GlobalVariable(StageSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"ChipData\"",
+                            "GlobalVariable(ChipData)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"XP\"",
+                            "GlobalVariable(XP)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"LevelHunter\"",
+                            "GlobalVariable(LevelHunter)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"NyawaMax\"",
+                            "GlobalVariable(NyawaMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"EnergiMax\"",
+                            "GlobalVariable(EnergiMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Energi\"",
+                            "GlobalVariable(Energi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Damage\"",
+                            "GlobalVariable(Damage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpNyawa\"",
+                            "GlobalVariable(UpNyawa)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpKapasitas\"",
+                            "GlobalVariable(UpKapasitas)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpDamage\"",
+                            "GlobalVariable(UpDamage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"SudahProlog\"",
+                            "GlobalVariable(SudahProlog)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"KepinganTotal\"",
+                            "GlobalVariable(KepinganTotal)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"CatatanLab\"",
+                            "GlobalVariable(CatatanLab)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Tamat\"",
+                            "GlobalVariable(Tamat)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TutorialSelesai\"",
+                            "GlobalVariable(TutorialSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipRobot\"",
+                            "GlobalVariable(TipRobot)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSembunyi\"",
+                            "GlobalVariable(TipSembunyi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipPintu\"",
+                            "GlobalVariable(TipPintu)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBahaya\"",
+                            "GlobalVariable(TipBahaya)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBos\"",
+                            "GlobalVariable(TipBos)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill1\"",
+                            "GlobalVariable(TipSkill1)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill2\"",
+                            "GlobalVariable(TipSkill2)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill3\"",
+                            "GlobalVariable(TipSkill3)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill4\"",
+                            "GlobalVariable(TipSkill4)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill5\"",
+                            "GlobalVariable(TipSkill5)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Hunter\"",
+                            "GlobalVariableString(HunterPilihan)"
+                          ]
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpKapasitas",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Sudah maksimal.\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpKapasitas",
+                        "<",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(ChipData)",
+                        "<",
+                        "40*(GlobalVariable(UpKapasitas)+1)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Chip Data belum cukup. Kumpulkan lagi di stage!\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BtnBeli",
+                    "idx",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpDamage",
+                        "<",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(ChipData)",
+                        ">=",
+                        "50*(GlobalVariable(UpDamage)+1)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ChipData",
+                        "-",
+                        "50*(GlobalVariable(UpDamage)+1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Damage",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UpDamage",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_beli.ogg",
+                        "no",
+                        "70*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Damage peluru +1!\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageTerbuka\"",
+                            "GlobalVariable(StageTerbuka)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageSelesai\"",
+                            "GlobalVariable(StageSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"ChipData\"",
+                            "GlobalVariable(ChipData)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"XP\"",
+                            "GlobalVariable(XP)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"LevelHunter\"",
+                            "GlobalVariable(LevelHunter)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"NyawaMax\"",
+                            "GlobalVariable(NyawaMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"EnergiMax\"",
+                            "GlobalVariable(EnergiMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Energi\"",
+                            "GlobalVariable(Energi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Damage\"",
+                            "GlobalVariable(Damage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpNyawa\"",
+                            "GlobalVariable(UpNyawa)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpKapasitas\"",
+                            "GlobalVariable(UpKapasitas)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpDamage\"",
+                            "GlobalVariable(UpDamage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"SudahProlog\"",
+                            "GlobalVariable(SudahProlog)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"KepinganTotal\"",
+                            "GlobalVariable(KepinganTotal)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"CatatanLab\"",
+                            "GlobalVariable(CatatanLab)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Tamat\"",
+                            "GlobalVariable(Tamat)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TutorialSelesai\"",
+                            "GlobalVariable(TutorialSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipRobot\"",
+                            "GlobalVariable(TipRobot)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSembunyi\"",
+                            "GlobalVariable(TipSembunyi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipPintu\"",
+                            "GlobalVariable(TipPintu)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBahaya\"",
+                            "GlobalVariable(TipBahaya)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBos\"",
+                            "GlobalVariable(TipBos)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill1\"",
+                            "GlobalVariable(TipSkill1)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill2\"",
+                            "GlobalVariable(TipSkill2)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill3\"",
+                            "GlobalVariable(TipSkill3)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill4\"",
+                            "GlobalVariable(TipSkill4)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill5\"",
+                            "GlobalVariable(TipSkill5)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Hunter\"",
+                            "GlobalVariableString(HunterPilihan)"
+                          ]
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpDamage",
+                        ">=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Sudah maksimal.\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UpDamage",
+                        "<",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(ChipData)",
+                        "<",
+                        "50*(GlobalVariable(UpDamage)+1)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Chip Data belum cukup. Kumpulkan lagi di stage!\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BtnBeli",
+                    "idx",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(Energi)",
+                        "<",
+                        "GlobalVariable(EnergiMax)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChipData",
+                        ">=",
+                        "15"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ChipData",
+                        "-",
+                        "15"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Energi",
+                        "=",
+                        "GlobalVariable(EnergiMax)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_beli.ogg",
+                        "no",
+                        "70*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Energi penuh!\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageTerbuka\"",
+                            "GlobalVariable(StageTerbuka)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"StageSelesai\"",
+                            "GlobalVariable(StageSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"ChipData\"",
+                            "GlobalVariable(ChipData)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"XP\"",
+                            "GlobalVariable(XP)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"LevelHunter\"",
+                            "GlobalVariable(LevelHunter)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"NyawaMax\"",
+                            "GlobalVariable(NyawaMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"EnergiMax\"",
+                            "GlobalVariable(EnergiMax)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Energi\"",
+                            "GlobalVariable(Energi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Damage\"",
+                            "GlobalVariable(Damage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpNyawa\"",
+                            "GlobalVariable(UpNyawa)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpKapasitas\"",
+                            "GlobalVariable(UpKapasitas)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"UpDamage\"",
+                            "GlobalVariable(UpDamage)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"SudahProlog\"",
+                            "GlobalVariable(SudahProlog)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"KepinganTotal\"",
+                            "GlobalVariable(KepinganTotal)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"CatatanLab\"",
+                            "GlobalVariable(CatatanLab)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Tamat\"",
+                            "GlobalVariable(Tamat)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TutorialSelesai\"",
+                            "GlobalVariable(TutorialSelesai)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipRobot\"",
+                            "GlobalVariable(TipRobot)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSembunyi\"",
+                            "GlobalVariable(TipSembunyi)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipPintu\"",
+                            "GlobalVariable(TipPintu)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBahaya\"",
+                            "GlobalVariable(TipBahaya)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipBos\"",
+                            "GlobalVariable(TipBos)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill1\"",
+                            "GlobalVariable(TipSkill1)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill2\"",
+                            "GlobalVariable(TipSkill2)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill3\"",
+                            "GlobalVariable(TipSkill3)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill4\"",
+                            "GlobalVariable(TipSkill4)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"TipSkill5\"",
+                            "GlobalVariable(TipSkill5)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EcrireFichierTxt"
+                          },
+                          "parameters": [
+                            "\"DegreeHunter\"",
+                            "\"Hunter\"",
+                            "GlobalVariableString(HunterPilihan)"
+                          ]
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(Energi)",
+                        ">=",
+                        "GlobalVariable(EnergiMax)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Energi sudah penuh.\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(Energi)",
+                        "<",
+                        "GlobalVariable(EnergiMax)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ChipData",
+                        "<",
+                        "15"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "audio/sfx_gagal.ogg",
+                        "no",
+                        "60*GlobalVariable(VolSFX)/100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "TeksPesanB",
+                        "=",
+                        "\"Chip Data belum cukup.\""
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKembali",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "60*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene Level Select\"",
+                "no"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene Level Select\"",
+                "no"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transisi"
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Transisi",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TileMap",
+      "type": "TileMap::TileMapBehavior"
+    }
+  ]
+}

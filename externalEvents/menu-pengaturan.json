@@ -1,0 +1,1488 @@
+{
+  "associatedLayout": "Scene Opening",
+  "lastChangeTimeStamp": 0,
+  "name": "Menu Pengaturan",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "r": 255,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
+        "textG": 0,
+        "textB": 0
+      },
+      "comment": "MENU PENGATURAN  |  Volume musik & efek suara (0-100%), layar penuh, kontrol sentuh (otomatis/aktif/mati), daftar kontrol. Dibuka dari menu utama atau menu jeda. Nilai disimpan di penyimpanan lokal."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SetBuka",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pengaturan\""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SetBuka",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pengaturan\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeScaleWidth"
+          },
+          "parameters": [
+            "SetBarMusik",
+            "=",
+            "GlobalVariable(VolMusik)/100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeScaleWidth"
+          },
+          "parameters": [
+            "SetBarSfx",
+            "=",
+            "GlobalVariable(VolSFX)/100"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "TeksVolMusik",
+            "=",
+            "ToString(GlobalVariable(VolMusik)) + \"%\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "TeksVolSfx",
+            "=",
+            "ToString(GlobalVariable(VolSFX)) + \"%\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "SetLayar",
+            "=",
+            "GlobalVariable(LayarPenuh)*2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "SetSentuh",
+            "=",
+            "GlobalVariable(KontrolSentuh)*2"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinMusik",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetMinMusik",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinMusik",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetMinMusik",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinMusik",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusMusik",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetPlusMusik",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusMusik",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetPlusMusik",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusMusik",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinSfx",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetMinSfx",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinSfx",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetMinSfx",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinSfx",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusSfx",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetPlusSfx",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusSfx",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetPlusSfx",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusSfx",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetTutup",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetTutup",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetTutup",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetTutup",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetTutup",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetLayar",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetLayar",
+                "=",
+                "GlobalVariable(LayarPenuh)*2+1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetSentuh",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "SetSentuh",
+                "=",
+                "GlobalVariable(KontrolSentuh)*2+1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinMusik",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "VolMusik",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "VolMusik",
+                "-",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetMusicChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "60*GlobalVariable(VolMusik)/100"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolMusik\"",
+                    "GlobalVariable(VolMusik)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolSFX\"",
+                    "GlobalVariable(VolSFX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"LayarPenuh\"",
+                    "GlobalVariable(LayarPenuh)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"KontrolSentuh\"",
+                    "GlobalVariable(KontrolSentuh)"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusMusik",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "VolMusik",
+                "<",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "VolMusik",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetMusicChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "60*GlobalVariable(VolMusik)/100"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolMusik\"",
+                    "GlobalVariable(VolMusik)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolSFX\"",
+                    "GlobalVariable(VolSFX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"LayarPenuh\"",
+                    "GlobalVariable(LayarPenuh)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"KontrolSentuh\"",
+                    "GlobalVariable(KontrolSentuh)"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetMinSfx",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "VolSFX",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "VolSFX",
+                "-",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_chip.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolMusik\"",
+                    "GlobalVariable(VolMusik)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolSFX\"",
+                    "GlobalVariable(VolSFX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"LayarPenuh\"",
+                    "GlobalVariable(LayarPenuh)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"KontrolSentuh\"",
+                    "GlobalVariable(KontrolSentuh)"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetPlusSfx",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "VolSFX",
+                "<",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "VolSFX",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_chip.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolMusik\"",
+                    "GlobalVariable(VolMusik)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolSFX\"",
+                    "GlobalVariable(VolSFX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"LayarPenuh\"",
+                    "GlobalVariable(LayarPenuh)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"KontrolSentuh\"",
+                    "GlobalVariable(KontrolSentuh)"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetLayar",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "LayarPenuh",
+                "=",
+                "1-GlobalVariable(LayarPenuh)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolMusik\"",
+                    "GlobalVariable(VolMusik)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolSFX\"",
+                    "GlobalVariable(VolSFX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"LayarPenuh\"",
+                    "GlobalVariable(LayarPenuh)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"KontrolSentuh\"",
+                    "GlobalVariable(KontrolSentuh)"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "LayarPenuh",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "yes",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "LayarPenuh",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "no",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "SetSentuh",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "KontrolSentuh",
+                "=",
+                "mod(GlobalVariable(KontrolSentuh)+1,3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolMusik\"",
+                    "GlobalVariable(VolMusik)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"VolSFX\"",
+                    "GlobalVariable(VolSFX)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"LayarPenuh\"",
+                    "GlobalVariable(LayarPenuh)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunterSet\"",
+                    "\"KontrolSentuh\"",
+                    "GlobalVariable(KontrolSentuh)"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "SetTutup",
+                        "",
+                        "yes",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Escape"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SetBuka",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  ]
+}

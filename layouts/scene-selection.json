@@ -1,14 +1,14 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_32Selection",
   "name": "Scene Selection",
-  "r": 247,
+  "r": 0,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -27,7 +27,13 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Pilih",
+      "type": "number",
+      "value": 1
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -51,60 +57,110 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "SelectNabigh",
-      "persistentUuid": "570e32aa-aa35-46cc-8c2f-f8d0cced57f3",
-      "width": 0,
-      "x": 137,
-      "y": 634,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SelectRupii",
-      "persistentUuid": "264c0ef1-ddb1-419e-b5d7-8219a6968d07",
-      "width": 0,
-      "x": 539,
-      "y": 634,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SelectTasya",
-      "persistentUuid": "5a1f9f72-df6f-4a93-841b-3497cf8522c5",
-      "width": 0,
-      "x": 942,
-      "y": 634,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "SorotKartu",
       "persistentUuid": "067e2666-f553-4060-9a6b-408233671dd9",
       "width": 0,
       "x": 76,
       "y": 152,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 484,
+      "keepRatio": true,
+      "layer": "",
+      "name": "KartuKlik",
+      "persistentUuid": "e314c6ee-1e15-49bd-b6ef-eaea0db7f512",
+      "width": 348,
+      "x": 76,
+      "y": 152,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 484,
+      "keepRatio": true,
+      "layer": "",
+      "name": "KartuKlik",
+      "persistentUuid": "7359b3f3-13e9-468a-83fb-6f35e511913f",
+      "width": 348,
+      "x": 479,
+      "y": 152,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 484,
+      "keepRatio": true,
+      "layer": "",
+      "name": "KartuKlik",
+      "persistentUuid": "da260e00-a56d-437c-a7cb-101b4b4c0123",
+      "width": 348,
+      "x": 882,
+      "y": 152,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "idx",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnPilih",
+      "persistentUuid": "346db5a4-306b-4c27-bab4-3450203b9821",
+      "width": 0,
+      "x": 527,
+      "y": 632,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Transisi",
+      "name": "Tirai",
+      "persistentUuid": "bf3176a4-e9f8-458a-9aed-aad38cc2b188",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -173,10 +229,10 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "SelectNabigh",
-      "persistentUuid": "13f9318f-a5ed-4f63-99aa-16766a1263d2",
+      "name": "SorotKartu",
+      "persistentUuid": "e9c054c3-b19e-4ac8-a0b3-59ad7cbbc1b3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -184,7 +240,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "normal",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -192,8 +248,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "ui/btn_select.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "ui/sorot_kartu.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -206,42 +262,42 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 10,
-                        "y": 10
-                      },
-                      {
-                        "x": 217,
-                        "y": 10
-                      },
-                      {
-                        "x": 217,
-                        "y": 74
-                      },
-                      {
-                        "x": 10,
-                        "y": 74
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "KartuKlik",
+      "persistentUuid": "f01c839b-b145-4f20-a4ae-df30acca569e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
         {
-          "name": "hover",
+          "name": "idx",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/btn_select_hover.png",
+                  "image": "ui2/solid.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -257,20 +313,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 217,
-                        "y": 10
+                        "x": 64,
+                        "y": 0
                       },
                       {
-                        "x": 217,
-                        "y": 74
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 10,
-                        "y": 74
+                        "x": 0,
+                        "y": 64
                       }
                     ]
                   ]
@@ -284,8 +340,8 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "SelectRupii",
-      "persistentUuid": "a8b4252e-0fad-4dbd-8b44-74192cc4c55a",
+      "name": "BtnPilih",
+      "persistentUuid": "b213e119-aa6b-476c-8403-94efa64e3b27",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -298,7 +354,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -346,116 +402,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ui/btn_select_hover.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 10,
-                        "y": 10
-                      },
-                      {
-                        "x": 217,
-                        "y": 10
-                      },
-                      {
-                        "x": 217,
-                        "y": 74
-                      },
-                      {
-                        "x": 10,
-                        "y": 74
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "SelectTasya",
-      "persistentUuid": "d32943e0-b8db-4f1d-904f-bafae622bbd8",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "normal",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ui/btn_select.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 10,
-                        "y": 10
-                      },
-                      {
-                        "x": 217,
-                        "y": 10
-                      },
-                      {
-                        "x": 217,
-                        "y": 74
-                      },
-                      {
-                        "x": 10,
-                        "y": 74
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "hover",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -502,8 +449,8 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "SorotKartu",
-      "persistentUuid": "e9c054c3-b19e-4ac8-a0b3-59ad7cbbc1b3",
+      "name": "Tirai",
+      "persistentUuid": "4e9060ae-7baf-4e25-a952-af6b2287a4d8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -516,11 +463,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ui/sorot_kartu.png",
+                  "image": "ui2/tirai.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -549,16 +496,16 @@
         "objectName": "bg"
       },
       {
-        "objectName": "SelectNabigh"
-      },
-      {
-        "objectName": "SelectRupii"
-      },
-      {
-        "objectName": "SelectTasya"
-      },
-      {
         "objectName": "SorotKartu"
+      },
+      {
+        "objectName": "KartuKlik"
+      },
+      {
+        "objectName": "BtnPilih"
+      },
+      {
+        "objectName": "Tirai"
       }
     ]
   },
@@ -566,20 +513,21 @@
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
-        "b": 109,
-        "g": 230,
         "r": 255,
-        "textB": 0,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
         "textG": 0,
-        "textR": 0
+        "textB": 0
       },
-      "comment": "SCENE SELECTION  |  Pilih hunter: nama hunter disimpan di variabel global 'Hunter' lalu masuk ke Scene Game1."
+      "comment": "SCENE SELECTION  |  Klik kartu (atau A/D, 1-3) untuk memilih hunter, lalu SELECT / Enter. Hunter bisa diganti lagi di dalam game dengan tombol C."
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
+            "inverted": false,
             "value": "DepartScene"
           },
           "parameters": [
@@ -590,379 +538,151 @@
       "actions": [
         {
           "type": {
-            "value": "Hide"
+            "value": "Show"
           },
           "parameters": [
-            "SorotKartu"
+            "SorotKartu",
+            ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Pilih",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "MusikNow",
+                "!=",
+                "\"menu\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicChannel"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "audio/bgm_menu.ogg",
+                "1",
+                "yes",
+                "60*GlobalVariable(VolMusik)/100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "MusikNow",
+                "=",
+                "\"menu\""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "HunterPilihan",
+                "=",
+                "\"Rupii\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pilih",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "HunterPilihan",
+                "=",
+                "\"Tasya\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pilih",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "events": []
         }
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
-      "name": "Efek hover tombol + sorot kartu",
+      "name": "Memilih kartu",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectNabigh",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "SelectNabigh",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectNabigh",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "SelectNabigh",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectRupii",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "SelectRupii",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectRupii",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "SelectRupii",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectTasya",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "SelectTasya",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectTasya",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "SelectTasya",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectNabigh",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "SorotKartu",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "SorotKartu",
-                "=",
-                "76",
-                "=",
-                "152"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectRupii",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "SorotKartu",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "SorotKartu",
-                "=",
-                "479",
-                "=",
-                "152"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectTasya",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "SorotKartu",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "SorotKartu",
-                "=",
-                "882",
-                "=",
-                "152"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectNabigh",
-                "",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectRupii",
-                "",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SelectTasya",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "SorotKartu"
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 160,
-      "colorG": 90,
-      "colorR": 70,
-      "creationTime": 0,
-      "name": "Pilih hunter",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
+                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -972,10 +692,11 @@
             },
             {
               "type": {
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "SelectNabigh",
+                "KartuKlik",
                 "",
                 "yes",
                 ""
@@ -985,126 +706,174 @@
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Hunter",
+                "Pilih",
                 "=",
-                "\"Nabigh\""
+                "KartuKlik.Variable(idx)"
               ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Scene Game1\"",
-                "no"
+                "audio/sfx_klik.ogg",
+                "no",
+                "60*GlobalVariable(VolSFX)/100",
+                "1"
               ]
             }
-          ]
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "Left"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
               ]
             },
             {
               "type": {
-                "value": "SourisSurObjet"
+                "inverted": false,
+                "value": "NumberVariable"
               },
               "parameters": [
-                "SelectRupii",
-                "",
-                "yes",
-                ""
+                "Pilih",
+                ">",
+                "1"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Hunter",
-                "=",
-                "\"Rupii\""
+                "Pilih",
+                "-",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Scene Game1\"",
-                "no"
+                "audio/sfx_hover.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
               ]
             }
-          ]
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "Left"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
               ]
             },
             {
               "type": {
-                "value": "SourisSurObjet"
+                "inverted": false,
+                "value": "NumberVariable"
               },
               "parameters": [
-                "SelectTasya",
-                "",
-                "yes",
-                ""
+                "Pilih",
+                "<",
+                "3"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Hunter",
-                "=",
-                "\"Tasya\""
+                "Pilih",
+                "+",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Scene Game1\"",
-                "no"
+                "audio/sfx_hover.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
               ]
             }
-          ]
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "inverted": false,
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
@@ -1115,32 +884,36 @@
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Hunter",
+                "Pilih",
                 "=",
-                "\"Nabigh\""
+                "1"
               ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Scene Game1\"",
-                "no"
+                "audio/sfx_hover.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
               ]
             }
-          ]
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "inverted": false,
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
@@ -1151,32 +924,36 @@
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Hunter",
+                "Pilih",
                 "=",
-                "\"Rupii\""
+                "2"
               ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Scene Game1\"",
-                "no"
+                "audio/sfx_hover.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
               ]
             }
-          ]
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "inverted": false,
+                "value": "KeyReleased"
               },
               "parameters": [
                 "",
@@ -1187,23 +964,416 @@
           "actions": [
             {
               "type": {
-                "value": "SetStringVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Hunter",
+                "Pilih",
                 "=",
-                "\"Tasya\""
+                "3"
               ]
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Scene Game1\"",
-                "no"
+                "audio/sfx_hover.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
               ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "SorotKartu",
+                "=",
+                "76+(Variable(Pilih)-1)*403",
+                "=",
+                "152"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "SorotKartu",
+                "=",
+                "200+55*sin(TimeFromStart()*5)"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 160,
+      "colorG": 90,
+      "colorR": 70,
+      "creationTime": 0,
+      "name": "Tombol SELECT",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnPilih",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnPilih",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnPilih",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnPilih",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnPilih",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "BtnPilih",
+                        "",
+                        "yes",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "60*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Pilih",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "HunterPilihan",
+                    "=",
+                    "\"Nabigh\""
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Pilih",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "HunterPilihan",
+                    "=",
+                    "\"Rupii\""
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Pilih",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "HunterPilihan",
+                    "=",
+                    "\"Tasya\""
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"Hunter\"",
+                    "GlobalVariableString(HunterPilihan)"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SudahProlog",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "KomikID",
+                    "=",
+                    "\"prolog\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene Komik\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "SudahProlog",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene Level Select\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -1212,6 +1382,7 @@
           "conditions": [
             {
               "type": {
+                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -1231,10 +1402,18 @@
                 "no"
               ]
             }
-          ]
+          ],
+          "events": []
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transisi"
     }
   ],
   "layers": [
@@ -1304,6 +1483,35 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Transisi",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [

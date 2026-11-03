@@ -1,0 +1,1023 @@
+{
+  "associatedLayout": "Scene Game1",
+  "lastChangeTimeStamp": 0,
+  "name": "Menu Jeda",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "r": 255,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
+        "textG": 0,
+        "textB": 0
+      },
+      "comment": "MENU JEDA  |  Esc atau P saat bermain: permainan berhenti (time scale 0). Lanjutkan, Ulangi stage, Pengaturan, atau kembali ke Pilih Stage."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Toggle",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "p"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TJedaTekan",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "GameOver",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SetBuka",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "MasukPortal",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Toggle",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Toggle",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Toggle",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeTimeScale"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetMusicChannelVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "20*GlobalVariable(VolMusik)/100"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "audio/sfx_jeda.ogg",
+            "no",
+            "60*GlobalVariable(VolSFX)/100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Toggle",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeTimeScale"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetMusicChannelVolume"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "60*GlobalVariable(VolMusik)/100"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "audio/sfx_jeda.ogg",
+            "no",
+            "60*GlobalVariable(VolSFX)/100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause\""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Pause",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "SetBuka",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnLanjutkan",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnLanjutkan",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnLanjutkan",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnLanjutkan",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnLanjutkan",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnUlangi",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnUlangi",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnUlangi",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnUlangi",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnUlangi",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnSetJeda",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnSetJeda",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnSetJeda",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnSetJeda",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnSetJeda",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKeluarJeda",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnKeluarJeda",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKeluarJeda",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnKeluarJeda",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKeluarJeda",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnLanjutkan",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pause",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Pause\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetMusicChannelVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "60*GlobalVariable(VolMusik)/100"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_jeda.ogg",
+                "no",
+                "60*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnUlangi",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "VariableString(NamaScene)",
+                "no"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnSetJeda",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SetBuka",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnKeluarJeda",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SesiChip",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SesiKeping",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene Level Select\"",
+                "no"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  ]
+}

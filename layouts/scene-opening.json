@@ -1,14 +1,14 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_32Opening",
   "name": "Scene Opening",
-  "r": 247,
+  "r": 0,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -27,7 +27,13 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "SetBuka",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -51,11 +57,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Start",
-      "persistentUuid": "0def0f63-f862-480e-9ea4-d316f218a981",
+      "name": "BtnMulai",
+      "persistentUuid": "7247d7e8-0339-436c-b3ed-c7fbf455c2aa",
       "width": 0,
-      "x": 494,
-      "y": 392,
+      "x": 453,
+      "y": 340,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,12 +73,300 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Quit",
-      "persistentUuid": "3472a5b6-67a8-4529-95c2-3e3e3fa642ef",
+      "name": "BtnPengaturan",
+      "persistentUuid": "62b14a59-c617-4cf8-a6bd-e521144a9934",
       "width": 0,
-      "x": 497,
-      "y": 506,
+      "x": 453,
+      "y": 428,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnAbout",
+      "persistentUuid": "df8876cd-1dc4-48c6-a1f0-2664ed1ed8eb",
+      "width": 0,
+      "x": 453,
+      "y": 516,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnKeluar",
+      "persistentUuid": "5a55d673-c2f8-47af-9b8a-241cecfc3cfd",
+      "width": 0,
+      "x": 453,
+      "y": 604,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetRedup",
+      "persistentUuid": "686cc697-9261-4df1-aefb-07a81f1139d5",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetPanel",
+      "persistentUuid": "66ba22db-a338-42e7-81b9-79db70679f04",
+      "width": 0,
+      "x": 140,
+      "y": 110,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetMinMusik",
+      "persistentUuid": "1c335478-593d-4f3b-ab5c-0440851267f8",
+      "width": 0,
+      "x": 360,
+      "y": 224,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetTrack",
+      "persistentUuid": "74ba56f0-5aa5-47f2-beb3-b48cdb249dbe",
+      "width": 0,
+      "x": 426,
+      "y": 239,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetBarMusik",
+      "persistentUuid": "a3ce3c14-c154-4992-b559-a82bee75b1dc",
+      "width": 0,
+      "x": 430,
+      "y": 243,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetPlusMusik",
+      "persistentUuid": "cac6eb25-8aed-471e-bffb-b95f9e281d80",
+      "width": 0,
+      "x": 634,
+      "y": 224,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetMinSfx",
+      "persistentUuid": "f224ccd7-42e7-45c4-a0e2-5e18127b73b9",
+      "width": 0,
+      "x": 360,
+      "y": 300,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetTrack",
+      "persistentUuid": "2c8f8e97-8652-4579-b2a2-ac1ed0d5be13",
+      "width": 0,
+      "x": 426,
+      "y": 315,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetBarSfx",
+      "persistentUuid": "0aa70c14-3a4c-4b37-aa7a-426938ac87fc",
+      "width": 0,
+      "x": 430,
+      "y": 319,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetPlusSfx",
+      "persistentUuid": "7330aa4b-8dd9-4667-b06e-a34354704803",
+      "width": 0,
+      "x": 634,
+      "y": 300,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "TeksVolMusik",
+      "persistentUuid": "70ee5f05-bfbe-458c-a7ae-d927dcb1f8e7",
+      "width": 0,
+      "x": 502,
+      "y": 238,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "TeksVolSfx",
+      "persistentUuid": "2b811c46-54ee-49e6-b769-46264bd8ed31",
+      "width": 0,
+      "x": 502,
+      "y": 314,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetLayar",
+      "persistentUuid": "f9cd2f02-c54a-4af7-8def-b7a039a8c1d2",
+      "width": 0,
+      "x": 360,
+      "y": 376,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetSentuh",
+      "persistentUuid": "238f435a-79dc-4f2b-93c2-c8d6f039b5aa",
+      "width": 0,
+      "x": 360,
+      "y": 452,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pengaturan",
+      "name": "SetTutup",
+      "persistentUuid": "9c2bbe92-70c8-48df-b630-7aacda515639",
+      "width": 0,
+      "x": 300,
+      "y": 532,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Transisi",
+      "name": "Tirai",
+      "persistentUuid": "59872fa6-345f-4569-9dcc-6ae67a1025f2",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -143,8 +437,8 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Start",
-      "persistentUuid": "c7da5448-3b4b-4a7b-b645-6c15b9a2521d",
+      "name": "BtnMulai",
+      "persistentUuid": "824b1bf1-da50-415a-99ec-26973a12ae14",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -157,11 +451,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/btn_start.png",
+                  "image": "ui2/btn_m_start.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -177,20 +471,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 283,
-                        "y": 10
+                        "x": 362,
+                        "y": 12
                       },
                       {
-                        "x": 283,
-                        "y": 94
+                        "x": 362,
+                        "y": 92
                       },
                       {
-                        "x": 10,
-                        "y": 94
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
@@ -205,11 +499,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/btn_start_hover.png",
+                  "image": "ui2/btn_m_start_hover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -225,20 +519,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 283,
-                        "y": 10
+                        "x": 362,
+                        "y": 12
                       },
                       {
-                        "x": 283,
-                        "y": 94
+                        "x": 362,
+                        "y": 92
                       },
                       {
-                        "x": 10,
-                        "y": 94
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
@@ -252,8 +546,8 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Quit",
-      "persistentUuid": "9c01315a-a4db-471b-af28-478312cd0ec4",
+      "name": "BtnPengaturan",
+      "persistentUuid": "b257e98e-9e82-4a3d-ab58-e7407420b074",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -266,11 +560,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/btn_quit.png",
+                  "image": "ui2/btn_m_set.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -286,20 +580,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 276,
-                        "y": 10
+                        "x": 362,
+                        "y": 12
                       },
                       {
-                        "x": 276,
-                        "y": 93
+                        "x": 362,
+                        "y": 92
                       },
                       {
-                        "x": 10,
-                        "y": 93
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
@@ -314,11 +608,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/btn_quit_hover.png",
+                  "image": "ui2/btn_m_set_hover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -334,23 +628,1606 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 276,
-                        "y": 10
+                        "x": 362,
+                        "y": 12
                       },
                       {
-                        "x": 276,
-                        "y": 93
+                        "x": 362,
+                        "y": 92
                       },
                       {
-                        "x": 10,
-                        "y": 93
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BtnAbout",
+      "persistentUuid": "2b1a3688-ac12-484f-a840-fb5993eb334e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_m_about.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 92
+                      },
+                      {
+                        "x": 12,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_m_about_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 92
+                      },
+                      {
+                        "x": 12,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BtnKeluar",
+      "persistentUuid": "7032e663-c2aa-4a50-8a80-b3ec541a88cd",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_m_quit.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 92
+                      },
+                      {
+                        "x": 12,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_m_quit_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 12
+                      },
+                      {
+                        "x": 362,
+                        "y": 92
+                      },
+                      {
+                        "x": 12,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SetRedup",
+      "persistentUuid": "25f6e59c-d5d1-4682-ab4b-74c6ad122e10",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/overlay_redup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SetPanel",
+      "persistentUuid": "123c5e0b-ee25-4ae7-b0a9-b3a9964eb30b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/set/panel_pengaturan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SetMinMusik",
+      "persistentUuid": "8efdb31a-4db0-44c5-a132-170e73eea168",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_min.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_min_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SetPlusMusik",
+      "persistentUuid": "5d9546ef-c60a-4d78-9120-419e4577d7bd",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_plus.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_plus_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SetMinSfx",
+      "persistentUuid": "09d15cc3-f424-4c50-8652-db7d32b86f6b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_min.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_min_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SetPlusSfx",
+      "persistentUuid": "85e47ab9-89d1-479c-91fe-c70212d9a102",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_plus.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/btn_plus_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 0
+                      },
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SetTrack",
+      "persistentUuid": "7c659759-535b-4e5e-8843-5baab34e0466",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/set/bar_track.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SetBarMusik",
+      "persistentUuid": "00b34e35-b642-4ee1-99ac-d56df4f05562",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/set/bar_fill.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SetBarSfx",
+      "persistentUuid": "39ce7272-4475-44b4-a573-34c27e1be674",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/set/bar_fill.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SetLayar",
+      "persistentUuid": "a4fd3a15-3bd2-4271-ab40-38e03040ba7a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "mati_n",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/toggle_0_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mati_h",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/toggle_0_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "aktif_n",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/toggle_1_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "aktif_h",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/toggle_1_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SetSentuh",
+      "persistentUuid": "04f56da5-0ad4-42ac-a1fc-2f0fbc6176af",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "otomatis_n",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/sentuh_0_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "otomatis_h",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/sentuh_0_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "aktif_n",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/sentuh_1_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "aktif_h",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/sentuh_1_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mati_n",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/sentuh_2_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mati_h",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/set/sentuh_2_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 0
+                      },
+                      {
+                        "x": 190,
+                        "y": 56
+                      },
+                      {
+                        "x": 0,
+                        "y": 56
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "SetTutup",
+      "persistentUuid": "a426dae5-50fc-4b1e-a640-45f87e17944f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_tutup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 168,
+                        "y": 12
+                      },
+                      {
+                        "x": 168,
+                        "y": 64
+                      },
+                      {
+                        "x": 12,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ui2/btn_tutup_hover.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 168,
+                        "y": 12
+                      },
+                      {
+                        "x": 168,
+                        "y": 64
+                      },
+                      {
+                        "x": 12,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TeksVolMusik",
+      "persistentUuid": "d0e1c673-0909-4c64-8a04-e90e0b0ca710",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "80%",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "lineHeight": 0,
+        "color": "255;255;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TeksVolSfx",
+      "persistentUuid": "0abe6cb5-d19c-4d7e-8a6e-71d2b59ceb73",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "80%",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "lineHeight": 0,
+        "color": "255;255;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tirai",
+      "persistentUuid": "7defd575-e2d8-40fb-9d7a-5d443e8d3e8a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/tirai.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -366,10 +2243,61 @@
         "objectName": "bg1"
       },
       {
-        "objectName": "Start"
+        "objectName": "BtnMulai"
       },
       {
-        "objectName": "Quit"
+        "objectName": "BtnPengaturan"
+      },
+      {
+        "objectName": "BtnAbout"
+      },
+      {
+        "objectName": "BtnKeluar"
+      },
+      {
+        "objectName": "SetRedup"
+      },
+      {
+        "objectName": "SetPanel"
+      },
+      {
+        "objectName": "SetMinMusik"
+      },
+      {
+        "objectName": "SetPlusMusik"
+      },
+      {
+        "objectName": "SetMinSfx"
+      },
+      {
+        "objectName": "SetPlusSfx"
+      },
+      {
+        "objectName": "SetTrack"
+      },
+      {
+        "objectName": "SetBarMusik"
+      },
+      {
+        "objectName": "SetBarSfx"
+      },
+      {
+        "objectName": "SetLayar"
+      },
+      {
+        "objectName": "SetSentuh"
+      },
+      {
+        "objectName": "SetTutup"
+      },
+      {
+        "objectName": "TeksVolMusik"
+      },
+      {
+        "objectName": "TeksVolSfx"
+      },
+      {
+        "objectName": "Tirai"
       }
     ]
   },
@@ -377,135 +2305,956 @@
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
-        "b": 109,
-        "g": 230,
         "r": 255,
-        "textB": 0,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
         "textG": 0,
-        "textR": 0
+        "textB": 0
       },
-      "comment": "SCENE OPENING  |  Start -> Scene Selection,  Quit -> keluar game.  Tombol menyala saat disorot mouse."
+      "comment": "SCENE OPENING  |  Mulai -> pilih hunter, Pengaturan -> volume & layar penuh, About -> profil pengembang, Keluar -> tutup game. Progres & pengaturan dimuat sekali saat game dibuka."
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Dimuat",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Dimuat",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"StageTerbuka\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"StageTerbuka\"",
+                "",
+                "StageTerbuka"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"StageSelesai\"",
+                "",
+                "StageSelesai"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"ChipData\"",
+                "",
+                "ChipData"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"XP\"",
+                "",
+                "XP"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"LevelHunter\"",
+                "",
+                "LevelHunter"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"NyawaMax\"",
+                "",
+                "NyawaMax"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"EnergiMax\"",
+                "",
+                "EnergiMax"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"Energi\"",
+                "",
+                "Energi"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"Damage\"",
+                "",
+                "Damage"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"UpNyawa\"",
+                "",
+                "UpNyawa"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"UpKapasitas\"",
+                "",
+                "UpKapasitas"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"UpDamage\"",
+                "",
+                "UpDamage"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"SudahProlog\"",
+                "",
+                "SudahProlog"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"KepinganTotal\"",
+                "",
+                "KepinganTotal"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"CatatanLab\"",
+                "",
+                "CatatanLab"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"Tamat\"",
+                "",
+                "Tamat"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TutorialSelesai\"",
+                "",
+                "TutorialSelesai"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipRobot\"",
+                "",
+                "TipRobot"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipSembunyi\"",
+                "",
+                "TipSembunyi"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipPintu\"",
+                "",
+                "TipPintu"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipBahaya\"",
+                "",
+                "TipBahaya"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipBos\"",
+                "",
+                "TipBos"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipSkill1\"",
+                "",
+                "TipSkill1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipSkill2\"",
+                "",
+                "TipSkill2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipSkill3\"",
+                "",
+                "TipSkill3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipSkill4\"",
+                "",
+                "TipSkill4"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"TipSkill5\"",
+                "",
+                "TipSkill5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunter\"",
+                "\"Hunter\"",
+                "",
+                "HunterPilihan"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"DegreeHunterSet\"",
+                "\"VolMusik\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunterSet\"",
+                "\"VolMusik\"",
+                "",
+                "VolMusik"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunterSet\"",
+                "\"VolSFX\"",
+                "",
+                "VolSFX"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunterSet\"",
+                "\"LayarPenuh\"",
+                "",
+                "LayarPenuh"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"DegreeHunterSet\"",
+                "\"KontrolSentuh\"",
+                "",
+                "KontrolSentuh"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "LayarPenuh",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                "yes"
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "MusikNow",
+                "!=",
+                "\"menu\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicChannel"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "audio/bgm_menu.ogg",
+                "1",
+                "yes",
+                "60*GlobalVariable(VolMusik)/100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "MusikNow",
+                "=",
+                "\"menu\""
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
       "name": "Efek hover tombol",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "inverted": false,
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Start",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Start",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Start",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Start",
+                "SetBuka",
                 "=",
                 "0"
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Quit",
-                "",
-                "yes",
-                ""
-              ]
-            }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Quit",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnMulai",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnMulai",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Quit",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnMulai",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnMulai",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Quit",
-                "=",
-                "0"
-              ]
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnMulai",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_hover.ogg",
+                    "no",
+                    "50*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnPengaturan",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnPengaturan",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnPengaturan",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnPengaturan",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnPengaturan",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_hover.ogg",
+                    "no",
+                    "50*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnAbout",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnAbout",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnAbout",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnAbout",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnAbout",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_hover.ogg",
+                    "no",
+                    "50*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnKeluar",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnKeluar",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnKeluar",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "BtnKeluar",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnKeluar",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_hover.ogg",
+                    "no",
+                    "50*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
             }
           ]
         }
@@ -513,155 +3262,315 @@
       "parameters": []
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
       "name": "Klik tombol",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "inverted": false,
+                "value": "NumberVariable"
               },
               "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Start",
-                "",
-                "yes",
-                ""
+                "SetBuka",
+                "=",
+                "0"
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Scene Selection\"",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
-                    "Return"
+                    "Left"
                   ]
                 },
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnMulai",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
                   },
                   "parameters": [
                     "",
-                    "Space"
+                    "audio/sfx_klik.ogg",
+                    "no",
+                    "60*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene Selection\"",
+                    "no"
                   ]
                 }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Scene Selection\"",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
+              ],
+              "events": []
             },
             {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Quit",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Return"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene Selection\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnPengaturan",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_klik.ogg",
+                    "no",
+                    "60*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "SetBuka",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Escape"
-              ]
-            }
-          ],
-          "actions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnAbout",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_klik.ogg",
+                    "no",
+                    "60*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene About\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnKeluar",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Escape"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "events": []
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Menu Pengaturan"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transisi"
     }
   ],
   "layers": [
@@ -731,6 +3640,64 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Pengaturan",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Transisi",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [

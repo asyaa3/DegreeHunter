@@ -8,7 +8,7 @@
   },
   "initialGDVersion": "5.6.284",
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
@@ -17,12 +17,12 @@
     "pixelsRounding": false,
     "projectUuid": "92c1ee13-7ebb-4399-8662-2759097455fb",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Degree hunter",
-    "description": "",
-    "author": "",
+    "description": "Degree Hunter - game platformer edukasi komponen IoT",
+    "author": "Kelompok 7 - S1 Pendidikan Teknik Informatika UM",
     "windowWidth": 1280,
     "windowHeight": 720,
     "latestCompilationDirectory": "",
@@ -59,14 +59,14 @@
       "ios-icon-87": ""
     },
     "loadingScreen": {
-      "backgroundColor": 0,
+      "backgroundColor": 656920,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "ui2/loading_awal.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
       "minDuration": 1.5,
-      "progressBarColor": 16777215,
+      "progressBarColor": 16727240,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
@@ -2555,6 +2555,5398 @@
         "name": "ui/win_btn_quit_hover.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_idle_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_idle_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_kena_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_kena_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_kena_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_kena_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_serang_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_serang_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_left_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_left_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/1_sensora/frames/sensora_ulti_left_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/1_sensora/frames/sensora_ulti_left_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_idle_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_idle_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_kena_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_kena_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_kena_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_kena_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_serang_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_serang_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_left_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_left_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/2_voltrax/frames/voltrax_ulti_left_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/2_voltrax/frames/voltrax_ulti_left_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_idle_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_idle_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_kena_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_kena_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_kena_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_kena_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_serang_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_serang_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_left_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_left_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/3_cellion/frames/cellion_ulti_left_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/3_cellion/frames/cellion_ulti_left_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_idle_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_idle_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_kena_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_kena_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_kena_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_kena_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_serang_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_serang_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_left_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_left_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/4_link9/frames/link9_ulti_left_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/4_link9/frames/link9_ulti_left_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_idle_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_idle_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_kena_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_kena_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_kena_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_kena_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_serang_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_serang_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_left_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_left_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/5_cortex/frames/cortex_ulti_left_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/5_cortex/frames/cortex_ulti_left_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_idle_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_idle_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_kena_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_kena_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_kena_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_kena_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_serang_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_serang_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_left_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_left_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_left_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bos/6_nullcore/frames/nullcore_ulti_left_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bos/6_nullcore/frames/nullcore_ulti_left_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/akhir_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/akhir_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/akhir_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/akhir_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/akhir_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/akhir_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/akhir_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/akhir_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/akhir_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/akhir_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/akhir_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/akhir_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/datang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/datang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/datang_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/datang_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/datang_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/datang_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/datang_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/datang_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/datang_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/datang_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/ending_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/ending_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/ending_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/ending_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/prolog_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/prolog_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/prolog_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/prolog_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/prolog_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/prolog_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/prolog_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/prolog_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/prolog_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/prolog_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/stage1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/stage1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/stage2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/stage2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/stage3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/stage3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/stage4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/stage4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/stage5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/stage5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "komik/stage6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "komik/stage6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "tiles/tileset_stage2_gudang_listrik_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles/tileset_stage2_gudang_listrik_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "tiles/tileset_stage3_pembangkit_energi_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles/tileset_stage3_pembangkit_energi_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "tiles/tileset_stage4_menara_sinyal_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles/tileset_stage4_menara_sinyal_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "tiles/tileset_stage5_lab_sirkuit_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles/tileset_stage5_lab_sirkuit_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "tiles/tileset_stage6_server_inti_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiles/tileset_stage6_server_inti_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/about/foto_dosen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/about/foto_dosen.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/about/foto_nabigh.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/about/foto_nabigh.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/about/foto_rufi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/about/foto_rufi.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/about/foto_tasya.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/about/foto_tasya.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/about_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/about_bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bengkel_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bengkel_bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/arena_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/arena_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/arena_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/arena_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/arena_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/arena_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/arena_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/arena_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/arena_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/arena_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/arena_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/arena_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/drop_baterai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/drop_baterai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/drop_esp32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/drop_esp32.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/drop_lora.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/drop_lora.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/drop_pir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/drop_pir.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/drop_relay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/drop_relay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/drop_rpi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/drop_rpi.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_gelombang_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_gelombang_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_gelombang_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_gelombang_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_gelombang_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_gelombang_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_jamming_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_jamming_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_jamming_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_jamming_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_kubus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_kubus.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_laser_on_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_laser_on_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_laser_on_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_laser_on_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_laser_warn_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_laser_warn_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_laser_warn_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_laser_warn_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_petir_on_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_petir_on_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_petir_on_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_petir_on_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_petir_on_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_petir_on_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_petir_warn_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_petir_warn_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_petir_warn_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_petir_warn_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_petir_warn_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_petir_warn_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/fx_pindai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/fx_pindai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/peluru_bos_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/peluru_bos_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/bos/peluru_bos_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/bos/peluru_bos_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_beli.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_beli.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_beli_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_beli_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_bengkel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_bengkel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_bengkel_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_bengkel_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_ensiklopedia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_ensiklopedia.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_ensiklopedia_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_ensiklopedia_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_go_coba.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_go_coba.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_go_coba_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_go_coba_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_go_pilih.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_go_pilih.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_go_pilih_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_go_pilih_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_kembali.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_kembali.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_kembali_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_kembali_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_kuis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_kuis.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_kuis_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_kuis_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_lanjut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_lanjut.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_lanjut3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_lanjut3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_lanjut3_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_lanjut3_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_lanjut_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_lanjut_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_about.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_about.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_about_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_about_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_quit.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_quit_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_quit_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_set.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_set.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_set_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_set_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_start.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_m_start_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_m_start_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_menu.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_menu3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_menu3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_menu3_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_menu3_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_menu_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_menu_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_next.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_next_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_next_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_keluar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_keluar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_keluar_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_keluar_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_lanjut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_lanjut.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_lanjut_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_lanjut_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_set.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_set.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_set_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_set_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_ulang.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_ulang.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_p_ulang_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_p_ulang_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_prev.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_prev.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_prev_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_prev_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_reset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_reset.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_reset_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_reset_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_skip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_skip.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_skip_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_skip_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_tutup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_tutup.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/btn_tutup_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/btn_tutup_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_00_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_00_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_00_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_00_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_01_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_01_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_01_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_01_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_02_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_02_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_02_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_02_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_03_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_03_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_03_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_03_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_04_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_04_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_04_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_04_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_05_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_05_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_05_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_05_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_06_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_06_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_06_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_06_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_07_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_07_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_07_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_07_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_08_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_08_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_08_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_08_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_09_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_09_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_09_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_09_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_10_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_10_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_10_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_10_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_11_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_11_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/jelas_11_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/jelas_11_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/kartu_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/kartu_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/kartu_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/kartu_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/kartu_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/kartu_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/kartu_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/kartu_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/kartu_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/kartu_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/kartu_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/kartu_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/kuis_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/kuis_bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_00_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_00_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_00_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_00_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_00_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_00_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_00_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_00_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_01_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_01_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_01_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_01_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_01_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_01_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_01_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_01_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_02_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_02_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_02_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_02_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_02_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_02_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_02_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_02_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_03_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_03_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_03_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_03_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_03_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_03_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_03_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_03_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_04_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_04_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_04_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_04_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_04_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_04_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_04_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_04_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_05_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_05_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_05_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_05_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_05_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_05_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_05_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_05_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_06_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_06_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_06_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_06_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_06_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_06_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_06_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_06_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_07_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_07_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_07_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_07_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_07_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_07_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_07_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_07_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_08_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_08_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_08_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_08_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_08_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_08_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_08_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_08_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_09_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_09_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_09_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_09_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_09_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_09_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_09_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_09_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_10_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_10_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_10_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_10_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_10_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_10_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_10_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_10_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_11_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_11_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_11_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_11_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_11_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_11_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiA_11_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiA_11_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_00_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_00_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_00_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_00_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_00_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_00_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_00_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_00_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_01_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_01_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_01_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_01_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_01_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_01_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_01_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_01_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_02_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_02_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_02_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_02_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_02_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_02_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_02_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_02_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_03_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_03_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_03_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_03_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_03_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_03_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_03_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_03_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_04_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_04_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_04_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_04_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_04_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_04_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_04_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_04_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_05_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_05_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_05_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_05_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_05_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_05_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_05_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_05_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_06_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_06_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_06_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_06_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_06_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_06_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_06_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_06_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_07_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_07_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_07_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_07_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_07_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_07_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_07_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_07_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_08_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_08_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_08_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_08_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_08_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_08_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_08_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_08_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_09_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_09_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_09_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_09_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_09_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_09_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_09_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_09_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_10_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_10_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_10_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_10_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_10_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_10_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_10_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_10_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_11_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_11_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_11_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_11_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_11_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_11_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiB_11_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiB_11_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_00_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_00_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_00_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_00_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_00_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_00_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_00_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_00_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_01_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_01_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_01_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_01_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_01_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_01_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_01_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_01_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_02_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_02_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_02_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_02_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_02_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_02_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_02_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_02_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_03_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_03_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_03_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_03_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_03_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_03_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_03_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_03_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_04_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_04_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_04_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_04_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_04_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_04_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_04_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_04_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_05_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_05_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_05_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_05_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_05_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_05_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_05_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_05_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_06_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_06_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_06_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_06_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_06_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_06_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_06_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_06_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_07_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_07_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_07_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_07_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_07_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_07_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_07_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_07_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_08_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_08_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_08_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_08_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_08_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_08_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_08_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_08_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_09_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_09_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_09_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_09_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_09_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_09_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_09_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_09_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_10_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_10_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_10_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_10_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_10_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_10_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_10_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_10_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_11_benar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_11_benar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_11_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_11_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_11_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_11_normal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/opsiC_11_salah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/opsiC_11_salah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/edu/soal_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/edu/soal_11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/banner_bos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/banner_bos.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/debu_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/debu_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/debu_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/debu_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/debu_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/debu_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/debu_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/debu_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/debu_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/debu_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/kilau_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/kilau_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/kilau_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/kilau_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/kilau_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/kilau_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/kilau_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/kilau_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/kilau_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/kilau_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/muzzle_nabigh_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/muzzle_nabigh_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/muzzle_nabigh_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/muzzle_nabigh_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/muzzle_rupii_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/muzzle_rupii_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/muzzle_rupii_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/muzzle_rupii_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/muzzle_tasya_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/muzzle_tasya_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/muzzle_tasya_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/muzzle_tasya_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/peluru_nabigh.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/peluru_nabigh.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/peluru_rupii.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/peluru_rupii.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/peluru_tasya.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/peluru_tasya.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/percik_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/percik_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/percik_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/percik_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/percik_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/percik_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/percik_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/percik_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/bos_bar_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/bos_bar_bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/bos_bar_fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/bos_bar_fill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/energi_fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/energi_fill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/energi_kurang.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/energi_kurang.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/energi_track.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/energi_track.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/hint_pintu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hint_pintu.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/hint_tersembunyi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hint_tersembunyi.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/levelup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/levelup.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/panel_kanan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/panel_kanan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/pop_keping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/pop_keping.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/portal_buka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/portal_buka.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/warn_celah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/warn_celah.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/warn_diam.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/warn_diam.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/warn_jam.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/warn_jam.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/warn_lompat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/warn_lompat.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/warn_override.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/warn_override.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/warn_petir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/warn_petir.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/chip_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/chip_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/chip_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/chip_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/chip_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/chip_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/chip_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/chip_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/keping_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/keping_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/keping_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/keping_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/keping_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/keping_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/keping_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/keping_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/keping_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/keping_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/keping_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/keping_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/sel_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/sel_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/sel_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/sel_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/sel_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/sel_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/item/sel_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/item/sel_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/baterai_slot_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/baterai_slot_off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/baterai_slot_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/baterai_slot_on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/esp32_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/esp32_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/esp32_slot_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/esp32_slot_off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/esp32_slot_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/esp32_slot_on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/lora_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/lora_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/lora_slot_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/lora_slot_off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/lora_slot_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/lora_slot_on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/pir_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/pir_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/pir_slot_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/pir_slot_off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/pir_slot_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/pir_slot_on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/relay_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/relay_64.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/relay_slot_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/relay_slot_off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/relay_slot_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/relay_slot_on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/rpi_slot_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/rpi_slot_off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/komponen/rpi_slot_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/komponen/rpi_slot_on.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/levelselect_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/levelselect_bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/luar/luar_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/luar/luar_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/luar/luar_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/luar/luar_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/luar/luar_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/luar/luar_4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/luar/luar_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/luar/luar_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/luar/luar_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/luar/luar_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/memuat_bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/memuat_bg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/memuat_fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/memuat_fill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/memuat_track.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/memuat_track.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node1_buka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node1_buka.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node1_kunci.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node1_kunci.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node1_selesai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node1_selesai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node2_buka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node2_buka.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node2_kunci.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node2_kunci.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node2_selesai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node2_selesai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node3_buka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node3_buka.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node3_kunci.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node3_kunci.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node3_selesai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node3_selesai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node4_buka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node4_buka.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node4_kunci.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node4_kunci.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node4_selesai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node4_selesai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node5_buka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node5_buka.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node5_kunci.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node5_kunci.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node5_selesai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node5_selesai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node6_buka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node6_buka.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node6_kunci.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node6_kunci.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/node/node6_selesai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/node/node6_selesai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/overlay_redup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/overlay_redup.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/panel_jeda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/panel_jeda.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/panel_ringkasan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/panel_ringkasan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/ganti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/ganti.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/ganti_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/ganti_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/gantiskill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/gantiskill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/gantiskill_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/gantiskill_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/jeda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/jeda.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/jeda_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/jeda_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/kanan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/kanan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/kanan_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/kanan_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/kiri.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/kiri.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/kiri_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/kiri_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/lompat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/lompat.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/lompat_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/lompat_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/skill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/skill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/skill_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/skill_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/tembak.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/tembak.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/tembak_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/tembak_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/turun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/turun.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/sentuh/turun_tekan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/sentuh/turun_tekan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/bar_fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/bar_fill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/bar_track.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/bar_track.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/btn_min.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/btn_min.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/btn_min_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/btn_min_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/btn_plus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/btn_plus.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/btn_plus_hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/btn_plus_hover.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/panel_pengaturan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/panel_pengaturan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/sentuh_0_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/sentuh_0_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/sentuh_0_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/sentuh_0_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/sentuh_1_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/sentuh_1_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/sentuh_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/sentuh_1_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/sentuh_2_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/sentuh_2_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/sentuh_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/sentuh_2_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/toggle_0_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/toggle_0_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/toggle_0_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/toggle_0_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/toggle_1_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/toggle_1_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/set/toggle_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/set/toggle_1_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/skill/panel_relay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/skill/panel_relay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/skill/pindai_ring.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/skill/pindai_ring.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/skill/pintu_laser_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/skill/pintu_laser_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/skill/pintu_laser_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/skill/pintu_laser_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/solid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/solid.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/tirai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/tirai.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/tutorial_panel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/tutorial_panel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/zona.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/zona.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/loading_awal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/loading_awal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_bos.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_bos.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_edukasi.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_edukasi.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_ending.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_ending.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_levelselect.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_levelselect.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_menu.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_menu.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_stage_a.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_stage_a.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_stage_b.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_stage_b.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/bgm_stage_c.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/bgm_stage_c.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/jingle_kalah.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/jingle_kalah.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/jingle_menang.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/jingle_menang.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_alarm.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_alarm.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_beli.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_beli.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_benar.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_benar.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_bos_kalah.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_bos_kalah.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_bos_tembak.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_bos_tembak.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_chip.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_chip.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_gagal.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_gagal.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_gelombang.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_gelombang.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_hover.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_hover.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_hunter_kena.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_hunter_kena.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_item.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_item.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_jeda.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_jeda.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_kena.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_kena.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_klik.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_klik.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_laser.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_laser.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_ledakan.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_ledakan.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_levelup.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_levelup.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_lompat.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_lompat.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_mati.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_mati.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_petir.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_petir.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_pintu.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_pintu.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_portal.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_portal.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_salah.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_salah.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_skill.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_skill.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_tebas.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_tebas.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_tembak.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_tembak.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audio/sfx_tembak_musuh.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio/sfx_tembak_musuh.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "fonts/vt323.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts/vt323.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "fonts/pressstart2p.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fonts/pressstart2p.ttf",
+        "userAdded": true
       }
     ]
   },
@@ -2565,9 +7957,229 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Hunter",
+      "name": "HunterPilihan",
       "type": "string",
       "value": "Nabigh"
+    },
+    {
+      "name": "StageTerbuka",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "StageSelesai",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "StageNo",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "ChipData",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "XP",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "LevelHunter",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "NyawaMax",
+      "type": "number",
+      "value": 5
+    },
+    {
+      "name": "EnergiMax",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "Energi",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "Damage",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "UpNyawa",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "UpKapasitas",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "UpDamage",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SudahProlog",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "KomikID",
+      "type": "string",
+      "value": "prolog"
+    },
+    {
+      "name": "KepinganTotal",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CatatanLab",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SesiChip",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SesiKeping",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "HasilChip",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "HasilKeping",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "HasilCatatan",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "KuisBenar",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "EduMode",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "EduNo",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "Tamat",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Dimuat",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MusikNow",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "VolMusik",
+      "type": "number",
+      "value": 80
+    },
+    {
+      "name": "VolSFX",
+      "type": "number",
+      "value": 80
+    },
+    {
+      "name": "LayarPenuh",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "KontrolSentuh",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TutorialSelesai",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Tujuan",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "TipRobot",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipSembunyi",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipPintu",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipBahaya",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipBos",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipSkill1",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipSkill2",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipSkill3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipSkill4",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TipSkill5",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -2586,9 +8198,74 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene-win"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-level-select"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-komik"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-stage2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-stage3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-stage4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-stage5"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-stage6"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-bos"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-edukasi"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-bengkel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-about"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-memuat"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/gameplay-inti"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/menu-jeda"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/menu-pengaturan"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/transisi"
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": []
 }

@@ -1,14 +1,14 @@
 {
-  "b": 255,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Scene_32Win",
   "name": "Scene Win",
-  "r": 247,
+  "r": 0,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 249,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -27,7 +27,18 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CatatanBaru",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "NaikLevel",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -47,15 +58,63 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "height": 330,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PanelRingkasan",
+      "persistentUuid": "ccec1999-d73a-42ba-814e-20910912e4f9",
+      "width": 500,
+      "x": 40,
+      "y": 250,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "WinPlayAgain",
-      "persistentUuid": "0cefd530-1c0d-4102-a0a7-8b81a190c2ca",
+      "name": "JudulRingkasan",
+      "persistentUuid": "c022d4c0-a595-432e-9c79-5ad0c0478624",
       "width": 0,
-      "x": 351,
-      "y": 470,
+      "x": 70,
+      "y": 280,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TeksRingkasan",
+      "persistentUuid": "e3e8a1df-ed17-4654-bb3c-dc1a239f6212",
+      "width": 0,
+      "x": 70,
+      "y": 326,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnLanjut",
+      "persistentUuid": "3c58b9d7-f0d9-4cc7-aedf-e449b21a76a1",
+      "width": 0,
+      "x": 820,
+      "y": 330,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,12 +126,28 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "WinQuit",
-      "persistentUuid": "1708db18-2c16-4693-ac79-c394ad2dfd51",
+      "name": "BtnMenu",
+      "persistentUuid": "dfa28013-8e56-4eac-879a-9a8759d26b42",
       "width": 0,
-      "x": 680,
-      "y": 470,
+      "x": 820,
+      "y": 450,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Transisi",
+      "name": "Tirai",
+      "persistentUuid": "e29b1060-9a53-4748-ad03-0e938e79e3b4",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -141,10 +216,114 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PanelRingkasan",
+      "persistentUuid": "a10112cc-e25b-42bb-b068-4b68b192adae",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/panel_ringkasan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TeksRingkasan",
+      "persistentUuid": "f5fc17ae-9808-4821-902c-e4de907954d8",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/vt323.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "255;255;255",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "JudulRingkasan",
+      "persistentUuid": "69667a02-74ff-4dc9-b821-ed34376706f9",
+      "type": "TextObject::Text",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "bold": false,
+        "italic": false,
+        "smoothed": false,
+        "underlined": false,
+        "text": "",
+        "font": "fonts/pressstart2p.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 18,
+        "lineHeight": 0,
+        "color": "255;214;80",
+        "isOutlineEnabled": true,
+        "outlineThickness": 3,
+        "outlineColor": "10;6;24",
+        "isShadowEnabled": false,
+        "shadowColor": "0;0;0",
+        "shadowOpacity": 127,
+        "shadowAngle": 90,
+        "shadowDistance": 4,
+        "shadowBlurRadius": 2
+      }
+    },
+    {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "WinPlayAgain",
-      "persistentUuid": "a9f5333d-6d99-4293-8265-771a69cf2c67",
+      "name": "BtnLanjut",
+      "persistentUuid": "6b13dc4a-325f-4fea-9332-e1639681873e",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -157,11 +336,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/win_btn_playagain.png",
+                  "image": "ui2/btn_lanjut3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -177,20 +356,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 6
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 6
+                        "x": 248,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 72
+                        "x": 248,
+                        "y": 92
                       },
                       {
-                        "x": 6,
-                        "y": 72
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
@@ -205,11 +384,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/win_btn_playagain_hover.png",
+                  "image": "ui2/btn_lanjut3_hover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -225,20 +404,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 6
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 6
+                        "x": 248,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 72
+                        "x": 248,
+                        "y": 92
                       },
                       {
-                        "x": 6,
-                        "y": 72
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
@@ -252,8 +431,8 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "WinQuit",
-      "persistentUuid": "77ba0ac0-f5c9-4c89-948d-1cdcb2024ea0",
+      "name": "BtnMenu",
+      "persistentUuid": "125810b9-13a0-4874-bedb-5b962d46b1ea",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -266,11 +445,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/win_btn_quit.png",
+                  "image": "ui2/btn_menu3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -286,20 +465,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 6
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 6
+                        "x": 200,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 72
+                        "x": 200,
+                        "y": 92
                       },
                       {
-                        "x": 6,
-                        "y": 72
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
@@ -314,11 +493,11 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ui/win_btn_quit_hover.png",
+                  "image": "ui2/btn_menu3_hover.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -334,23 +513,65 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 6
+                        "x": 12,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 6
+                        "x": 200,
+                        "y": 12
                       },
                       {
-                        "x": 243,
-                        "y": 72
+                        "x": 200,
+                        "y": 92
                       },
                       {
-                        "x": 6,
-                        "y": 72
+                        "x": 12,
+                        "y": 92
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tirai",
+      "persistentUuid": "be114052-9e16-4795-a452-b8e9a9c85425",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/tirai.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -360,41 +581,62 @@
     }
   ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "WinBG"
+      },
+      {
+        "objectName": "PanelRingkasan"
+      },
+      {
+        "objectName": "TeksRingkasan"
+      },
+      {
+        "objectName": "JudulRingkasan"
+      },
+      {
+        "objectName": "BtnLanjut"
+      },
+      {
+        "objectName": "BtnMenu"
+      },
+      {
+        "objectName": "Tirai"
+      }
+    ]
   },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
-        "b": 109,
-        "g": 230,
         "r": 255,
-        "textB": 0,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
         "textG": 0,
-        "textR": 0
+        "textB": 0
       },
-      "comment": "SCENE WIN  |  Play Again (atau Enter) -> main lagi di Scene Game1 dengan hunter yang sama.  Quit (atau Esc) -> keluar game.  Tombol menyala saat disorot mouse."
+      "comment": "SCENE WIN  |  Hasil stage dimasukkan ke atribut permanen: Chip sesi -> Chip, Kepingan Data (tiap 3 keping = 1 Catatan Lab + 50 XP), XP -> Level Hunter. Stage berikutnya terbuka lalu progres disimpan."
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 160,
       "colorG": 90,
       "colorR": 70,
       "creationTime": 0,
-      "name": "Efek hover tombol",
+      "name": "Hitung hasil stage",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "inverted": false,
+                "value": "DepartScene"
               },
               "parameters": [
-                "WinPlayAgain",
-                "",
-                "yes",
                 ""
               ]
             }
@@ -402,99 +644,641 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeAnimation"
+                "value": "PlaySound"
               },
               "parameters": [
-                "WinPlayAgain",
-                "=",
+                "",
+                "audio/jingle_menang.ogg",
+                "no",
+                "70*GlobalVariable(VolSFX)/100",
                 "1"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "SourisSurObjet",
-                "inverted": true
+                "value": "SetStringVariable"
               },
               "parameters": [
-                "WinPlayAgain",
-                "",
-                "yes",
-                ""
+                "MusikNow",
+                "=",
+                "\"\""
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "ChangeAnimation"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "WinPlayAgain",
+                "HasilChip",
+                "=",
+                "GlobalVariable(SesiChip)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChipData",
+                "+",
+                "GlobalVariable(SesiChip)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SesiChip",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HasilKeping",
+                "=",
+                "GlobalVariable(SesiKeping)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "KepinganTotal",
+                "+",
+                "GlobalVariable(SesiKeping)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SesiKeping",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CatatanBaru",
+                "=",
+                "floor(GlobalVariable(KepinganTotal)/3)-GlobalVariable(CatatanLab)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CatatanLab",
+                "+",
+                "Variable(CatatanBaru)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "XP",
+                "+",
+                "50*Variable(CatatanBaru)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "NaikLevel",
                 "=",
                 "0"
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "WinQuit",
-                "",
-                "yes",
-                ""
-              ]
-            }
           ],
-          "actions": [
+          "events": [
             {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "WinQuit",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(StageSelesai)",
+                    "<",
+                    "GlobalVariable(StageNo)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "StageSelesai",
+                    "=",
+                    "GlobalVariable(StageNo)"
+                  ]
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "value": "SourisSurObjet",
-                "inverted": true
-              },
-              "parameters": [
-                "WinQuit",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(StageTerbuka)",
+                    "<",
+                    "GlobalVariable(StageNo)+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "StageNo",
+                    "<",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "StageTerbuka",
+                    "=",
+                    "GlobalVariable(StageNo)+1"
+                  ]
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "WinQuit",
-                "=",
-                "0"
-              ]
+              "type": "BuiltinCommonInstructions::While",
+              "infiniteLoopWarning": true,
+              "whileConditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "XP",
+                    ">=",
+                    "100"
+                  ]
+                }
+              ],
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "XP",
+                    "-",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "LevelHunter",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnergiMax",
+                    "+",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "NaikLevel",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(Energi)",
+                    ">",
+                    "GlobalVariable(EnergiMax)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Energi",
+                    "=",
+                    "GlobalVariable(EnergiMax)"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"StageTerbuka\"",
+                    "GlobalVariable(StageTerbuka)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"StageSelesai\"",
+                    "GlobalVariable(StageSelesai)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"ChipData\"",
+                    "GlobalVariable(ChipData)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"XP\"",
+                    "GlobalVariable(XP)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"LevelHunter\"",
+                    "GlobalVariable(LevelHunter)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"NyawaMax\"",
+                    "GlobalVariable(NyawaMax)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"EnergiMax\"",
+                    "GlobalVariable(EnergiMax)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"Energi\"",
+                    "GlobalVariable(Energi)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"Damage\"",
+                    "GlobalVariable(Damage)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"UpNyawa\"",
+                    "GlobalVariable(UpNyawa)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"UpKapasitas\"",
+                    "GlobalVariable(UpKapasitas)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"UpDamage\"",
+                    "GlobalVariable(UpDamage)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"SudahProlog\"",
+                    "GlobalVariable(SudahProlog)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"KepinganTotal\"",
+                    "GlobalVariable(KepinganTotal)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"CatatanLab\"",
+                    "GlobalVariable(CatatanLab)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"Tamat\"",
+                    "GlobalVariable(Tamat)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TutorialSelesai\"",
+                    "GlobalVariable(TutorialSelesai)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipRobot\"",
+                    "GlobalVariable(TipRobot)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipSembunyi\"",
+                    "GlobalVariable(TipSembunyi)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipPintu\"",
+                    "GlobalVariable(TipPintu)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipBahaya\"",
+                    "GlobalVariable(TipBahaya)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipBos\"",
+                    "GlobalVariable(TipBos)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipSkill1\"",
+                    "GlobalVariable(TipSkill1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipSkill2\"",
+                    "GlobalVariable(TipSkill2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipSkill3\"",
+                    "GlobalVariable(TipSkill3)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipSkill4\"",
+                    "GlobalVariable(TipSkill4)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"TipSkill5\"",
+                    "GlobalVariable(TipSkill5)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"DegreeHunter\"",
+                    "\"Hunter\"",
+                    "GlobalVariableString(HunterPilihan)"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "JudulRingkasan",
+                    "=",
+                    "\"STAGE \" + ToString(GlobalVariable(StageNo)) + \" SELESAI!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TeksRingkasan",
+                    "=",
+                    "\"Chip Data      +\" + ToString(GlobalVariable(HasilChip)) + NewLine() + \"Kepingan Data  +\" + ToString(GlobalVariable(HasilKeping)) + \"  (Catatan Lab +\" + ToString(Variable(CatatanBaru)) + \")\" + NewLine() + \"Kuis benar     \" + ToString(GlobalVariable(KuisBenar)) + \"/2\" + NewLine() + \"Level Hunter   \" + ToString(GlobalVariable(LevelHunter)) + \"   XP \" + ToString(GlobalVariable(XP)) + \"/100\" + NewLine() + \"Komponen IoT   \" + ToString(GlobalVariable(StageSelesai)) + \"/6\""
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NaikLevel",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TeksRingkasan",
+                    "+",
+                    "NewLine() + \"LEVEL UP! Energi maks +10\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_levelup.ogg",
+                    "no",
+                    "70*GlobalVariable(VolSFX)/100",
+                    "1"
+                  ]
+                }
+              ],
+              "events": []
             }
           ]
         }
@@ -502,19 +1286,784 @@
       "parameters": []
     },
     {
-      "colorB": 160,
-      "colorG": 90,
-      "colorR": 70,
-      "creationTime": 0,
-      "name": "Klik tombol",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"musik\"",
+            ">",
+            "3.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
+                "inverted": false,
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "MusikNow",
+                "!=",
+                "\"ls\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicChannel"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "audio/bgm_levelselect.ogg",
+                "1",
+                "yes",
+                "60*GlobalVariable(VolMusik)/100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "MusikNow",
+                "=",
+                "\"ls\""
+              ]
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"musik\""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 160,
+      "colorG": 90,
+      "colorR": 70,
+      "creationTime": 0,
+      "name": "Tombol",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnLanjut",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnLanjut",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnLanjut",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnLanjut",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnLanjut",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnMenu",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnMenu",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnMenu",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "BtnMenu",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BtnMenu",
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_hover.ogg",
+                "no",
+                "50*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "BtnLanjut",
+                        "",
+                        "yes",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Return"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_klik.ogg",
+                "no",
+                "60*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "StageNo",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Tamat",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Tamat",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "KomikID",
+                    "=",
+                    "\"ending\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene Komik\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"StageTerbuka\"",
+                        "GlobalVariable(StageTerbuka)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"StageSelesai\"",
+                        "GlobalVariable(StageSelesai)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"ChipData\"",
+                        "GlobalVariable(ChipData)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"XP\"",
+                        "GlobalVariable(XP)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"LevelHunter\"",
+                        "GlobalVariable(LevelHunter)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"NyawaMax\"",
+                        "GlobalVariable(NyawaMax)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"EnergiMax\"",
+                        "GlobalVariable(EnergiMax)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"Energi\"",
+                        "GlobalVariable(Energi)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"Damage\"",
+                        "GlobalVariable(Damage)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"UpNyawa\"",
+                        "GlobalVariable(UpNyawa)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"UpKapasitas\"",
+                        "GlobalVariable(UpKapasitas)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"UpDamage\"",
+                        "GlobalVariable(UpDamage)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"SudahProlog\"",
+                        "GlobalVariable(SudahProlog)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"KepinganTotal\"",
+                        "GlobalVariable(KepinganTotal)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"CatatanLab\"",
+                        "GlobalVariable(CatatanLab)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"Tamat\"",
+                        "GlobalVariable(Tamat)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TutorialSelesai\"",
+                        "GlobalVariable(TutorialSelesai)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipRobot\"",
+                        "GlobalVariable(TipRobot)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipSembunyi\"",
+                        "GlobalVariable(TipSembunyi)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipPintu\"",
+                        "GlobalVariable(TipPintu)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipBahaya\"",
+                        "GlobalVariable(TipBahaya)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipBos\"",
+                        "GlobalVariable(TipBos)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipSkill1\"",
+                        "GlobalVariable(TipSkill1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipSkill2\"",
+                        "GlobalVariable(TipSkill2)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipSkill3\"",
+                        "GlobalVariable(TipSkill3)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipSkill4\"",
+                        "GlobalVariable(TipSkill4)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"TipSkill5\"",
+                        "GlobalVariable(TipSkill5)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"DegreeHunter\"",
+                        "\"Hunter\"",
+                        "GlobalVariableString(HunterPilihan)"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "StageNo",
+                        "<",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Tamat",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene Level Select\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "MouseButtonReleased"
               },
               "parameters": [
@@ -524,10 +2073,11 @@
             },
             {
               "type": {
+                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "WinPlayAgain",
+                "BtnMenu",
                 "",
                 "yes",
                 ""
@@ -537,103 +2087,38 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Scene Game1\"",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Scene Game1\"",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
+                "audio/sfx_klik.ogg",
+                "no",
+                "60*GlobalVariable(VolSFX)/100",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "WinQuit",
-                "",
-                "yes",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "Escape"
+                "\"Scene Opening\"",
+                "no"
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
+          "events": []
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Transisi"
     }
   ],
   "layers": [
@@ -703,6 +2188,35 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Transisi",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
     }
   ],
   "behaviorsSharedData": []

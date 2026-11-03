@@ -1,0 +1,108 @@
+{
+  "associatedLayout": "Scene Opening",
+  "lastChangeTimeStamp": 0,
+  "name": "Transisi",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "r": 255,
+        "g": 230,
+        "b": 109,
+        "textR": 0,
+        "textG": 0,
+        "textB": 0
+      },
+      "comment": "TRANSISI  |  Layar hitam memudar saat scene dimulai (fade in)."
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Tirai",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "Tirai",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Transisi\""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Tirai",
+            "=",
+            "max(0, Tirai.Opacity()-900*TimeDelta())"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Tirai",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Tirai"
+          ]
+        }
+      ],
+      "events": []
+    }
+  ]
+}
