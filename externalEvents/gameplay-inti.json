@@ -3646,7 +3646,7 @@
               "parameters": [
                 "TeksSkill",
                 "=",
-                "\"Pindai Gerak (25 EN)\" + NewLine() + \"[F] pakai   [X] ganti skill\""
+                "\"Pindai Gerak (25 EN)  pintasan Q\" + NewLine() + \"[F] pakai   [X] ganti skill\""
               ]
             }
           ],
@@ -3675,7 +3675,7 @@
               "parameters": [
                 "TeksSkill",
                 "=",
-                "\"Saklar Override (15 EN)\" + NewLine() + \"[F] pakai   [X] ganti skill\""
+                "\"Saklar Override (15 EN)  pintasan E\" + NewLine() + \"[F] pakai   [X] ganti skill\""
               ]
             }
           ],
@@ -3704,7 +3704,7 @@
               "parameters": [
                 "TeksSkill",
                 "=",
-                "\"Peta Jarak Jauh (20 EN)\" + NewLine() + \"[F] pakai   [X] ganti skill\""
+                "\"Peta Jarak Jauh (20 EN)  pintasan M\" + NewLine() + \"[F] pakai   [X] ganti skill\""
               ]
             }
           ],
@@ -3733,7 +3733,7 @@
               "parameters": [
                 "TeksSkill",
                 "=",
-                "\"Dual-Core (30 EN)\" + NewLine() + \"[F] pakai   [X] ganti skill\""
+                "\"Dual-Core (30 EN)  pintasan R\" + NewLine() + \"[F] pakai   [X] ganti skill\""
               ]
             }
           ],
@@ -3882,6 +3882,47 @@
                   },
                   "parameters": [
                     "",
+                    "Kilau",
+                    "Hunter.X()+40",
+                    "Hunter.Y()+30",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "=",
+                    "2.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "\"90;230;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "=",
+                    "62"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
                     "PindaiRing",
                     "Hunter.X()+64-128",
                     "Hunter.Y()+64-128",
@@ -3895,6 +3936,34 @@
                   "parameters": [
                     "PindaiRing",
                     "\"umur\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    "=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pesan\""
                   ]
                 }
               ],
@@ -4192,7 +4261,76 @@
                     "audio/sfx_skill.ogg",
                     "no",
                     "70*GlobalVariable(VolSFX)/100",
-                    "1"
+                    "1.45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Kilau",
+                    "Hunter.X()+40",
+                    "Hunter.Y()+30",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "=",
+                    "2.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "\"120;230;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "=",
+                    "62"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    "=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pesan\""
                   ]
                 }
               ],
@@ -4448,6 +4586,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "audio/sfx_skill.ogg",
+                    "no",
+                    "60*GlobalVariable(VolSFX)/100",
+                    "0.8"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -4465,6 +4615,44 @@
                   "parameters": [
                     "PintuLaser",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Goyang",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    "=",
+                    "13"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pesan\""
                   ]
                 }
               ],
@@ -4530,6 +4718,140 @@
               "events": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          },
+          "comment": "Saklar Override dipakai jauh dari pintu laser: beri tahu pemain, energi tidak terpakai."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PakaiSkill",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "StageSelesai",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Pause",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Hunter",
+                "PintuLaser",
+                "300",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Pesan",
+                "=",
+                "16"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Pesan",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"pesan\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "audio/sfx_gagal.ogg",
+                "no",
+                "60*GlobalVariable(VolSFX)/100",
+                "1"
+              ]
+            }
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4718,7 +5040,76 @@
                     "audio/sfx_skill.ogg",
                     "no",
                     "70*GlobalVariable(VolSFX)/100",
-                    "1"
+                    "1.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Kilau",
+                    "Hunter.X()+40",
+                    "Hunter.Y()+30",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "=",
+                    "2.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "\"110;255;160\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Kilau",
+                    "=",
+                    "62"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    "=",
+                    "14"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Pesan",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pesan\""
                   ]
                 }
               ],

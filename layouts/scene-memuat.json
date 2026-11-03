@@ -42,7 +42,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "MemuatBG",
-      "persistentUuid": "d3bb7da6-ddfb-4b4e-9728-577272713044",
+      "persistentUuid": "f0c72195-1380-4664-9918-d7d26d6e2099",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -58,7 +58,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "MemuatTrack",
-      "persistentUuid": "deda144e-1e29-45e5-863b-c631598ee9cc",
+      "persistentUuid": "4ed12650-68ab-473c-9b4d-f9c0754b7c2c",
       "width": 0,
       "x": 340,
       "y": 556,
@@ -74,7 +74,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "MemuatFill",
-      "persistentUuid": "992d0095-9555-472c-922e-b685e4ceed20",
+      "persistentUuid": "e2305e15-03f0-4c0a-b742-f6be1829f429",
       "width": 0,
       "x": 346,
       "y": 562,
@@ -90,7 +90,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "ChipPutar",
-      "persistentUuid": "cfa44f36-e9da-4aac-8222-2729c808954a",
+      "persistentUuid": "0d1c92f4-2942-49ac-9b63-85c1c1ccb371",
       "width": 40,
       "x": 620,
       "y": 380,
@@ -106,7 +106,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksMemuat",
-      "persistentUuid": "670e0732-1269-4fcc-a75d-3e2554cf6666",
+      "persistentUuid": "5f681651-bb03-401f-adbe-1302ca996f5b",
       "width": 0,
       "x": 520,
       "y": 500,
@@ -122,7 +122,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksTip",
-      "persistentUuid": "86f67e78-488c-4deb-85a9-99e06b75207a",
+      "persistentUuid": "9285d4a7-b97d-4ebf-8468-90a70c39b1f4",
       "width": 0,
       "x": 300,
       "y": 620,
@@ -138,7 +138,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "31449f21-a0a0-43b1-8d39-88843be3793e",
+      "persistentUuid": "dfbd64c5-5b07-4c9e-a51a-4da1aba896b1",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -153,7 +153,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MemuatBG",
-      "persistentUuid": "bd8c4515-72fb-4f56-a83d-17a1beccce13",
+      "persistentUuid": "e120cb58-b9b1-4736-9ff8-14c2ae08f5e4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -195,7 +195,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MemuatTrack",
-      "persistentUuid": "421e59e0-d505-4b27-91e4-4f9ed78aed70",
+      "persistentUuid": "46b0be22-7229-44d2-ac8f-3cd2b5a27c1f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -237,7 +237,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MemuatFill",
-      "persistentUuid": "090afaae-feb7-452d-bbb4-7dbb7c448b37",
+      "persistentUuid": "83ff95b1-33e0-4791-9e36-c00713f3efd7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -279,7 +279,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ChipPutar",
-      "persistentUuid": "0b8e29bf-2237-46f9-869e-285e181220ad",
+      "persistentUuid": "938d9881-f1b5-4334-8b2f-ddbcbdc265e5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -371,7 +371,7 @@
     {
       "assetStoreId": "",
       "name": "TeksMemuat",
-      "persistentUuid": "c7c18875-71a8-44bb-9c79-8f78530f1e3c",
+      "persistentUuid": "5f8e68df-6198-4025-b47b-21e42f38a252",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -402,7 +402,7 @@
     {
       "assetStoreId": "",
       "name": "TeksTip",
-      "persistentUuid": "812f4155-cf8b-44a3-a122-1fa255b59e5f",
+      "persistentUuid": "9dec61a5-3a43-4a17-b397-81a8c9e16cd3",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -434,7 +434,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "824abf7e-f31c-44b1-9464-2a0ef861f035",
+      "persistentUuid": "6fb7519f-1b60-44ca-a4a5-57f93c352976",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -667,7 +667,7 @@
               "parameters": [
                 "TeksTip",
                 "=",
-                "\"Tips: Relay = saklar yang dikendalikan sinyal kecil. Tekan E di dekat pintu laser.\""
+                "\"Tips: Relay = saklar yang dikendalikan sinyal kecil. Pilih Saklar Override (X) lalu F di dekat pintu laser.\""
               ]
             }
           ],
@@ -725,7 +725,7 @@
               "parameters": [
                 "TeksTip",
                 "=",
-                "\"Tips: LoRa mengirim data jauh dengan daya kecil. Tekan M untuk peta.\""
+                "\"Tips: LoRa mengirim data jauh dengan daya kecil. Pilih Peta Jarak Jauh (X) lalu F.\""
               ]
             }
           ],
@@ -754,7 +754,7 @@
               "parameters": [
                 "TeksTip",
                 "=",
-                "\"Tips: ESP32 punya dua inti. Skill Dual-Core = tembakan ganda (R).\""
+                "\"Tips: ESP32 punya dua inti. Skill Dual-Core = tembakan ganda (X untuk memilih, F untuk memakai).\""
               ]
             }
           ],
@@ -783,7 +783,7 @@
               "parameters": [
                 "TeksTip",
                 "=",
-                "\"Tips: Robot tersembunyi hanya bisa ditembak saat Pindai Gerak (Q) aktif.\""
+                "\"Tips: Robot tersembunyi hanya bisa ditembak saat Pindai Gerak aktif (F atau Q).\""
               ]
             }
           ],

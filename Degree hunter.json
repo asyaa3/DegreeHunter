@@ -6949,6 +6949,46 @@
         "userAdded": true
       },
       {
+        "file": "ui2/hud/skill_dual.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/skill_dual.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/skill_jauh.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/skill_jauh.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/skill_lora.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/skill_lora.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/skill_pir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/skill_pir.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/skill_relay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/skill_relay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
         "file": "ui2/hud/warn_celah.png",
         "kind": "image",
         "metadata": "",
