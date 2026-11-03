@@ -63,7 +63,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "PanelRingkasan",
-      "persistentUuid": "ccec1999-d73a-42ba-814e-20910912e4f9",
+      "persistentUuid": "85fff3ea-59c1-4977-a5d2-62a8ccbf3f9b",
       "width": 500,
       "x": 40,
       "y": 250,
@@ -79,7 +79,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "JudulRingkasan",
-      "persistentUuid": "c022d4c0-a595-432e-9c79-5ad0c0478624",
+      "persistentUuid": "c687934b-edea-4752-aa0f-f8c81ed50b86",
       "width": 0,
       "x": 70,
       "y": 280,
@@ -95,7 +95,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksRingkasan",
-      "persistentUuid": "e3e8a1df-ed17-4654-bb3c-dc1a239f6212",
+      "persistentUuid": "78a7f278-57ba-4d26-b5a7-7a5679c69c5d",
       "width": 0,
       "x": 70,
       "y": 326,
@@ -111,7 +111,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnLanjut",
-      "persistentUuid": "3c58b9d7-f0d9-4cc7-aedf-e449b21a76a1",
+      "persistentUuid": "5d259c9b-58b2-4856-9b1d-ca58b57d0d1e",
       "width": 0,
       "x": 820,
       "y": 330,
@@ -127,7 +127,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnMenu",
-      "persistentUuid": "dfa28013-8e56-4eac-879a-9a8759d26b42",
+      "persistentUuid": "933e1aac-1bc5-41d7-bb24-6d55684ccb18",
       "width": 0,
       "x": 820,
       "y": 450,
@@ -143,7 +143,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "e29b1060-9a53-4748-ad03-0e938e79e3b4",
+      "persistentUuid": "3d38d1cb-0074-419f-9020-53a222b05e4f",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -219,7 +219,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PanelRingkasan",
-      "persistentUuid": "a10112cc-e25b-42bb-b068-4b68b192adae",
+      "persistentUuid": "f5779356-c1e3-47bb-acc4-00ccf3afac3b",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -260,7 +260,7 @@
     {
       "assetStoreId": "",
       "name": "TeksRingkasan",
-      "persistentUuid": "f5fc17ae-9808-4821-902c-e4de907954d8",
+      "persistentUuid": "516ff4e0-ea8b-4a04-8076-0454f778a4b4",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -291,7 +291,7 @@
     {
       "assetStoreId": "",
       "name": "JudulRingkasan",
-      "persistentUuid": "69667a02-74ff-4dc9-b821-ed34376706f9",
+      "persistentUuid": "00b5d323-ccf3-4849-99d9-1db41c92d492",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -323,7 +323,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnLanjut",
-      "persistentUuid": "6b13dc4a-325f-4fea-9332-e1639681873e",
+      "persistentUuid": "e4df5ab5-c9e1-42bb-864e-8125cd760c5f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -432,7 +432,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnMenu",
-      "persistentUuid": "125810b9-13a0-4874-bedb-5b962d46b1ea",
+      "persistentUuid": "f3b9a3e7-e3c5-4894-987e-8754e840978f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -541,7 +541,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "be114052-9e16-4795-a452-b8e9a9c85425",
+      "persistentUuid": "823cad17-4e94-4c03-bc39-e6f3c708227f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1661,6 +1661,66 @@
           ],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "r": 255,
+                "g": 230,
+                "b": 109,
+                "textR": 0,
+                "textG": 0,
+                "textB": 0
+              },
+              "comment": "Urutan penting: cek 'kembali ke Level Select' dulu, baru 'ending' (yang mengubah Tamat), supaya ending tidak tertimpa."
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "StageNo",
+                        "<",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Tamat",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Scene Level Select\"",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2007,54 +2067,6 @@
                   "events": []
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "StageNo",
-                        "<",
-                        "6"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "Tamat",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Scene Level Select\"",
-                    "no"
-                  ]
-                }
-              ],
-              "events": []
             }
           ]
         },

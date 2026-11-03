@@ -372,14 +372,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "Rupii",
-                    "Variable(SpawnX)",
-                    "Variable(SpawnY)",
-                    "\"\""
+                    "WarnaIdx",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -403,14 +401,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "Tasya",
-                    "Variable(SpawnX)",
-                    "Variable(SpawnY)",
-                    "\"\""
+                    "WarnaIdx",
+                    "=",
+                    "2"
                   ]
                 }
               ],
@@ -445,11 +441,28 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WarnaIdx",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
                     "",
-                    "Nabigh",
+                    "Pemain",
                     "Variable(SpawnX)",
                     "Variable(SpawnY)",
                     "\"\""
@@ -507,7 +520,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "7"
+                    "7+Variable(WarnaIdx)*10"
                   ]
                 },
                 {
@@ -1035,7 +1048,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "// KONTROL SENTUH (multi-touch): membaca semua sentuhan, mengecek tombol di layer \"Sentuh\",\n// lalu mengisi variabel scene TKiri, TKanan, TLompat, TTembak, TTurun, TSkill, TGantiSkill, TGanti, TJeda\n// (1 = sedang ditekan) dan versi ...Tekan (1 hanya pada frame pertama ditekan).\nconst im = runtimeScene.getGame().getInputManager();\nconst vars = runtimeScene.getVariables();\nconst gv = runtimeScene.getGame().getVariables();\nconst mode = gv.get('KontrolSentuh').getAsNumber();\nlet aktif = false;\nif (mode === 1) aktif = true;\nelse if (mode === 0) aktif = (typeof window !== 'undefined') && (('ontouchstart' in window) || ((navigator.maxTouchPoints || 0) > 0));\nconst jeda = vars.get('Pause').getAsNumber() === 1 || vars.get('GameOver').getAsNumber() === 1;\nvars.get('SentuhAktif').setNumber(aktif ? 1 : 0);\nconst layer = runtimeScene.getLayer('Sentuh');\nlayer.show(aktif && !jeda);\nconst peta = {TbKiri: 'TKiri', TbKanan: 'TKanan', TbLompat: 'TLompat', TbTembak: 'TTembak', TbTurun: 'TTurun', TbSkill: 'TSkill', TbGantiSkill: 'TGantiSkill', TbGanti: 'TGanti', TbJeda: 'TJeda'};\nconst kini = {};\nfor (const n in peta) kini[peta[n]] = 0;\nif (aktif) {\n  const ids = im.getAllTouchIdentifiers();\n  for (const id of ids) {\n    if (im.hasTouchEnded(id)) continue;\n    const p = layer.convertCoords(im.getTouchX(id), im.getTouchY(id), 0, [0, 0]);\n    for (const n in peta) {\n      const objs = runtimeScene.getObjects(n);\n      if (!objs) continue;\n      for (const o of objs) { if (o.isVisible() && o.insideObject(p[0], p[1])) kini[peta[n]] = 1; }\n    }\n  }\n}\nfor (const k in kini) {\n  const sebelum = vars.get(k).getAsNumber();\n  vars.get(k + 'Tekan').setNumber(kini[k] === 1 && sebelum === 0 ? 1 : 0);\n  vars.get(k).setNumber(kini[k]);\n}\nfor (const n in peta) { const objs = runtimeScene.getObjects(n); if (objs) for (const o of objs) o.setAnimation(kini[peta[n]]); }\n",
+          "inlineCode": "// KONTROL SENTUH (multi-touch): membaca semua sentuhan, mengecek tombol di layer \"Sentuh\",\n// lalu mengisi variabel scene TKiri, TKanan, TLompat, TTembak, TTurun, TSkill, TGantiSkill, TGanti, TJeda\n// (1 = sedang ditekan) dan versi ...Tekan (1 hanya pada frame pertama ditekan).\nconst im = runtimeScene.getGame().getInputManager();\nconst vars = runtimeScene.getVariables();\nconst gv = runtimeScene.getGame().getVariables();\nconst mode = gv.get('KontrolSentuh').getAsNumber();\nlet aktif = false;\nif (mode === 1) aktif = true;\nelse if (mode === 0) aktif = (typeof window !== 'undefined') && (('ontouchstart' in window) || ((navigator.maxTouchPoints || 0) > 0) ||\n                                (window.matchMedia && window.matchMedia('(pointer: coarse)').matches));\nconst jeda = vars.get('Pause').getAsNumber() === 1 || vars.get('GameOver').getAsNumber() === 1;\nvars.get('SentuhAktif').setNumber(aktif ? 1 : 0);\nconst layer = runtimeScene.getLayer('Sentuh');\nlayer.show(aktif && !jeda);\nconst peta = {TbKiri: 'TKiri', TbKanan: 'TKanan', TbLompat: 'TLompat', TbTembak: 'TTembak', TbTurun: 'TTurun', TbSkill: 'TSkill', TbGantiSkill: 'TGantiSkill', TbGanti: 'TGanti', TbJeda: 'TJeda'};\nconst kini = {};\nfor (const n in peta) kini[peta[n]] = 0;\nif (aktif) {\n  // titik sentuh: semua jari + klik mouse (supaya tombol juga bisa dicoba dengan mouse di PC)\n  const titik = [];\n  for (const id of im.getAllTouchIdentifiers()) { if (!im.hasTouchEnded(id)) titik.push([im.getTouchX(id), im.getTouchY(id)]); }\n  if (im.isMouseButtonPressed(0)) titik.push([im.getCursorX(), im.getCursorY()]);\n  for (const t of titik) {\n    const p = layer.convertCoords(t[0], t[1], 0, [0, 0]);\n    for (const n in peta) {\n      const objs = runtimeScene.getObjects(n);\n      if (!objs) continue;\n      for (const o of objs) { if (o.isVisible() && o.insideObject(p[0], p[1])) kini[peta[n]] = 1; }\n    }\n  }\n}\nfor (const k in kini) {\n  const sebelum = vars.get(k).getAsNumber();\n  vars.get(k + 'Tekan').setNumber(kini[k] === 1 && sebelum === 0 ? 1 : 0);\n  vars.get(k).setNumber(kini[k]);\n}\nfor (const n in peta) { const objs = runtimeScene.getObjects(n); if (objs) for (const o of objs) o.setAnimation(kini[peta[n]]); }\n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -2317,7 +2330,7 @@
             "textG": 0,
             "textB": 0
           },
-          "comment": "GANTI KARAKTER  |  C / tombol C: hunter berganti Nabigh -> Rufi -> Tasya. Nyawa, Energi, dan posisi tetap sama (health bar dipakai bersama). Jeda 3 detik."
+          "comment": "GANTI KARAKTER  |  C / tombol C: Nabigh -> Rufi -> Tasya. Hunter tetap SATU objek (Pemain); yang berganti hanya set animasinya (WarnaIdx x 10), jadi posisi, kecepatan, lompatan, nyawa, dan energi tidak berubah. Jeda 0,8 detik."
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2340,6 +2353,15 @@
               "parameters": [
                 "",
                 "\"ganti\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"gantifx\""
               ]
             }
           ],
@@ -2456,11 +2478,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyReleased"
+                    "value": "KeyFromTextJustPressed"
                   },
                   "parameters": [
                     "",
-                    "c"
+                    "\"c\""
                   ]
                 },
                 {
@@ -2518,39 +2540,18 @@
                 "",
                 "\"ganti\"",
                 ">",
-                "3"
+                "0.8"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "GX",
-                "=",
-                "Hunter.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "GY",
-                "=",
-                "Hunter.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "GA",
-                "=",
-                "Hunter.Variable(arah)"
+                "",
+                "\"ganti\""
               ]
             },
             {
@@ -2559,7 +2560,7 @@
               },
               "parameters": [
                 "",
-                "\"ganti\""
+                "\"gantifx\""
               ]
             },
             {
@@ -2574,6 +2575,16 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "WarnaIdx",
+                "=",
+                "mod(Variable(WarnaIdx)+1,3)"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -2582,6 +2593,34 @@
                 "no",
                 "60*GlobalVariable(VolSFX)/100",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Goyang",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GantiFX",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "LabelGanti",
+                ""
               ]
             }
           ],
@@ -2592,142 +2631,16 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "=",
-                    "\"Nabigh\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "GantiKe",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "=",
-                    "\"Rupii\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "GantiKe",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "!=",
-                    "\"Nabigh\""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "!=",
-                    "\"Rupii\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "GantiKe",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Hunter",
-                    ""
-                  ]
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "GantiKe",
+                    "WarnaIdx",
                     "=",
-                    "1"
+                    "0"
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Nabigh",
-                    "Variable(GX)",
-                    "Variable(GY)",
-                    "\"\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -2750,25 +2663,13 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "GantiKe",
+                    "WarnaIdx",
                     "=",
-                    "2"
+                    "1"
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Rupii",
-                    "Variable(GX)",
-                    "Variable(GY)",
-                    "\"\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -2791,25 +2692,13 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "GantiKe",
+                    "WarnaIdx",
                     "=",
-                    "3"
+                    "2"
                   ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Tasya",
-                    "Variable(GX)",
-                    "Variable(GY)",
-                    "\"\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetStringVariable"
@@ -2829,40 +2718,24 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "Create"
                   },
                   "parameters": [
-                    "Hunter",
-                    "arah",
+                    "",
+                    "GantiFX",
+                    "Hunter.X()-32",
+                    "Hunter.Y()-40",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "GantiFX",
                     "=",
-                    "Variable(GA)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Hunter",
-                    "\"kebal\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Hunter",
-                    "\"cd\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Hunter",
-                    "\"animtembak\""
+                    "Variable(WarnaIdx)"
                   ]
                 },
                 {
@@ -2870,9 +2743,50 @@
                     "value": "SetZOrder"
                   },
                   "parameters": [
-                    "Hunter",
+                    "GantiFX",
                     "=",
-                    "50"
+                    "63"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LabelGanti",
+                    "Hunter.X()",
+                    "Hunter.Y()",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "LabelGanti",
+                    "=",
+                    "Variable(WarnaIdx)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "LabelGanti",
+                    "=",
+                    "64"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "LabelGanti",
+                    "\"umur\""
                   ]
                 },
                 {
@@ -2882,8 +2796,8 @@
                   "parameters": [
                     "",
                     "Kilau",
-                    "Variable(GX)+40",
-                    "Variable(GY)+40",
+                    "Hunter.X()+40",
+                    "Hunter.Y()+30",
                     "\"\""
                   ]
                 },
@@ -3064,106 +2978,116 @@
                 }
               ],
               "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "=",
-                    "\"Rupii\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "WarnaIdx",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "=",
-                    "\"Tasya\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "WarnaIdx",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "!=",
-                    "\"Rupii\""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "HunterPilihan",
-                    "!=",
-                    "\"Tasya\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "WarnaIdx",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "events": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          },
+          "comment": "Animasi efek ganti: pilar cahaya warna hunter mengikuti posisi hunter, label nama naik lalu memudar."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "GantiFX",
+                "=",
+                "Hunter.X()-32",
+                "=",
+                "Hunter.Y()-40"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "LabelGanti",
+                "=",
+                "Hunter.X()+64-LabelGanti.Width()/2",
+                "=",
+                "Hunter.Y()-6-LabelGanti.ObjectTimerElapsedTime(\"umur\")*50"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "LabelGanti",
+                "=",
+                "max(0,255-max(0,LabelGanti.ObjectTimerElapsedTime(\"umur\")-0.45)*600)"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "GantiFX"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GantiFX",
+                ""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "LabelGanti",
+                "\"umur\"",
+                ">",
+                "0.9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "LabelGanti",
+                ""
+              ]
+            }
+          ],
+          "events": []
         }
       ],
       "parameters": []
@@ -4995,7 +4919,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "3"
+                    "3+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5025,7 +4949,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "2"
+                    "2+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5107,7 +5031,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "5"
+                    "5+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5137,7 +5061,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "4"
+                    "4+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5229,7 +5153,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "1"
+                    "1+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5259,7 +5183,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "0"
+                    "0+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5351,7 +5275,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "7"
+                    "7+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5381,7 +5305,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "6"
+                    "6+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -5467,6 +5391,48 @@
                 "Hunter",
                 "=",
                 "255"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          },
+          "comment": "Efek muncul saat ganti karakter: hunter memudar masuk selama 0,25 detik."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"gantifx\"",
+                "<",
+                "0.25"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Hunter",
+                "=",
+                "min(255, 60+TimerElapsedTime(\"gantifx\")*800)"
               ]
             }
           ],
@@ -8466,7 +8432,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "9"
+                    "9+Variable(WarnaIdx)*10"
                   ]
                 }
               ],
@@ -8496,7 +8462,7 @@
                   "parameters": [
                     "Hunter",
                     "=",
-                    "8"
+                    "8+Variable(WarnaIdx)*10"
                   ]
                 }
               ],

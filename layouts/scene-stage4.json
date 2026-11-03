@@ -31,13 +31,7 @@
       "name": "Hunter",
       "objects": [
         {
-          "name": "Nabigh"
-        },
-        {
-          "name": "Rupii"
-        },
-        {
-          "name": "Tasya"
+          "name": "Pemain"
         }
       ]
     }
@@ -332,7 +326,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "LatarLuar",
-      "persistentUuid": "c8c06bc9-ddf8-499e-b61c-ff6468b6735e",
+      "persistentUuid": "184c4886-9c27-48e1-a66b-e81e4ccd4cfc",
       "width": 0,
       "x": -1536,
       "y": 0,
@@ -348,7 +342,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "LatarLuar",
-      "persistentUuid": "915f9d92-5b6e-4d68-8097-cb262a360324",
+      "persistentUuid": "0ffd690c-2209-42e4-9d01-484cff28e210",
       "width": 0,
       "x": -256,
       "y": 0,
@@ -364,7 +358,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TileMapLevel",
-      "persistentUuid": "d395885c-7a93-424a-88ce-1ca6d243723a",
+      "persistentUuid": "a0e60970-246f-48a4-9e4a-84676ea371a1",
       "width": 0,
       "x": -1536,
       "y": -48,
@@ -385,7 +379,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "h4",
-      "persistentUuid": "58df37d4-8afb-4d3d-9545-37155e40669d",
+      "persistentUuid": "12fdc645-c603-49f0-b99c-2518e3c46844",
       "width": 0,
       "x": -1360,
       "y": 400,
@@ -401,7 +395,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "h1",
-      "persistentUuid": "a27b914c-bfb9-4399-9c04-8a5340a8e334",
+      "persistentUuid": "aa1b451d-6584-4e03-ad43-35fcba5094ca",
       "width": 0,
       "x": -1080,
       "y": 464,
@@ -417,7 +411,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "h5",
-      "persistentUuid": "359add94-7e6b-4c4c-9b97-73833bac48ad",
+      "persistentUuid": "65184e52-7678-4b87-9380-b8f802aba2ed",
       "width": 0,
       "x": -760,
       "y": 528,
@@ -433,7 +427,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "h14",
-      "persistentUuid": "48471383-6d53-453b-8b34-8bb791d44a65",
+      "persistentUuid": "978773fe-c603-40fe-96c5-9cd2dbdfe6ab",
       "width": 0,
       "x": -520,
       "y": 464,
@@ -449,7 +443,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "h16",
-      "persistentUuid": "f30c92c3-5dd7-4343-afdc-d898d56fead7",
+      "persistentUuid": "5cc4eb5b-32f5-4931-a0d2-6c87b28f2839",
       "width": 0,
       "x": -180,
       "y": 528,
@@ -465,7 +459,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "h4",
-      "persistentUuid": "d757c953-0696-4c0f-be3f-00ed3d9a8fd2",
+      "persistentUuid": "13bdf5c4-473a-4d52-9556-7f9eaba31820",
       "width": 0,
       "x": -300,
       "y": 400,
@@ -481,7 +475,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "561f0612-4a7d-4281-99fa-e2fc30bf6635",
+      "persistentUuid": "6f91f982-4da2-475a-8c7c-b7fc1a1326ca",
       "width": 112,
       "x": -640,
       "y": 480,
@@ -508,7 +502,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "631275e4-6e0f-4251-90af-f3c1b3efd5f4",
+      "persistentUuid": "009ea34d-5e40-407a-ba56-2f8e91912e4c",
       "width": 0,
       "x": -1150,
       "y": 528,
@@ -524,7 +518,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "823242b0-e196-4b76-a6aa-27114895cb67",
+      "persistentUuid": "a3e8d36e-2c72-4ae4-9875-71dd2e01c97e",
       "width": 0,
       "x": -1104,
       "y": 528,
@@ -540,7 +534,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "be655b87-9424-4698-9a2d-3206324a098a",
+      "persistentUuid": "406e64dd-d390-44b1-9a4f-5c7533b8c634",
       "width": 0,
       "x": -1058,
       "y": 528,
@@ -556,7 +550,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "e7f31509-f09d-44da-9784-d3599f83132f",
+      "persistentUuid": "97b1c835-aa67-4646-b31e-37ecfc9b5716",
       "width": 0,
       "x": -420,
       "y": 528,
@@ -572,7 +566,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "57bac244-23b6-44c5-85da-b775c3b4af0d",
+      "persistentUuid": "d2b94da9-511a-4c03-8f07-ccccacfbe889",
       "width": 0,
       "x": -374,
       "y": 528,
@@ -588,7 +582,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "949e12f4-978b-4b35-9401-c84ff1e4baf1",
+      "persistentUuid": "5b3c5293-abc5-44ff-9e36-1b9bea07e159",
       "width": 0,
       "x": -328,
       "y": 528,
@@ -604,7 +598,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "SelEnergi",
-      "persistentUuid": "48867712-7f61-4049-8fae-069070c0f705",
+      "persistentUuid": "d3bc259c-c76d-441d-8cf8-8031d8b82543",
       "width": 0,
       "x": -900,
       "y": 532,
@@ -620,7 +614,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "RuangBelakang",
-      "persistentUuid": "be3d40cb-95bd-4202-8a0a-25b2920e0836",
+      "persistentUuid": "cb41dddb-2a89-4d35-9c33-6dd8b89d630d",
       "width": 0,
       "x": 0,
       "y": -48,
@@ -641,7 +635,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "RuangStruktur",
-      "persistentUuid": "e2dd4af1-b204-4650-b9da-e8fac200cddd",
+      "persistentUuid": "1fc9fc3b-67b6-462c-9a67-117065a1d7b3",
       "width": 0,
       "x": 0,
       "y": -48,
@@ -662,7 +656,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "RuangDekor",
-      "persistentUuid": "cf8aad42-844d-4eff-9e6d-0538a2b1c7fd",
+      "persistentUuid": "1e41fbe3-518b-4ebb-9b6e-62a85a4e33f4",
       "width": 0,
       "x": 0,
       "y": -48,
@@ -683,7 +677,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "RuangCatwalk",
-      "persistentUuid": "7d1cd604-170f-45e8-b836-7fe8d101ca11",
+      "persistentUuid": "3d2ddcde-cca3-4394-88dc-11fcd2e1fadd",
       "width": 0,
       "x": 0,
       "y": -48,
@@ -704,7 +698,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "67d579ff-076f-4eeb-b305-5f11cbd3fb2b",
+      "persistentUuid": "cf114ffe-d938-4052-a8c4-1e09fa21ded1",
       "width": 112,
       "x": 360,
       "y": 480,
@@ -731,7 +725,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "75a50ba1-abb5-4186-b0d2-7e7cd3836156",
+      "persistentUuid": "5af2cc95-d8cd-4fc1-8ca8-4e0538f524f0",
       "width": 112,
       "x": 616,
       "y": 224,
@@ -758,7 +752,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "c41fe658-ce85-41d0-8772-371cb8fc8a3c",
+      "persistentUuid": "78eb4b1b-f022-4a64-9199-16b4f17e2699",
       "width": 112,
       "x": 872,
       "y": 96,
@@ -785,7 +779,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "43658136-531a-4861-a498-c024b2425cc6",
+      "persistentUuid": "4df5a1f0-7d48-4e0e-a1f4-ada7957b6514",
       "width": 112,
       "x": 1320,
       "y": 288,
@@ -812,7 +806,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "36539cb6-00ba-463f-a8aa-4f3f2196f531",
+      "persistentUuid": "5aec74f4-d25b-40f9-9d41-6f2a41c66fae",
       "width": 112,
       "x": 1832,
       "y": 480,
@@ -839,7 +833,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "d81ed51e-6ebb-4d7a-a2b0-6bf5ce6b57cb",
+      "persistentUuid": "0f91f65f-b495-49cb-b790-11bc3ea69783",
       "width": 112,
       "x": 1896,
       "y": 352,
@@ -866,7 +860,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "82c2880e-77c2-4c8f-9c37-98a420c3f5d3",
+      "persistentUuid": "755e0e3f-436d-40c4-b433-8a419b3dd4bd",
       "width": 112,
       "x": 2344,
       "y": 96,
@@ -893,7 +887,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "45cf8ca3-530d-47be-ae48-fdfc5611a41c",
+      "persistentUuid": "f2974a7a-21cd-4e82-a9a8-ee276d9585ac",
       "width": 112,
       "x": 3048,
       "y": 480,
@@ -920,7 +914,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "7be10de7-e152-4f8b-b07c-317619b26eb7",
+      "persistentUuid": "9631170b-b177-403f-aa02-fa10aa2a4517",
       "width": 112,
       "x": 3112,
       "y": 352,
@@ -947,7 +941,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Musuh",
-      "persistentUuid": "b3357bdd-d4d1-4361-9413-d26bdea680b5",
+      "persistentUuid": "ccf83ec4-4f71-415b-9469-9b3927aea896",
       "width": 112,
       "x": 3624,
       "y": 96,
@@ -974,7 +968,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Kepingan",
-      "persistentUuid": "bcd9c103-4ccb-4249-a790-a7e2cfd5d1b7",
+      "persistentUuid": "bd4dd0f2-2b89-44e8-ab36-e41ebdb70802",
       "width": 0,
       "x": 908,
       "y": 152,
@@ -990,7 +984,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Kepingan",
-      "persistentUuid": "a8e3bfef-e019-43fa-a8d1-9e081a326bbe",
+      "persistentUuid": "2f6f3158-ced0-4c72-861f-b63e3defcd94",
       "width": 0,
       "x": 2380,
       "y": 152,
@@ -1006,7 +1000,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Kepingan",
-      "persistentUuid": "f46b33fe-7964-48f4-8fdc-dd62533898af",
+      "persistentUuid": "a6ce0067-884e-45b3-beb4-3136aafa099d",
       "width": 0,
       "x": 3724,
       "y": 152,
@@ -1022,7 +1016,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "SelEnergi",
-      "persistentUuid": "7f7ad803-139f-4a95-9ae5-0ba9d270160b",
+      "persistentUuid": "2cf1e464-bf4b-466c-a0c3-2ccc2f6aa7c9",
       "width": 0,
       "x": 718,
       "y": 284,
@@ -1038,7 +1032,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "SelEnergi",
-      "persistentUuid": "7b8aae1e-0f54-4a25-8554-63b7207d2031",
+      "persistentUuid": "31fbce72-b6c7-4153-8315-a30eded51c0d",
       "width": 0,
       "x": 2126,
       "y": 284,
@@ -1054,7 +1048,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "SelEnergi",
-      "persistentUuid": "ec2bd1fd-0ee8-4eb1-8bfd-afdb10d8c57f",
+      "persistentUuid": "e4bdd6ca-994a-41d9-bbb6-2a5bd262caea",
       "width": 0,
       "x": 3406,
       "y": 284,
@@ -1070,7 +1064,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "ddba8981-ea49-4131-bfa4-be658740ee08",
+      "persistentUuid": "8490cd1e-3848-4d7e-bca0-84943ea9e8c6",
       "width": 0,
       "x": 320,
       "y": 400,
@@ -1086,7 +1080,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "c7dc4187-341f-47c8-99bd-56a9a22619f6",
+      "persistentUuid": "113baf00-cdfa-47b1-8676-d75851d4cd3c",
       "width": 0,
       "x": 368,
       "y": 400,
@@ -1102,7 +1096,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "624455df-730d-4df8-90a3-8a8d13c20ff6",
+      "persistentUuid": "28ae8e96-1da3-40eb-ab62-fe307f518872",
       "width": 0,
       "x": 416,
       "y": 400,
@@ -1118,7 +1112,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "c2fe9b78-b006-4e11-ad11-aeaa41c20046",
+      "persistentUuid": "8ca44c9e-f721-46bd-a766-ac65db621933",
       "width": 0,
       "x": 896,
       "y": 144,
@@ -1134,7 +1128,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "d59b6247-d014-4536-8f93-fb02d07cdb02",
+      "persistentUuid": "0eafd0f6-2aeb-44d0-a515-45e40672ffe0",
       "width": 0,
       "x": 944,
       "y": 144,
@@ -1150,7 +1144,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "9dafe50a-74dd-411a-85f8-6a07daec2b1e",
+      "persistentUuid": "1ccaa966-2443-4a16-9022-23250df270d5",
       "width": 0,
       "x": 992,
       "y": 144,
@@ -1166,7 +1160,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "41054d47-3d58-4e46-973e-80569dac6b0c",
+      "persistentUuid": "010e1fd8-b87f-47ea-bcfd-2567aa5a2f29",
       "width": 0,
       "x": 1792,
       "y": 400,
@@ -1182,7 +1176,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "d78c9c6e-a19c-4a2f-a18b-65f79438a3fd",
+      "persistentUuid": "74c9df5e-b41a-4436-9a73-389780c7e64e",
       "width": 0,
       "x": 1840,
       "y": 400,
@@ -1198,7 +1192,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "117485a0-e092-4a58-b590-bae9db653548",
+      "persistentUuid": "6ea6675f-856f-4483-8254-4cea49d67890",
       "width": 0,
       "x": 1888,
       "y": 400,
@@ -1214,7 +1208,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "0c402382-3a28-4f27-883d-11209b864989",
+      "persistentUuid": "60efb2ae-3bb2-4caf-aec0-a380d06b9c01",
       "width": 0,
       "x": 2368,
       "y": 144,
@@ -1230,7 +1224,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "d9898c91-182b-4334-bdc6-660a0dcc88d3",
+      "persistentUuid": "001d30d8-1569-4f1e-a645-037af9d2c913",
       "width": 0,
       "x": 2416,
       "y": 144,
@@ -1246,7 +1240,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "d8468f6b-4472-4e69-8878-00836fa808da",
+      "persistentUuid": "8a60fa1d-5055-43d5-b1e8-21a91b9d683f",
       "width": 0,
       "x": 2464,
       "y": 144,
@@ -1262,7 +1256,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "1948b307-be39-4edf-8653-414870886a06",
+      "persistentUuid": "0172cd62-0bc4-470d-a9c7-d5c9e7112dea",
       "width": 0,
       "x": 3392,
       "y": 272,
@@ -1278,7 +1272,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "a185e0f6-8c51-465c-b952-dfe99111c6f5",
+      "persistentUuid": "39d9fc57-98d6-4d51-8a06-edabba0f1bf6",
       "width": 0,
       "x": 3440,
       "y": 272,
@@ -1294,7 +1288,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "f63ad70a-d741-47a2-9a43-322e3b0ad7e1",
+      "persistentUuid": "67b0bf72-bf08-48ab-9459-de730772e3a4",
       "width": 0,
       "x": 3488,
       "y": 272,
@@ -1310,7 +1304,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "bc97bc58-d84a-4e91-9d9f-699b617a2d7e",
+      "persistentUuid": "a1ca8da7-cd1f-4899-9682-dc7486ab5733",
       "width": 0,
       "x": 200,
       "y": 528,
@@ -1326,7 +1320,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "3db21608-ef96-40d1-aeac-1c35b9c52c4f",
+      "persistentUuid": "2a0b7f62-ea07-41b1-b668-477d1f797220",
       "width": 0,
       "x": 1672,
       "y": 528,
@@ -1342,7 +1336,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "e33010ec-21a4-40bd-ab9d-7f87b97f410d",
+      "persistentUuid": "5f704a61-100e-415e-87ec-0fa235ccb4b4",
       "width": 0,
       "x": 2888,
       "y": 528,
@@ -1358,7 +1352,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chip",
-      "persistentUuid": "97971b7f-3745-406c-9d19-30a895227cea",
+      "persistentUuid": "86b3555d-6c6f-4fca-bd7b-38b4d9c13bc7",
       "width": 0,
       "x": 3848,
       "y": 528,
@@ -1374,7 +1368,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "ZonaBahaya",
-      "persistentUuid": "2f6ace6c-17fd-4e92-a0cf-273d67807689",
+      "persistentUuid": "c9798466-21cb-46ad-8b88-d61c1748e87b",
       "width": 128,
       "x": 1088,
       "y": 572,
@@ -1390,7 +1384,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "ZonaBahaya",
-      "persistentUuid": "a8ce220a-2831-4099-9c2f-7b27973ac436",
+      "persistentUuid": "cee0329c-786c-475a-b7ff-c2e6ea31ee07",
       "width": 128,
       "x": 2560,
       "y": 572,
@@ -1406,7 +1400,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "PintuLaser",
-      "persistentUuid": "254fc29f-21f1-4bd1-be89-048a797c8e94",
+      "persistentUuid": "e4cbcfcd-d3d3-4faf-83c5-613a578067c7",
       "width": 48,
       "x": 2824,
       "y": 80,
@@ -1422,7 +1416,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "PanelRelay",
-      "persistentUuid": "681b28dd-bd2c-42a6-b016-d9c806a778ca",
+      "persistentUuid": "86f1ac75-cffe-48b8-83a1-315d43061a86",
       "width": 0,
       "x": 2698,
       "y": 532,
@@ -1438,7 +1432,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "HUDBelakang",
-      "persistentUuid": "de325128-4ebe-4fe3-af05-438571b77572",
+      "persistentUuid": "f11c8e98-367a-41d5-a68c-3455789ad42f",
       "width": 0,
       "x": 16,
       "y": 12,
@@ -1454,7 +1448,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "HPLag",
-      "persistentUuid": "41afeaf8-f087-4915-bdc2-5712c2772964",
+      "persistentUuid": "085168cb-7757-41d0-a521-e05c412ec731",
       "width": 0,
       "x": 166,
       "y": 58,
@@ -1470,7 +1464,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "HPFill",
-      "persistentUuid": "b6ee768d-ab14-4206-83b4-306b4eed8d1f",
+      "persistentUuid": "a3949c83-82a9-46ef-947e-15e29bfbb66c",
       "width": 0,
       "x": 166,
       "y": 58,
@@ -1486,7 +1480,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "HUDDepan",
-      "persistentUuid": "5c0771b3-af0a-4d6d-b41c-17ff7b2b05b7",
+      "persistentUuid": "5369402d-1f5a-4d18-a303-cbc778e95165",
       "width": 0,
       "x": 16,
       "y": 12,
@@ -1502,7 +1496,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "HUDPotret",
-      "persistentUuid": "da12c764-a9a9-462b-8686-e89656501be4",
+      "persistentUuid": "0eb7042c-65fd-4b63-ac0f-aca9a7f5f80b",
       "width": 0,
       "x": 12,
       "y": 8,
@@ -1518,7 +1512,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "HUDNama",
-      "persistentUuid": "a2e7bfe5-4b82-4470-91cc-70dfea6d0871",
+      "persistentUuid": "38f5eb8f-b2e5-42d4-aef5-ec517afa3834",
       "width": 0,
       "x": 166,
       "y": 100,
@@ -1534,7 +1528,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "OverlayGO",
-      "persistentUuid": "36961209-47e3-43ce-ab35-eedf71ac0a79",
+      "persistentUuid": "f10de9e8-8fa1-4610-b387-4fdf89f24395",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -1550,7 +1544,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "PanelGO",
-      "persistentUuid": "4beb91dc-23d3-43f0-bf76-2bb684cf918d",
+      "persistentUuid": "3670510a-60ed-477e-b2a7-f9764a480634",
       "width": 0,
       "x": 280,
       "y": 158,
@@ -1566,7 +1560,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "JudulGO",
-      "persistentUuid": "a6646227-76ff-4d9a-b12b-3bdb18b64a8b",
+      "persistentUuid": "9b066322-a401-41aa-8c96-04eed325870d",
       "width": 0,
       "x": 322,
       "y": 186,
@@ -1582,7 +1576,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "BtnPlayAgain",
-      "persistentUuid": "1e1db3de-3842-4f67-bb37-eb609275c89a",
+      "persistentUuid": "69a4966e-1dee-426d-b807-ddf1c7a2a960",
       "width": 0,
       "x": 453,
       "y": 300,
@@ -1598,7 +1592,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "BtnHome",
-      "persistentUuid": "64aa4060-3988-4ac0-a251-5aafc5668f75",
+      "persistentUuid": "40d3ab81-1ae8-45a3-a3b3-b1e331bad7ae",
       "width": 0,
       "x": 450,
       "y": 410,
@@ -1614,7 +1608,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "EnergiTrack",
-      "persistentUuid": "2f57c9b0-5663-4e15-aa66-3b49ecc6cff3",
+      "persistentUuid": "6df6b7fc-c5d0-4be8-8ce6-316966de3926",
       "width": 0,
       "x": 163,
       "y": 84,
@@ -1630,7 +1624,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "EnergiFill",
-      "persistentUuid": "ddf490f2-0cf8-4b39-a5c2-b16931c6c44e",
+      "persistentUuid": "dac17859-4679-45f3-bc14-5c4be78dbe61",
       "width": 0,
       "x": 166,
       "y": 87,
@@ -1646,7 +1640,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "TeksEnergi",
-      "persistentUuid": "11ed3bd7-fd53-42fa-b94f-c24b306c3886",
+      "persistentUuid": "f0ecef2f-7ef2-44d9-9120-50a8faa72cbf",
       "width": 0,
       "x": 344,
       "y": 78,
@@ -1662,7 +1656,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "PanelKanan",
-      "persistentUuid": "3146ceb9-60ea-4b01-b245-91706d933850",
+      "persistentUuid": "83f87fed-f0fe-4a41-8da4-779db0ebccac",
       "width": 330,
       "x": 934,
       "y": 10,
@@ -1678,7 +1672,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "ChipIkon",
-      "persistentUuid": "a8aa5a80-9211-4e2b-8279-908ce6767594",
+      "persistentUuid": "933166fd-2eb1-4e35-adab-6b02ceff15e5",
       "width": 0,
       "x": 946,
       "y": 20,
@@ -1694,7 +1688,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "TeksChip",
-      "persistentUuid": "b8579888-982d-428a-b6e4-2c0c75409c7e",
+      "persistentUuid": "f5a3ac35-2b47-44ef-b64d-6ea4481084d2",
       "width": 0,
       "x": 992,
       "y": 22,
@@ -1710,7 +1704,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "TeksLevel",
-      "persistentUuid": "dbd5815e-7c39-4d47-b509-5738aaab8991",
+      "persistentUuid": "25e34f36-d428-4805-9f17-12b985f49081",
       "width": 0,
       "x": 1140,
       "y": 22,
@@ -1726,7 +1720,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "TeksXP",
-      "persistentUuid": "40d483be-5ea0-433e-b316-fd01e70e76c8",
+      "persistentUuid": "74eebaff-bb0c-4b29-91a5-01b3f233cf8c",
       "width": 0,
       "x": 952,
       "y": 66,
@@ -1742,7 +1736,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "SlotKomponen",
-      "persistentUuid": "6eeb5e27-3015-4997-9de7-183aa9e23afc",
+      "persistentUuid": "397cc9ed-a729-4533-b707-ffa3aa4eaa36",
       "width": 0,
       "x": 952,
       "y": 102,
@@ -1764,7 +1758,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "SlotKomponen",
-      "persistentUuid": "24d46d35-f606-4f89-9549-f10fd142ec77",
+      "persistentUuid": "091ed68a-9320-436d-bfc8-88d4f042e334",
       "width": 0,
       "x": 1002,
       "y": 102,
@@ -1786,7 +1780,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "SlotKomponen",
-      "persistentUuid": "e5c85431-0604-4085-883c-896c4cd96e80",
+      "persistentUuid": "0a8ddde3-1795-40be-9a9d-8d2e4be5a0f5",
       "width": 0,
       "x": 1052,
       "y": 102,
@@ -1808,7 +1802,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "SlotKomponen",
-      "persistentUuid": "2df35659-5a20-45dd-94a3-1d7fdcebf736",
+      "persistentUuid": "d3ffa21d-15e0-4d8b-b272-f1cc6a392f7c",
       "width": 0,
       "x": 1102,
       "y": 102,
@@ -1830,7 +1824,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "SlotKomponen",
-      "persistentUuid": "19a24508-5e3e-47a7-a777-449d96bef19d",
+      "persistentUuid": "27553ca3-f8b4-4502-b6a0-d045ca14e4f7",
       "width": 0,
       "x": 1152,
       "y": 102,
@@ -1852,7 +1846,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "SlotKomponen",
-      "persistentUuid": "faf9d818-1bba-41b3-bc91-ba6ce98d41e2",
+      "persistentUuid": "31eb655e-3355-4de3-ba62-56a1f1ed8818",
       "width": 0,
       "x": 1202,
       "y": 102,
@@ -1874,7 +1868,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "SkillIkon",
-      "persistentUuid": "929c21b5-bcdf-435b-b50d-5b0fade1b687",
+      "persistentUuid": "4a9503aa-c9ba-4c03-8ec4-476dc01095b3",
       "width": 48,
       "x": 18,
       "y": 136,
@@ -1890,7 +1884,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "TeksSkill",
-      "persistentUuid": "c989317e-abba-4ad5-a24b-4b06c963d134",
+      "persistentUuid": "b83cd5ee-bac6-43fc-b205-c370748f53c3",
       "width": 0,
       "x": 74,
       "y": 138,
@@ -1906,7 +1900,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "Pesan",
-      "persistentUuid": "8b23bf28-76fc-44a0-98fa-ebc0c5332e27",
+      "persistentUuid": "4521391f-08f0-4ed6-9be0-2cdf8d701639",
       "width": 0,
       "x": 400,
       "y": 176,
@@ -1922,7 +1916,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbKiri",
-      "persistentUuid": "3d5f0711-9d13-4bf0-b08b-1c7bb0b7066a",
+      "persistentUuid": "3f9ea446-88c8-43c0-9a4d-f1ea705952d8",
       "width": 0,
       "x": 30,
       "y": 572,
@@ -1938,7 +1932,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbKanan",
-      "persistentUuid": "f036f818-4e99-4f7a-a455-7f8c3c7e7e29",
+      "persistentUuid": "6da90636-2d82-4635-a065-0641707fa198",
       "width": 0,
       "x": 166,
       "y": 572,
@@ -1954,7 +1948,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbTurun",
-      "persistentUuid": "903a4a1a-0afa-4426-8182-a509b8384e72",
+      "persistentUuid": "23a5cb06-c7db-4d25-8352-4379ec45287d",
       "width": 0,
       "x": 108,
       "y": 488,
@@ -1970,7 +1964,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbLompat",
-      "persistentUuid": "4dacc91d-6f52-40f8-a110-b8cedf2feca9",
+      "persistentUuid": "19e29384-a04e-4ba7-aa7b-48f84727f825",
       "width": 0,
       "x": 968,
       "y": 590,
@@ -1986,7 +1980,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbTembak",
-      "persistentUuid": "0733e6f8-fa03-40d5-a666-e99888c2e588",
+      "persistentUuid": "0e09c1ef-3b0e-459f-8d3a-d08dc932c853",
       "width": 0,
       "x": 1110,
       "y": 560,
@@ -2002,7 +1996,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbSkill",
-      "persistentUuid": "41d8724f-a000-43ec-8f56-714cb2804589",
+      "persistentUuid": "59d5ee15-eee2-421e-b7f4-1d9c09c18e1f",
       "width": 0,
       "x": 1150,
       "y": 430,
@@ -2018,7 +2012,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbGantiSkill",
-      "persistentUuid": "37d46cf1-f7ee-4465-bd98-61d3b3357aac",
+      "persistentUuid": "b63b18c1-9527-4a1a-9075-561720cdf517",
       "width": 0,
       "x": 1072,
       "y": 448,
@@ -2034,7 +2028,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbGanti",
-      "persistentUuid": "95ba4987-b2d3-4058-b67c-bc33e5fa0bd5",
+      "persistentUuid": "cf93cefd-6dbf-4028-9fb1-b52ccde62db2",
       "width": 0,
       "x": 1180,
       "y": 336,
@@ -2050,7 +2044,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "TbJeda",
-      "persistentUuid": "a3f8dac4-7eee-44fa-972d-e2d3cbea0ce1",
+      "persistentUuid": "3369a234-520a-4f2a-a9ff-1907b9f837eb",
       "width": 0,
       "x": 856,
       "y": 16,
@@ -2066,7 +2060,7 @@
       "keepRatio": true,
       "layer": "Sentuh",
       "name": "SkillIkon",
-      "persistentUuid": "1d9da553-4110-4aba-abc2-3acb6841bc98",
+      "persistentUuid": "bea70ef4-41bb-4380-b0f4-3a6c3d0358c8",
       "width": 0,
       "x": 1170,
       "y": 450,
@@ -2082,7 +2076,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "TutorPanel",
-      "persistentUuid": "c34c0afc-e751-48e6-ab22-465a8c205831",
+      "persistentUuid": "20542504-5348-48e9-ac3e-ffb11662720d",
       "width": 0,
       "x": 260,
       "y": 172,
@@ -2098,7 +2092,7 @@
       "keepRatio": true,
       "layer": "HUD",
       "name": "TeksTutor",
-      "persistentUuid": "9d427d6b-fc61-4e79-9a24-0ef34d10838e",
+      "persistentUuid": "7451c319-a90c-4195-ac2b-983577427ee0",
       "width": 0,
       "x": 288,
       "y": 204,
@@ -2114,7 +2108,7 @@
       "keepRatio": true,
       "layer": "Pause",
       "name": "JedaRedup",
-      "persistentUuid": "cfd91995-e3f3-4c5b-8c9e-82127639fa82",
+      "persistentUuid": "f2dba901-f84c-46ee-bc7b-ef20afe4208f",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -2130,7 +2124,7 @@
       "keepRatio": true,
       "layer": "Pause",
       "name": "JedaPanel",
-      "persistentUuid": "e22a3bc9-99de-4194-bf10-6cef7a930cc5",
+      "persistentUuid": "9f05a7ec-c222-4950-b095-807c16881ad8",
       "width": 0,
       "x": 380,
       "y": 140,
@@ -2146,7 +2140,7 @@
       "keepRatio": true,
       "layer": "Pause",
       "name": "BtnLanjutkan",
-      "persistentUuid": "abe3b8e1-c4bd-4525-be1a-bf690810399c",
+      "persistentUuid": "6ae5f837-9ea7-4b8f-aa6e-6eebc4537080",
       "width": 0,
       "x": 500,
       "y": 236,
@@ -2162,7 +2156,7 @@
       "keepRatio": true,
       "layer": "Pause",
       "name": "BtnUlangi",
-      "persistentUuid": "e1faf0fa-2bff-4559-b8c5-abcf9331cd85",
+      "persistentUuid": "be9bf3f9-afa9-44dd-9790-6638b3b707f1",
       "width": 0,
       "x": 500,
       "y": 318,
@@ -2178,7 +2172,7 @@
       "keepRatio": true,
       "layer": "Pause",
       "name": "BtnSetJeda",
-      "persistentUuid": "c8a17c9b-136c-47c0-8cbc-2636d40558be",
+      "persistentUuid": "4f08251f-ba4a-4656-96df-8e5509861727",
       "width": 0,
       "x": 500,
       "y": 400,
@@ -2194,7 +2188,7 @@
       "keepRatio": true,
       "layer": "Pause",
       "name": "BtnKeluarJeda",
-      "persistentUuid": "24ff7ec9-9421-4158-be59-e79ec0ad9b53",
+      "persistentUuid": "eae0933d-035b-4da4-9593-3cb82052c82d",
       "width": 0,
       "x": 500,
       "y": 482,
@@ -2210,7 +2204,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetRedup",
-      "persistentUuid": "6a7b8d2c-17fb-4a16-bc2c-5fd24af0137c",
+      "persistentUuid": "738f68ba-0e3e-44be-873b-d18ce4225bb7",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -2226,7 +2220,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetPanel",
-      "persistentUuid": "5b44fd29-102d-4e0c-83a0-9202b09b7f7c",
+      "persistentUuid": "9eab182a-fcf2-4cfb-82f2-1e10acf98e19",
       "width": 0,
       "x": 140,
       "y": 110,
@@ -2242,7 +2236,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetMinMusik",
-      "persistentUuid": "89bfd808-3a65-4266-b06e-bb278ec14186",
+      "persistentUuid": "50c84381-7962-4a43-af1a-9080634b0068",
       "width": 0,
       "x": 360,
       "y": 224,
@@ -2258,7 +2252,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetTrack",
-      "persistentUuid": "0bb32703-5cec-4d46-83ad-2cd691fff7c9",
+      "persistentUuid": "38d9fbc8-7ac9-411c-ac87-65c7c3a6c089",
       "width": 0,
       "x": 426,
       "y": 239,
@@ -2274,7 +2268,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetBarMusik",
-      "persistentUuid": "28c0e6c0-32b1-48dc-9e70-03ffd4be6bb5",
+      "persistentUuid": "3330940d-3bc3-40fd-8031-dc134267965c",
       "width": 0,
       "x": 430,
       "y": 243,
@@ -2290,7 +2284,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetPlusMusik",
-      "persistentUuid": "4aed893c-3163-42da-b922-0e1e3cea955e",
+      "persistentUuid": "d7047a02-b6da-4814-8bbb-d47c5c97abd9",
       "width": 0,
       "x": 634,
       "y": 224,
@@ -2306,7 +2300,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetMinSfx",
-      "persistentUuid": "a376a6ff-96a7-4b6d-9b30-1e591c14b521",
+      "persistentUuid": "80e782d4-6303-480d-a07e-ef06d0d26761",
       "width": 0,
       "x": 360,
       "y": 300,
@@ -2322,7 +2316,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetTrack",
-      "persistentUuid": "2bb42fc3-f48d-45d1-8317-4bc2c748615c",
+      "persistentUuid": "e82aa111-e44e-4fdc-90c1-68b0f91fd150",
       "width": 0,
       "x": 426,
       "y": 315,
@@ -2338,7 +2332,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetBarSfx",
-      "persistentUuid": "9958c67c-fd07-48fc-8011-360a32c1ab78",
+      "persistentUuid": "61e33d2d-84ef-4015-a752-e07b618fdea2",
       "width": 0,
       "x": 430,
       "y": 319,
@@ -2354,7 +2348,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetPlusSfx",
-      "persistentUuid": "934b3246-ee1d-4161-a669-7c0edc5524cf",
+      "persistentUuid": "745455dc-1be9-4b3d-8eb2-c46f1db2838e",
       "width": 0,
       "x": 634,
       "y": 300,
@@ -2370,7 +2364,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "TeksVolMusik",
-      "persistentUuid": "4e099797-966d-4f25-8398-fe623904e1ab",
+      "persistentUuid": "01665f13-628e-4ce6-a773-2e3cbd2b3308",
       "width": 0,
       "x": 502,
       "y": 238,
@@ -2386,7 +2380,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "TeksVolSfx",
-      "persistentUuid": "2a674758-eb3e-49b9-b2d6-8f2363ac0554",
+      "persistentUuid": "38c44ec4-700c-4967-b8d6-97c46931ae5a",
       "width": 0,
       "x": 502,
       "y": 314,
@@ -2402,7 +2396,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetLayar",
-      "persistentUuid": "2137a0d0-beab-48c4-881b-19efbbb5c2d7",
+      "persistentUuid": "8c1e03ec-9f7a-4d67-b8cc-93f7b4ff9758",
       "width": 0,
       "x": 360,
       "y": 376,
@@ -2418,7 +2412,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetSentuh",
-      "persistentUuid": "bc321d87-53dc-4a20-872a-e237748fc0d9",
+      "persistentUuid": "54054232-91df-4de6-92ab-481893c1a9b1",
       "width": 0,
       "x": 360,
       "y": 452,
@@ -2434,7 +2428,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetTutup",
-      "persistentUuid": "5d015466-6a96-4936-a0e4-822a34583c82",
+      "persistentUuid": "b1b61f49-6793-44b5-96b5-50ac7ab4ad41",
       "width": 0,
       "x": 300,
       "y": 532,
@@ -2450,7 +2444,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "ef4cd28e-c921-4628-a317-83bdb2ca0e58",
+      "persistentUuid": "0bf5b1f1-91f3-4acd-a3c7-8653d6c8e22c",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -2464,8 +2458,8 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Nabigh",
-      "persistentUuid": "15444ed3-efc1-41de-99d0-c73d152e4e61",
+      "name": "Pemain",
+      "persistentUuid": "9524b905-3209-455b-b961-d6a7bdef347f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -2501,7 +2495,7 @@
       ],
       "animations": [
         {
-          "name": "jalan kiri",
+          "name": "nabigh_jalan_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2658,7 +2652,7 @@
           ]
         },
         {
-          "name": "jalan",
+          "name": "nabigh_jalan",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2815,7 +2809,7 @@
           ]
         },
         {
-          "name": "shoot left",
+          "name": "nabigh_shoot_left",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2972,7 +2966,7 @@
           ]
         },
         {
-          "name": "shoot",
+          "name": "nabigh_shoot",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3129,7 +3123,7 @@
           ]
         },
         {
-          "name": "lompat kiri",
+          "name": "nabigh_lompat_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3286,7 +3280,7 @@
           ]
         },
         {
-          "name": "lompat",
+          "name": "nabigh_lompat",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3443,7 +3437,7 @@
           ]
         },
         {
-          "name": "idle left",
+          "name": "nabigh_idle_left",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3600,7 +3594,7 @@
           ]
         },
         {
-          "name": "idle",
+          "name": "nabigh_idle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3757,7 +3751,7 @@
           ]
         },
         {
-          "name": "die left",
+          "name": "nabigh_die_left",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3914,7 +3908,7 @@
           ]
         },
         {
-          "name": "die",
+          "name": "nabigh_die",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4069,50 +4063,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Rupii",
-      "persistentUuid": "41f73679-64ce-46c6-a269-1f28ab18989d",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
+        },
         {
-          "name": "arah",
-          "type": "number",
-          "value": 1
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1800,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
-          "canGoDownFromJumpthru": true,
-          "deceleration": 2200,
-          "gravity": 1900,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 860,
-          "jumpSustainTime": 0.16,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 1000,
-          "maxSpeed": 320,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "useRepeatedJump": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "jalan kiri",
+          "name": "rufi_jalan_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4269,7 +4222,7 @@
           ]
         },
         {
-          "name": "jalan",
+          "name": "rufi_jalan",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4426,7 +4379,7 @@
           ]
         },
         {
-          "name": "shoot kiri",
+          "name": "rufi_shoot_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4583,7 +4536,7 @@
           ]
         },
         {
-          "name": "shoot",
+          "name": "rufi_shoot",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4740,7 +4693,7 @@
           ]
         },
         {
-          "name": "lompat kiri",
+          "name": "rufi_lompat_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4897,7 +4850,7 @@
           ]
         },
         {
-          "name": "lompat",
+          "name": "rufi_lompat",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5054,7 +5007,7 @@
           ]
         },
         {
-          "name": "idle kiri",
+          "name": "rufi_idle_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5211,7 +5164,7 @@
           ]
         },
         {
-          "name": "idle ",
+          "name": "rufi_idle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5368,7 +5321,7 @@
           ]
         },
         {
-          "name": "die kiri",
+          "name": "rufi_die_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5525,7 +5478,7 @@
           ]
         },
         {
-          "name": "die",
+          "name": "rufi_die",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5680,50 +5633,9 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Tasya",
-      "persistentUuid": "ae6126d0-6867-41cf-a4c0-ce66d7432a22",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
+        },
         {
-          "name": "arah",
-          "type": "number",
-          "value": 1
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1800,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
-          "canGoDownFromJumpthru": true,
-          "deceleration": 2200,
-          "gravity": 1900,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 860,
-          "jumpSustainTime": 0.16,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 1000,
-          "maxSpeed": 320,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "useRepeatedJump": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "Jalan kaki",
+          "name": "tasya_Jalan_kaki",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5880,7 +5792,7 @@
           ]
         },
         {
-          "name": "jalan",
+          "name": "tasya_jalan",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6037,7 +5949,7 @@
           ]
         },
         {
-          "name": "shoot kiri",
+          "name": "tasya_shoot_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6194,7 +6106,7 @@
           ]
         },
         {
-          "name": "shoot",
+          "name": "tasya_shoot",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6351,7 +6263,7 @@
           ]
         },
         {
-          "name": "lompat kiri",
+          "name": "tasya_lompat_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6508,7 +6420,7 @@
           ]
         },
         {
-          "name": "lompat",
+          "name": "tasya_lompat",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6665,7 +6577,7 @@
           ]
         },
         {
-          "name": "idle kiri",
+          "name": "tasya_idle_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6822,7 +6734,7 @@
           ]
         },
         {
-          "name": "idle",
+          "name": "tasya_idle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6979,7 +6891,7 @@
           ]
         },
         {
-          "name": "die kiri",
+          "name": "tasya_die_kiri",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7136,7 +7048,7 @@
           ]
         },
         {
-          "name": "die ",
+          "name": "tasya_die",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -7298,7 +7210,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "PeluruHunter",
-      "persistentUuid": "be5968f7-d058-4c5b-ab6f-ea2dcff2cb87",
+      "persistentUuid": "d9c9b50a-904a-4c7e-9cdd-cccec07be287",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7455,7 +7367,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "PeluruMusuh",
-      "persistentUuid": "3f0af1b7-251d-4b25-9064-04ea0b2654ff",
+      "persistentUuid": "212a442f-fe68-4cbd-ac44-5bdbfd651011",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7516,7 +7428,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Ledakan",
-      "persistentUuid": "b688ffa4-68cd-4845-b7b1-f6ebca72f627",
+      "persistentUuid": "954144fd-5aaa-49a8-829b-828fae42b29c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7677,7 +7589,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Portal",
-      "persistentUuid": "69681a6c-7fad-48f3-b8fd-22f3a0eb9fd1",
+      "persistentUuid": "68f6b240-0a69-4a28-99c4-31f807d537ed",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8809,7 +8721,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "OverlayGO",
-      "persistentUuid": "3d4f773a-6496-4f7d-ac60-6bb382146de2",
+      "persistentUuid": "6b56bc39-f4ca-4b13-8f65-6472e2b2d533",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8851,7 +8763,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PanelGO",
-      "persistentUuid": "8dd88da7-1cb1-4330-bc74-abbb34d67cb0",
+      "persistentUuid": "93046d44-9532-422f-aa3a-d66481375904",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8893,7 +8805,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "JudulGO",
-      "persistentUuid": "23bdcd22-8e56-4897-895f-59e284e44282",
+      "persistentUuid": "6986f3d9-9958-483c-b75e-52891647c4dd",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8935,7 +8847,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnPlayAgain",
-      "persistentUuid": "59db1c47-ef77-4b1b-8525-4eff44e06c44",
+      "persistentUuid": "915e8cce-e670-4b7a-89de-29f3a7f42b8d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9044,7 +8956,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnHome",
-      "persistentUuid": "c7b90eb2-9d97-4230-8a0c-1ef26a444365",
+      "persistentUuid": "8d42b3a3-0183-43f4-9060-5ee7326b22fa",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9153,7 +9065,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HUDBelakang",
-      "persistentUuid": "223002f3-c78c-4b25-b19d-bcd874bd9357",
+      "persistentUuid": "6b89e5f6-89ea-4c63-a013-32001e75a417",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9195,7 +9107,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HPLag",
-      "persistentUuid": "897c39d0-d418-4e28-b89a-f449da87b6c9",
+      "persistentUuid": "7357b133-7ed5-4ca0-b5bb-79e3341b4e79",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9237,7 +9149,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HPFill",
-      "persistentUuid": "b99bd352-5fed-4929-89a3-662cb09e6494",
+      "persistentUuid": "d53b6fef-7620-4f00-a570-1e06a09bf1b8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9337,7 +9249,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HUDDepan",
-      "persistentUuid": "8e060c41-d7fb-466e-a2fe-65d35ffe0010",
+      "persistentUuid": "ccbd85dd-c6e7-4225-a3a0-3849bfca6210",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9379,7 +9291,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HUDPotret",
-      "persistentUuid": "5df1fa38-e32b-44de-991d-1eabb713e1ab",
+      "persistentUuid": "7a079ae0-8afc-46fb-ab0e-ce6893c93a7c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9479,7 +9391,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HUDNama",
-      "persistentUuid": "930fc363-386b-4fc4-9863-cc6bd345cc0e",
+      "persistentUuid": "2a78c9d5-1c2e-45b8-86f1-50b8e40f1caa",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9579,7 +9491,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Musuh",
-      "persistentUuid": "efaa5ab7-8a9c-48f2-ad1b-9b9dee25db95",
+      "persistentUuid": "ba5761f8-3412-473a-a342-93d3261ced82",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -11315,7 +11227,7 @@
     {
       "assetStoreId": "",
       "name": "RuangBelakang",
-      "persistentUuid": "d1b71a1d-b6cc-46f2-b553-2c07d962a56c",
+      "persistentUuid": "dd70bf36-b610-4197-a79d-ac6a7a455088",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -11331,7 +11243,7 @@
     {
       "assetStoreId": "",
       "name": "RuangStruktur",
-      "persistentUuid": "c639b957-7bad-4fbb-a725-3f161734998f",
+      "persistentUuid": "77b295a3-311f-4e43-be75-5d5ee541ff07",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -11355,7 +11267,7 @@
     {
       "assetStoreId": "",
       "name": "RuangDekor",
-      "persistentUuid": "dbb0d596-0bbd-4fcd-b187-dba1800291ad",
+      "persistentUuid": "182259c0-5ce7-4474-8036-34ae28f2b1cf",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -11371,7 +11283,7 @@
     {
       "assetStoreId": "",
       "name": "RuangCatwalk",
-      "persistentUuid": "9cdb7aaa-50ed-4902-bd71-b5ade72fac07",
+      "persistentUuid": "4dc59592-6389-446c-ad94-72c67ac95fc0",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -11396,7 +11308,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Chip",
-      "persistentUuid": "22e15f4d-4ff6-4ed3-af68-145e7646d31e",
+      "persistentUuid": "bf4e909d-ce2c-4431-9a9a-d1fb78b75fd0",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11489,7 +11401,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SelEnergi",
-      "persistentUuid": "f3ccf5c5-c418-4888-8952-00ff468e7054",
+      "persistentUuid": "c14e7852-9cf9-4ba9-95c1-308165688a79",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11582,7 +11494,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Kepingan",
-      "persistentUuid": "8a41f414-5b79-40d6-8b36-e1b7d9b35dde",
+      "persistentUuid": "b6bdcb4d-fcaa-4b94-9ea7-0e9664ea9e1c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11709,7 +11621,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ZonaBahaya",
-      "persistentUuid": "4504160c-d691-4b61-81a4-f883d6fc3e5e",
+      "persistentUuid": "75f6c37b-eaf3-4214-a483-b11031c91bdc",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11770,7 +11682,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "PintuLaser",
-      "persistentUuid": "7530aa49-2df1-4c61-bca4-63da28dbcb1d",
+      "persistentUuid": "066fa4ac-fb92-4afe-b675-4e36c9c17069",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11875,7 +11787,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PanelRelay",
-      "persistentUuid": "a729b7c0-5c76-4705-8837-db132f1d95fd",
+      "persistentUuid": "563385aa-3b1e-41a5-9890-2c927ee65ac4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11917,7 +11829,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PindaiRing",
-      "persistentUuid": "6f267cec-a618-4592-af7d-4934102c03f4",
+      "persistentUuid": "f5047f95-4cbd-458b-9ef6-593b3f7bef62",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -11959,7 +11871,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "EnergiTrack",
-      "persistentUuid": "c0e5135c-5dba-4ea2-8c3a-6ec8510479c5",
+      "persistentUuid": "2ff8e91a-9bdc-4c7a-9979-5f302d145887",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -12001,7 +11913,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "EnergiFill",
-      "persistentUuid": "564d63c0-4500-4967-b7f8-ed25dd2a8edb",
+      "persistentUuid": "58cbd3b7-f7fd-4f61-8ddd-f9bf912e4aa8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -12043,7 +11955,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PanelKanan",
-      "persistentUuid": "96bfd0e1-8fb3-4ede-9c0f-d13c4b0f0905",
+      "persistentUuid": "56c7d8f1-3650-4ab0-bf4d-23b2b6c4e5b3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -12085,7 +11997,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ChipIkon",
-      "persistentUuid": "e523a2df-a4ab-49a5-834f-d4141de163df",
+      "persistentUuid": "218e9e48-d8c1-48d6-835a-f7f14f7d96e4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -12126,7 +12038,7 @@
     {
       "assetStoreId": "",
       "name": "TeksChip",
-      "persistentUuid": "7b27ebb6-3c8d-4dec-abdf-e3513540e537",
+      "persistentUuid": "2ef7abc5-a080-46ef-b459-135499413df9",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -12157,7 +12069,7 @@
     {
       "assetStoreId": "",
       "name": "TeksLevel",
-      "persistentUuid": "d7a68b46-05e6-41f8-8177-b4201ccfe123",
+      "persistentUuid": "c94dd745-1664-4ecb-82a0-a6b9e0500a25",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -12188,7 +12100,7 @@
     {
       "assetStoreId": "",
       "name": "TeksXP",
-      "persistentUuid": "55280949-9693-4564-8c02-ab9e6a2d5170",
+      "persistentUuid": "6d2d8768-20b5-4701-8def-f423574473fc",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -12219,7 +12131,7 @@
     {
       "assetStoreId": "",
       "name": "TeksEnergi",
-      "persistentUuid": "7de2f7ee-61d4-4ca4-8d13-1b6dc9eb265b",
+      "persistentUuid": "6841daa2-a511-4141-9e3b-b9a501a753ad",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -12250,7 +12162,7 @@
     {
       "assetStoreId": "",
       "name": "TeksSkill",
-      "persistentUuid": "c7908e04-deed-4ec7-a4d6-9b1fb3b8db69",
+      "persistentUuid": "309fc661-4c78-4c9d-8176-e1211071a2b5",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -12282,7 +12194,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SlotKomponen",
-      "persistentUuid": "894bc50f-d4bf-4412-b95c-5c1f84b0853f",
+      "persistentUuid": "2b2f4594-b95e-4586-b0bd-a3f260c2a135",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -12649,7 +12561,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Pesan",
-      "persistentUuid": "72dfd6c9-18bc-4fd6-8932-fe80a618d49c",
+      "persistentUuid": "aae8ec86-fd08-4bf4-8dcb-f495e2816250",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13010,7 +12922,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Muzzle",
-      "persistentUuid": "cc25314d-2374-46d7-86ce-f0ecc13b9125",
+      "persistentUuid": "b0ae5c92-4805-4356-b03c-1a132ecac750",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13161,7 +13073,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Percik",
-      "persistentUuid": "c7743ce1-16cb-4ff1-a37d-ac1b6244db66",
+      "persistentUuid": "c213d03f-a96d-4e0b-899e-c8b629fda0e2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13253,8 +13165,565 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
+      "name": "GantiFX",
+      "persistentUuid": "9d310d8e-1631-4bc2-b35f-21f3cc07af67",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "nabigh",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_nabigh_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rupii",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_rupii_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tasya",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.05,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/ganti_tasya_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LabelGanti",
+      "persistentUuid": "c13bf219-1c4d-4248-b797-ab06af2eb641",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "nabigh",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/label_nabigh.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rupii",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/label_rupii.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tasya",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ui2/fx/label_tasya.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
       "name": "TbKiri",
-      "persistentUuid": "9dc7de06-927c-4811-82eb-e65d195bcc0f",
+      "persistentUuid": "9c5acd05-50e3-4d3e-992b-d702c34daf39",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13325,7 +13794,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbKanan",
-      "persistentUuid": "209c2be8-068a-45da-ba56-3ca8732d51a2",
+      "persistentUuid": "37029d7e-1f04-48cc-aada-b49077963746",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13396,7 +13865,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbTurun",
-      "persistentUuid": "5da21324-b547-4e10-a50a-a051616fc2fa",
+      "persistentUuid": "0dd8d1c2-2ec5-4b1f-a61e-ad2647998fb2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13467,7 +13936,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbLompat",
-      "persistentUuid": "2b3bd29d-cbfc-4adc-b682-2d86d6d4c9a3",
+      "persistentUuid": "a623e39a-2565-425a-b5be-f9729113c45a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13538,7 +14007,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbTembak",
-      "persistentUuid": "303810c6-07af-453d-8dce-f860deb13eba",
+      "persistentUuid": "16fc7f53-aab2-42f0-b468-90bc6ed057b3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13609,7 +14078,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbSkill",
-      "persistentUuid": "f6a67159-05cf-468f-926a-6fe88d07403e",
+      "persistentUuid": "c6156ef1-7a6c-4a60-91a6-caac99dcf39c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13680,7 +14149,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbGantiSkill",
-      "persistentUuid": "f4b875c4-b165-4e8b-a0a7-3cb7cc932be2",
+      "persistentUuid": "b8634468-e714-4dd2-a639-63de870a56a4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13751,7 +14220,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbGanti",
-      "persistentUuid": "7c2d3022-14d2-4e39-8240-f0d8befc2e3a",
+      "persistentUuid": "616872df-1e6a-4027-b40c-141d93f99c93",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13822,7 +14291,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TbJeda",
-      "persistentUuid": "448f16c5-2c8d-4521-8681-abcec0117ba1",
+      "persistentUuid": "2f03673b-c20d-45e9-8cb7-e84871d54b62",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -13893,7 +14362,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SkillIkon",
-      "persistentUuid": "501233c7-a3c3-493f-bc63-fd3f6b543498",
+      "persistentUuid": "7c17b465-1cb5-4dab-bd16-c139444bec7b",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14051,7 +14520,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Debu",
-      "persistentUuid": "37c6c92c-f2cb-4286-a15a-e8aecb5e5dd2",
+      "persistentUuid": "6c0bcff7-0c47-450c-bc11-e53eeeaf633a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14161,7 +14630,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Kilau",
-      "persistentUuid": "d51f0a8a-49aa-45c8-b32a-bd952c7a2d16",
+      "persistentUuid": "5fdd5688-f97d-431e-ab02-51e8561fd4cb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14270,7 +14739,7 @@
     {
       "assetStoreId": "",
       "name": "TileMapLevel",
-      "persistentUuid": "840615fc-e04a-44ff-be82-f2200d0552c1",
+      "persistentUuid": "230581d2-0f1a-4245-8460-d2d1f0f8358b",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
       "effects": [],
@@ -14295,7 +14764,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LatarLuar",
-      "persistentUuid": "831f589f-74a9-4021-b422-50155cfc991d",
+      "persistentUuid": "6201ccda-c49d-4b0f-b0dd-f77e3d828b65",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14337,7 +14806,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "h1",
-      "persistentUuid": "c3a7d9e9-a519-4e02-a150-ab7fd3446b78",
+      "persistentUuid": "68fcdc5f-78b8-459e-aefc-06ba87b1bdce",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14398,7 +14867,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "h4",
-      "persistentUuid": "b600f3d2-81a6-42b9-a846-65a2a4ed90d8",
+      "persistentUuid": "1753e142-c5d5-47b4-afe4-62312eeb4d37",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14459,7 +14928,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "h5",
-      "persistentUuid": "36e37e52-d258-40e5-8b8d-6f243a438ed8",
+      "persistentUuid": "6839c31d-7d43-461a-97f1-6267c63a833b",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14520,7 +14989,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "h14",
-      "persistentUuid": "dd078af6-1cc8-4417-b397-579eba4b529b",
+      "persistentUuid": "c6012739-1863-4448-9413-26a87788f4af",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14581,7 +15050,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "h16",
-      "persistentUuid": "fa1c5d5f-a12a-42d3-bb26-d9b1b2692b55",
+      "persistentUuid": "a8bcdaf4-26db-42d2-9841-2108f5d5fdd7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14642,7 +15111,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TutorPanel",
-      "persistentUuid": "6a6a6f7d-f32c-411e-bed0-37d804ce662e",
+      "persistentUuid": "da788576-d546-42f2-9c7f-ef3270927b68",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14683,7 +15152,7 @@
     {
       "assetStoreId": "",
       "name": "TeksTutor",
-      "persistentUuid": "31de71c3-8464-43e4-bee1-265602c3bacb",
+      "persistentUuid": "86cd354a-094b-48a1-a868-6d5350e060d4",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -14715,7 +15184,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "JedaRedup",
-      "persistentUuid": "2c76b2d2-a9ee-4555-9edf-e04cf920bf50",
+      "persistentUuid": "d76f61be-34a9-429f-9430-708db8a3b373",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14757,7 +15226,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "JedaPanel",
-      "persistentUuid": "89032f63-89d3-4b40-9fd9-c1c12174800b",
+      "persistentUuid": "3f24a6eb-3622-4acb-a004-f2d1eb31735a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14799,7 +15268,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnLanjutkan",
-      "persistentUuid": "9405ab33-e82e-4aa4-b043-9d9ec379c3b6",
+      "persistentUuid": "31588aca-515f-4ffa-a565-8365b00b5955",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14908,7 +15377,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnUlangi",
-      "persistentUuid": "676ec89d-bb62-45c9-a7b8-c335db714a6c",
+      "persistentUuid": "73a7bc7a-8ddf-40f5-83aa-403f951f9a97",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15017,7 +15486,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnSetJeda",
-      "persistentUuid": "805e73e7-5429-4267-964e-25943cc3f75b",
+      "persistentUuid": "72197372-082f-4e57-be16-53140d2519f0",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15126,7 +15595,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnKeluarJeda",
-      "persistentUuid": "bcba2382-3649-4269-bd92-aee69c4142f2",
+      "persistentUuid": "afa14c57-2b84-4713-aeb3-74b4ce193768",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15235,7 +15704,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetRedup",
-      "persistentUuid": "9d71cdad-8778-4c1e-953e-cf2e838b1f6c",
+      "persistentUuid": "0af8071a-2fb2-4160-a5f1-6bb10760dcd9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15277,7 +15746,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetPanel",
-      "persistentUuid": "01e5a265-2f65-411c-8ecb-b8aa42f3d4d1",
+      "persistentUuid": "0976a5f2-3ca1-4805-932a-a421052c3362",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15319,7 +15788,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetMinMusik",
-      "persistentUuid": "c7938bd9-50d7-4809-9989-fc1850c3767a",
+      "persistentUuid": "8cae2cb7-2884-4457-87dd-c2dcf24c2b98",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15428,7 +15897,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetPlusMusik",
-      "persistentUuid": "0c482ba4-bf9f-4286-be93-a14b87526e86",
+      "persistentUuid": "603e9a94-1d68-4be3-b815-f0366752ade7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15537,7 +16006,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetMinSfx",
-      "persistentUuid": "206ad8ba-47f4-4324-a431-e41dfbe73d7a",
+      "persistentUuid": "224d9bfb-9661-4bd0-b461-bfc40a2c76f4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15646,7 +16115,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetPlusSfx",
-      "persistentUuid": "04f6a7e1-5c6f-4169-8d8e-842852940776",
+      "persistentUuid": "f7acc2d4-7318-4a93-89e1-b3b88a0b9e86",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15755,7 +16224,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetTrack",
-      "persistentUuid": "3b88e255-2c77-4967-818f-6d35df72f587",
+      "persistentUuid": "be09ff91-dc7e-49e1-a179-6aa742f01c1d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15797,7 +16266,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetBarMusik",
-      "persistentUuid": "a85de582-ee8c-436c-8a0b-0eeab0f08d49",
+      "persistentUuid": "b6157c8a-12e7-4390-89f2-53787bd6b532",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15839,7 +16308,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetBarSfx",
-      "persistentUuid": "87df3cc7-fa31-4b16-b33b-e92ddf9733af",
+      "persistentUuid": "494bdace-4b5a-43ed-be12-a5aeda49850b",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -15881,7 +16350,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetLayar",
-      "persistentUuid": "7cff56fe-c489-4a41-9ef3-43f4c805e346",
+      "persistentUuid": "e55e7c3e-dfa9-4a11-b1a8-2ac02d076e73",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16086,7 +16555,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetSentuh",
-      "persistentUuid": "ee523622-f45d-4a35-b8de-a8e17508e062",
+      "persistentUuid": "f98c4bef-8675-4800-ab8a-9649b9e22397",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16387,7 +16856,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetTutup",
-      "persistentUuid": "ecd446fc-df0b-44de-9543-848b906675db",
+      "persistentUuid": "21e3d37e-57ca-45ef-be64-814529c6d35a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16495,7 +16964,7 @@
     {
       "assetStoreId": "",
       "name": "TeksVolMusik",
-      "persistentUuid": "12de93a4-5f91-4902-9db6-003d672dae78",
+      "persistentUuid": "187c37c0-8a6b-42f3-93e2-166ac4db77e3",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -16526,7 +16995,7 @@
     {
       "assetStoreId": "",
       "name": "TeksVolSfx",
-      "persistentUuid": "e2b526fd-3a60-447b-ac17-3b27b1b4d636",
+      "persistentUuid": "ed63cc03-f286-40fd-8547-17ad812d4647",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -16558,7 +17027,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "25e1e337-566c-47f0-8189-6c5c9da47cca",
+      "persistentUuid": "f0fdf670-998c-4b59-beec-6c8725d6de0f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16601,13 +17070,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Nabigh"
-      },
-      {
-        "objectName": "Rupii"
-      },
-      {
-        "objectName": "Tasya"
+        "objectName": "Pemain"
       },
       {
         "objectName": "PeluruHunter"
@@ -16728,6 +17191,12 @@
       },
       {
         "objectName": "Percik"
+      },
+      {
+        "objectName": "GantiFX"
+      },
+      {
+        "objectName": "LabelGanti"
       },
       {
         "objectName": "TbKiri"
