@@ -6869,6 +6869,54 @@
         "userAdded": true
       },
       {
+        "file": "ui2/hud/hud_depan_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hud_depan_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/hud_depan_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hud_depan_5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/hud_depan_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hud_depan_6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/hud_depan_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hud_depan_7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/hud_depan_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hud_depan_8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/hud/hud_depan_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/hud/hud_depan_9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
         "file": "ui2/hud/levelup.png",
         "kind": "image",
         "metadata": "",

@@ -42,7 +42,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "LSBG",
-      "persistentUuid": "89f99126-5a56-46c7-aadf-c0ebb0d28af4",
+      "persistentUuid": "1608dc00-6c57-4c3a-ad71-0ea32d80e87c",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -58,7 +58,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Node",
-      "persistentUuid": "0331e6f3-6914-4660-8995-79bdf2e4d75b",
+      "persistentUuid": "3b31703b-0813-47c2-a881-3ef8d8e9f832",
       "width": 0,
       "x": 103,
       "y": 178,
@@ -80,7 +80,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Node",
-      "persistentUuid": "323b4e51-bfe5-42b2-a711-a28a636558f1",
+      "persistentUuid": "7b6e480c-b2b5-451c-b248-c257d68eb4c7",
       "width": 0,
       "x": 308,
       "y": 318,
@@ -102,7 +102,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Node",
-      "persistentUuid": "acb80e9a-d958-4731-bc09-5cd042f38c3d",
+      "persistentUuid": "7c46f0bb-efce-4a21-a43f-ed182b3b1556",
       "width": 0,
       "x": 513,
       "y": 178,
@@ -124,7 +124,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Node",
-      "persistentUuid": "7a744849-a5ea-49f8-a487-8a9aa865be93",
+      "persistentUuid": "b040e19a-4abe-48c6-abe8-e931ef8a2727",
       "width": 0,
       "x": 718,
       "y": 318,
@@ -146,7 +146,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Node",
-      "persistentUuid": "247b8e12-3c1b-4afb-8444-a0dc7fbbbb30",
+      "persistentUuid": "890cd147-2e46-425f-8636-6249b59ef203",
       "width": 0,
       "x": 923,
       "y": 178,
@@ -168,7 +168,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Node",
-      "persistentUuid": "795fe057-e3d5-4399-9eed-a872083fa94b",
+      "persistentUuid": "1138df18-2624-462c-ad45-621b39d5d6a5",
       "width": 0,
       "x": 1098,
       "y": 318,
@@ -190,9 +190,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnBengkel",
-      "persistentUuid": "b64b9679-2b27-42b2-b671-2e1feed52a9e",
+      "persistentUuid": "0e913c13-7972-4ef2-a74f-24416c8dcb86",
       "width": 0,
-      "x": 974,
+      "x": 982,
       "y": 552,
       "zOrder": 6,
       "numberProperties": [],
@@ -206,9 +206,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnEnsiklopedia",
-      "persistentUuid": "2c505efb-88c4-45dc-9650-d1cad406e571",
+      "persistentUuid": "4cbcb947-69e3-42e2-acfc-3a5a92d4009a",
       "width": 0,
-      "x": 974,
+      "x": 982,
       "y": 626,
       "zOrder": 6,
       "numberProperties": [],
@@ -222,9 +222,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnMenu",
-      "persistentUuid": "8c24ddbb-69df-47bd-a5f5-245fcd481ce6",
+      "persistentUuid": "cfca8a4c-f921-49ce-8974-9c9dcd66874f",
       "width": 0,
-      "x": 1122,
+      "x": 1124,
       "y": 6,
       "zOrder": 6,
       "numberProperties": [],
@@ -238,7 +238,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnReset",
-      "persistentUuid": "87985d0f-e2d0-409d-882a-29fc6523c0bf",
+      "persistentUuid": "115943e7-10b7-4452-9ab9-1b2c9a07cab5",
       "width": 0,
       "x": 10,
       "y": 6,
@@ -254,7 +254,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksInfo",
-      "persistentUuid": "7a976b1a-b1f5-4ef5-bfee-a631f67c8991",
+      "persistentUuid": "a2bfe653-8384-4fc0-a666-0b2b630da697",
       "width": 0,
       "x": 300,
       "y": 112,
@@ -270,7 +270,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksStat",
-      "persistentUuid": "920064b3-2322-48b9-9fc2-81498d8e3942",
+      "persistentUuid": "7803d967-a40e-4f67-b5d6-8b2e5da616c8",
       "width": 0,
       "x": 50,
       "y": 568,
@@ -286,7 +286,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksPesan",
-      "persistentUuid": "8f7ab6f9-36b1-4fa4-be1f-9ed91c33200e",
+      "persistentUuid": "e9c23063-1507-4d3d-b7bb-30b7e229edbf",
       "width": 0,
       "x": 300,
       "y": 506,
@@ -302,7 +302,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "44140b3c-3e81-44ec-aff6-0c4e4c3d8692",
+      "persistentUuid": "8774888c-859c-4f99-95f2-02f6f0236c71",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -317,7 +317,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LSBG",
-      "persistentUuid": "0f235660-182e-453e-b94c-ea012ca7c749",
+      "persistentUuid": "4a6d7c45-73c4-4e1d-9d97-2797c4dc64e8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -359,7 +359,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Node",
-      "persistentUuid": "6a3fd3f3-1876-4f6b-b6ff-7439ccc7d417",
+      "persistentUuid": "c8306f74-eb79-4b3b-83f2-c730a43a475f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -905,7 +905,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnBengkel",
-      "persistentUuid": "d3e158db-9876-4af3-89a8-fd32ee543bf9",
+      "persistentUuid": "09cdbfc5-0752-4084-a6aa-9bf33894c70c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -942,11 +942,11 @@
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 234,
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 234,
                         "y": 64
                       },
                       {
@@ -990,11 +990,11 @@
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 234,
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 234,
                         "y": 64
                       },
                       {
@@ -1014,7 +1014,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnEnsiklopedia",
-      "persistentUuid": "019d969b-ed83-4a0e-aaf4-bf44110fa1ee",
+      "persistentUuid": "a7767b0e-f1c9-4a6c-b63a-688214b157a9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1051,11 +1051,11 @@
                         "y": 12
                       },
                       {
-                        "x": 264,
+                        "x": 256,
                         "y": 12
                       },
                       {
-                        "x": 264,
+                        "x": 256,
                         "y": 64
                       },
                       {
@@ -1099,11 +1099,11 @@
                         "y": 12
                       },
                       {
-                        "x": 264,
+                        "x": 256,
                         "y": 12
                       },
                       {
-                        "x": 264,
+                        "x": 256,
                         "y": 64
                       },
                       {
@@ -1123,7 +1123,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnMenu",
-      "persistentUuid": "bf35d93d-8ef9-4507-bc2d-387eebca0492",
+      "persistentUuid": "d67b0c7c-831f-4eb3-8e18-bc797db445e5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1160,11 +1160,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 134,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 134,
                         "y": 64
                       },
                       {
@@ -1208,11 +1208,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 134,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 134,
                         "y": 64
                       },
                       {
@@ -1232,7 +1232,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnReset",
-      "persistentUuid": "dcd784f3-4b8a-489c-a053-3459c56dc590",
+      "persistentUuid": "b7ccd8d1-8809-4980-8b88-28f41a951289",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1269,11 +1269,11 @@
                         "y": 12
                       },
                       {
-                        "x": 152,
+                        "x": 148,
                         "y": 12
                       },
                       {
-                        "x": 152,
+                        "x": 148,
                         "y": 64
                       },
                       {
@@ -1317,11 +1317,11 @@
                         "y": 12
                       },
                       {
-                        "x": 152,
+                        "x": 148,
                         "y": 12
                       },
                       {
-                        "x": 152,
+                        "x": 148,
                         "y": 64
                       },
                       {
@@ -1340,7 +1340,7 @@
     {
       "assetStoreId": "",
       "name": "TeksInfo",
-      "persistentUuid": "2a26e3b2-fa79-4148-9d3f-0013cc844a25",
+      "persistentUuid": "7253cb3a-096a-4ad5-8567-30aae3726542",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -1371,7 +1371,7 @@
     {
       "assetStoreId": "",
       "name": "TeksStat",
-      "persistentUuid": "12b881bc-39a7-4fe1-a5e6-cddac2fd4b9f",
+      "persistentUuid": "21c5e2e0-4424-408c-b68a-0c878e14a65b",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -1402,7 +1402,7 @@
     {
       "assetStoreId": "",
       "name": "TeksPesan",
-      "persistentUuid": "f759cd45-8607-4d13-8e34-8fc288129b08",
+      "persistentUuid": "ffcc8744-ee32-4cbf-99b2-942fd94051e3",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -1434,7 +1434,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "bee8efeb-94aa-4046-8953-c06cb30de70c",
+      "persistentUuid": "a7705e9e-57e4-4dab-9cee-f1c5935dd38f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3175,46 +3175,6 @@
                   },
                   "parameters": [
                     "Tamat",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "VolMusik",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "VolSFX",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "LayarPenuh",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "KontrolSentuh",
                     "=",
                     "0"
                   ]

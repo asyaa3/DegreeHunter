@@ -63,7 +63,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "PanelRingkasan",
-      "persistentUuid": "85fff3ea-59c1-4977-a5d2-62a8ccbf3f9b",
+      "persistentUuid": "9c471132-e498-412b-9b69-d34d9e751aa1",
       "width": 500,
       "x": 40,
       "y": 250,
@@ -79,7 +79,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "JudulRingkasan",
-      "persistentUuid": "c687934b-edea-4752-aa0f-f8c81ed50b86",
+      "persistentUuid": "7da23fa7-9bb6-4278-8227-78266b567be6",
       "width": 0,
       "x": 70,
       "y": 280,
@@ -95,7 +95,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksRingkasan",
-      "persistentUuid": "78a7f278-57ba-4d26-b5a7-7a5679c69c5d",
+      "persistentUuid": "93c2f5b4-e159-4b54-9e26-3ac6d1c8aa64",
       "width": 0,
       "x": 70,
       "y": 326,
@@ -111,7 +111,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnLanjut",
-      "persistentUuid": "5d259c9b-58b2-4856-9b1d-ca58b57d0d1e",
+      "persistentUuid": "822107ce-c139-47f1-8df3-9b1fc79d42ce",
       "width": 0,
       "x": 820,
       "y": 330,
@@ -127,7 +127,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnMenu",
-      "persistentUuid": "933e1aac-1bc5-41d7-bb24-6d55684ccb18",
+      "persistentUuid": "66aaf572-239b-4282-b584-c8b27a931184",
       "width": 0,
       "x": 820,
       "y": 450,
@@ -143,7 +143,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "3d38d1cb-0074-419f-9020-53a222b05e4f",
+      "persistentUuid": "f226e820-f020-4dc4-9ac2-c85a24819f14",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -219,7 +219,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PanelRingkasan",
-      "persistentUuid": "f5779356-c1e3-47bb-acc4-00ccf3afac3b",
+      "persistentUuid": "e2f4be32-cae0-461f-a4bc-7296238dc8d3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -260,7 +260,7 @@
     {
       "assetStoreId": "",
       "name": "TeksRingkasan",
-      "persistentUuid": "516ff4e0-ea8b-4a04-8076-0454f778a4b4",
+      "persistentUuid": "0778faca-743c-496a-b645-63815501666a",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -291,7 +291,7 @@
     {
       "assetStoreId": "",
       "name": "JudulRingkasan",
-      "persistentUuid": "00b5d323-ccf3-4849-99d9-1db41c92d492",
+      "persistentUuid": "80706a22-4d25-43d9-a315-c7585b265bd0",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -323,7 +323,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnLanjut",
-      "persistentUuid": "e4df5ab5-c9e1-42bb-864e-8125cd760c5f",
+      "persistentUuid": "2b9bedc3-d12a-4a3f-ae2b-c9ecd0bbe5e4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -360,11 +360,11 @@
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 239,
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 239,
                         "y": 92
                       },
                       {
@@ -408,11 +408,11 @@
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 239,
                         "y": 12
                       },
                       {
-                        "x": 248,
+                        "x": 239,
                         "y": 92
                       },
                       {
@@ -432,7 +432,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnMenu",
-      "persistentUuid": "f3b9a3e7-e3c5-4894-987e-8754e840978f",
+      "persistentUuid": "0d9c1780-ffa4-43b3-a986-73601f3e052a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -469,11 +469,11 @@
                         "y": 12
                       },
                       {
-                        "x": 200,
+                        "x": 197,
                         "y": 12
                       },
                       {
-                        "x": 200,
+                        "x": 197,
                         "y": 92
                       },
                       {
@@ -517,11 +517,11 @@
                         "y": 12
                       },
                       {
-                        "x": 200,
+                        "x": 197,
                         "y": 12
                       },
                       {
-                        "x": 200,
+                        "x": 197,
                         "y": 92
                       },
                       {
@@ -541,7 +541,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "823cad17-4e94-4c03-bc39-e6f3c708227f",
+      "persistentUuid": "c11212a6-7842-41e4-8338-9c8c5675e519",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],

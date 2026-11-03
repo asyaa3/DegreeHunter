@@ -58,7 +58,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnMulai",
-      "persistentUuid": "99284140-e9c3-4c6d-a07e-2e9779f2eda7",
+      "persistentUuid": "7574aff6-d647-4a30-afdd-29b0ad015ac6",
       "width": 0,
       "x": 453,
       "y": 340,
@@ -74,7 +74,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnPengaturan",
-      "persistentUuid": "f0879dc5-022d-4f45-81e5-4c64f232c0b2",
+      "persistentUuid": "9fe8f48e-01e2-4a2c-afdc-3a9d80585a6b",
       "width": 0,
       "x": 453,
       "y": 428,
@@ -90,7 +90,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnAbout",
-      "persistentUuid": "3ce78d23-6551-48a4-bc8a-6d7c60c4a4c3",
+      "persistentUuid": "ee5c38cc-43fc-4ed6-8d24-193b93af03fc",
       "width": 0,
       "x": 453,
       "y": 516,
@@ -106,7 +106,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnKeluar",
-      "persistentUuid": "74fa0a58-277e-42ae-8dad-8991eefed4ad",
+      "persistentUuid": "74c9b14e-d588-40df-bfef-66af34d6e4e2",
       "width": 0,
       "x": 453,
       "y": 604,
@@ -122,7 +122,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetRedup",
-      "persistentUuid": "f4fcf280-53d4-4e75-bf2f-93bbbf6e0e72",
+      "persistentUuid": "6529f6c9-e4c9-4be6-ad84-8ac0192f4f06",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -138,7 +138,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetPanel",
-      "persistentUuid": "f7aa652f-fa72-40ea-b360-1723f3da1262",
+      "persistentUuid": "fa8805c0-12d4-4060-a1b9-22cdd0f5a2d9",
       "width": 0,
       "x": 140,
       "y": 110,
@@ -154,7 +154,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetMinMusik",
-      "persistentUuid": "0f6fa251-5091-45d2-859a-e768a2ed6daa",
+      "persistentUuid": "b88b4d67-9197-4923-9eb5-a88220b8f2f7",
       "width": 0,
       "x": 360,
       "y": 224,
@@ -170,7 +170,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetTrack",
-      "persistentUuid": "c60e90c9-e113-45a3-ab18-a225e2bcccf0",
+      "persistentUuid": "833735bd-9ad9-4d81-ace6-e3c9424e6157",
       "width": 0,
       "x": 426,
       "y": 239,
@@ -186,7 +186,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetBarMusik",
-      "persistentUuid": "fb107fe8-011b-49b6-a7a8-f5e12d304e95",
+      "persistentUuid": "acbbfb31-8b4c-4e41-bdc6-df212d83f377",
       "width": 0,
       "x": 430,
       "y": 243,
@@ -202,7 +202,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetPlusMusik",
-      "persistentUuid": "72b61fca-f790-4303-91fa-566fb9700074",
+      "persistentUuid": "8014386a-a1e2-4942-b1e7-d09a7e34e689",
       "width": 0,
       "x": 634,
       "y": 224,
@@ -218,7 +218,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetMinSfx",
-      "persistentUuid": "6b0b4f42-f41e-48b0-8a1b-879533b3a591",
+      "persistentUuid": "f562a3c6-c8ba-4ea1-bbab-9dedb876048e",
       "width": 0,
       "x": 360,
       "y": 300,
@@ -234,7 +234,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetTrack",
-      "persistentUuid": "d62ce3e4-42d1-4f9b-b6dc-a3391efde8cf",
+      "persistentUuid": "787d23f9-d4e4-4252-a9f6-2bcb433ad005",
       "width": 0,
       "x": 426,
       "y": 315,
@@ -250,7 +250,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetBarSfx",
-      "persistentUuid": "212be6e3-03eb-45fb-8067-9d0621777f88",
+      "persistentUuid": "b2987e04-c565-4aed-8f3e-4518a4eef800",
       "width": 0,
       "x": 430,
       "y": 319,
@@ -266,7 +266,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetPlusSfx",
-      "persistentUuid": "e7d16cb5-de26-4eed-8887-a040db607e6f",
+      "persistentUuid": "71a2d785-6c21-42ef-8fc9-fe286a20139a",
       "width": 0,
       "x": 634,
       "y": 300,
@@ -282,7 +282,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "TeksVolMusik",
-      "persistentUuid": "725fd89f-9888-4d9b-9389-bd16ef399041",
+      "persistentUuid": "0c4d5284-7036-4e3c-8410-b052495a5e65",
       "width": 0,
       "x": 502,
       "y": 238,
@@ -298,7 +298,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "TeksVolSfx",
-      "persistentUuid": "b88ea02b-3f15-4f47-a0ff-f397fba1cc4c",
+      "persistentUuid": "2243e39b-879f-40b1-841e-160790914c34",
       "width": 0,
       "x": 502,
       "y": 314,
@@ -314,7 +314,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetLayar",
-      "persistentUuid": "b07d314b-d9f8-4fb0-8ee3-0f8ddaf76ae9",
+      "persistentUuid": "e318ce89-d1fd-456f-ac85-471fb34f713a",
       "width": 0,
       "x": 360,
       "y": 376,
@@ -330,7 +330,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetSentuh",
-      "persistentUuid": "b639b035-5d6c-4624-aa9d-cef4685acc14",
+      "persistentUuid": "a9e0c91e-44f6-488d-8043-3c8849749d56",
       "width": 0,
       "x": 360,
       "y": 452,
@@ -346,7 +346,7 @@
       "keepRatio": true,
       "layer": "Pengaturan",
       "name": "SetTutup",
-      "persistentUuid": "9722c63c-71e8-43cc-8a7a-61632697dbd1",
+      "persistentUuid": "14bcca7f-a6e7-4bd3-bb28-ad2cb3f6b1af",
       "width": 0,
       "x": 300,
       "y": 532,
@@ -362,7 +362,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "98785e0a-1d34-4269-bea8-af744d4d106d",
+      "persistentUuid": "ee743107-2e46-4016-bfcf-7ec55ac0b33f",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -438,7 +438,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnMulai",
-      "persistentUuid": "e2921cb4-9134-45ee-ba28-8acaf86eaefc",
+      "persistentUuid": "9d0ca5f1-0de7-4a4b-89de-a7f6fb41971f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -480,11 +480,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -528,11 +528,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -547,7 +547,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnPengaturan",
-      "persistentUuid": "53250e4e-1874-49b4-96c5-61900ce5233b",
+      "persistentUuid": "397b67a4-2d27-485a-83db-9579ddf3c01c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -589,11 +589,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -637,11 +637,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -656,7 +656,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnAbout",
-      "persistentUuid": "2cd3e62f-8103-40ef-bdcc-2e2b92fae322",
+      "persistentUuid": "f8fa6f32-02f0-443b-95a8-723e4475248a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -698,11 +698,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -746,11 +746,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -765,7 +765,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnKeluar",
-      "persistentUuid": "40e4f962-4165-42fb-a20d-4390406a0df5",
+      "persistentUuid": "cb000dc6-7078-41d7-bbf1-b683eb15a5c2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -807,11 +807,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -855,11 +855,11 @@
                       },
                       {
                         "x": 362,
-                        "y": 92
+                        "y": 80
                       },
                       {
                         "x": 12,
-                        "y": 92
+                        "y": 80
                       }
                     ]
                   ]
@@ -874,7 +874,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetRedup",
-      "persistentUuid": "f22c79dc-b960-448f-97c3-416990b4b7a3",
+      "persistentUuid": "b92aaff6-f7e1-4093-b79c-8e3b2904399e",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -916,7 +916,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetPanel",
-      "persistentUuid": "35176a09-b84b-446a-b3ee-b76089811c7b",
+      "persistentUuid": "17ae25eb-a944-4e27-831d-7c2c72acd8a9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -958,7 +958,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetMinMusik",
-      "persistentUuid": "bdbec498-60cf-481f-86c2-a538af3ec2b8",
+      "persistentUuid": "70ed082e-9828-4c10-a336-7027fe49237f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1067,7 +1067,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetPlusMusik",
-      "persistentUuid": "07d6914c-f5c0-45de-9841-87f283fecaeb",
+      "persistentUuid": "78b4ed57-c777-47a5-a832-fc6002e655be",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1176,7 +1176,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetMinSfx",
-      "persistentUuid": "803d42f1-3753-48bf-88bf-db16640c686b",
+      "persistentUuid": "88259b7b-5452-4a42-9962-70b1869e3ec0",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1285,7 +1285,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetPlusSfx",
-      "persistentUuid": "30807b6f-8ad5-47c7-a26a-437e51e0e43d",
+      "persistentUuid": "3067ca9b-a736-4bc4-8fce-234383920861",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1394,7 +1394,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetTrack",
-      "persistentUuid": "62d80c0f-8137-4e57-b258-b15d3a973bde",
+      "persistentUuid": "785b2c59-d525-4f02-a2d5-11defb51ea77",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1436,7 +1436,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetBarMusik",
-      "persistentUuid": "fa1519c1-a85a-4c05-ba9d-a8c0d04274db",
+      "persistentUuid": "73c18601-428a-4f17-b56c-e9ff3839a036",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1478,7 +1478,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SetBarSfx",
-      "persistentUuid": "1e3035fd-ce17-4763-a817-749f339d977d",
+      "persistentUuid": "4a686dbd-ce75-412a-a990-715eda84c217",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1520,7 +1520,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetLayar",
-      "persistentUuid": "631bc29a-5744-47dd-9c2b-16b6c87242ba",
+      "persistentUuid": "e8f21aa4-4668-4436-ae62-32b997546632",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1725,7 +1725,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetSentuh",
-      "persistentUuid": "6fbca986-15a5-4f2e-bc3f-591514cf281e",
+      "persistentUuid": "7a4f33f0-1a20-47dc-89a4-3d7adce50faf",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2026,7 +2026,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "SetTutup",
-      "persistentUuid": "d604d1e0-a202-409c-a04c-cb185d52135d",
+      "persistentUuid": "f8f56cc7-c1f7-4b5a-8544-e1015725d78c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2134,7 +2134,7 @@
     {
       "assetStoreId": "",
       "name": "TeksVolMusik",
-      "persistentUuid": "8a77cdcd-5fad-43e2-be99-6eca5cd154b8",
+      "persistentUuid": "5359f5b4-3130-455a-a4f1-bccb6b918a52",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -2165,7 +2165,7 @@
     {
       "assetStoreId": "",
       "name": "TeksVolSfx",
-      "persistentUuid": "18fc2145-ab00-4a82-bea4-ffbb0e4ca646",
+      "persistentUuid": "b0e61ab5-3af5-4a74-9746-10b2e885a7ce",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -2197,7 +2197,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "42033a5e-4c79-4104-9a64-ba16c936ca4b",
+      "persistentUuid": "5bfe8a51-bef6-464e-8376-fb9a8c79f230",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],

@@ -36,7 +36,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "BengkelBG",
-      "persistentUuid": "e9520ab2-3d11-4e32-80a5-f1b950512e98",
+      "persistentUuid": "b5556f77-0b35-4222-87d5-ff3aa5b07cdf",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -52,9 +52,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnBeli",
-      "persistentUuid": "f8e707f9-be6d-4c98-b18a-d043c725e6e9",
+      "persistentUuid": "2054a552-34d0-4125-bbbd-8aac93419496",
       "width": 0,
-      "x": 108,
+      "x": 111,
       "y": 488,
       "zOrder": 5,
       "numberProperties": [],
@@ -74,9 +74,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnBeli",
-      "persistentUuid": "16ca4aa5-5414-414e-b882-7368197d74fc",
+      "persistentUuid": "a8df3dc6-8570-4828-aef2-dc0a5a30cc5e",
       "width": 0,
-      "x": 413,
+      "x": 416,
       "y": 488,
       "zOrder": 5,
       "numberProperties": [],
@@ -96,9 +96,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnBeli",
-      "persistentUuid": "d5366d19-a39f-4ad5-811e-c09727a15c47",
+      "persistentUuid": "14082e1c-f84c-4e52-a8be-c15f7b44ba69",
       "width": 0,
-      "x": 718,
+      "x": 721,
       "y": 488,
       "zOrder": 5,
       "numberProperties": [],
@@ -118,9 +118,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnBeli",
-      "persistentUuid": "73cb278a-a534-490c-81ad-f4863e1bd4a0",
+      "persistentUuid": "832eef39-7cef-4f30-95ca-516ff254a23a",
       "width": 0,
-      "x": 1023,
+      "x": 1026,
       "y": 488,
       "zOrder": 5,
       "numberProperties": [],
@@ -140,7 +140,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Harga1",
-      "persistentUuid": "9c8fa8ad-6b6e-48ec-9c35-cb945584096f",
+      "persistentUuid": "84139790-deca-4f5f-9efe-d54d42bf3cce",
       "width": 0,
       "x": 80,
       "y": 404,
@@ -156,7 +156,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Harga2",
-      "persistentUuid": "f739b7f0-8c8b-4574-9d9b-9e9cfb4ff0cb",
+      "persistentUuid": "06469f5b-47da-4654-98db-1cc6ef934c88",
       "width": 0,
       "x": 385,
       "y": 404,
@@ -172,7 +172,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Harga3",
-      "persistentUuid": "2daf73c1-5735-4b77-acc1-435c9f1a08e7",
+      "persistentUuid": "efcfdadb-920c-40a0-b247-6725481f2a28",
       "width": 0,
       "x": 690,
       "y": 404,
@@ -188,7 +188,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Harga4",
-      "persistentUuid": "972c4223-5597-4d39-9361-6eab9b50cc60",
+      "persistentUuid": "2348bb43-01ee-4cf7-ac0e-2b242d3d1e7c",
       "width": 0,
       "x": 995,
       "y": 404,
@@ -204,7 +204,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksChipB",
-      "persistentUuid": "25ff48ca-0130-4c11-bbca-fe063890ba56",
+      "persistentUuid": "e1299fba-4735-46d1-a485-19bb0c71db14",
       "width": 0,
       "x": 50,
       "y": 622,
@@ -220,7 +220,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksPesanB",
-      "persistentUuid": "7f06d499-bf9a-4813-9619-b315da21c3bb",
+      "persistentUuid": "bfab03c5-b862-47a6-8c17-bffb28bfb723",
       "width": 0,
       "x": 440,
       "y": 628,
@@ -236,9 +236,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnKembali",
-      "persistentUuid": "5323b1ed-fcf9-4769-a072-836dd976a945",
+      "persistentUuid": "3ea57805-8fee-4b0d-a0ff-0c30411faf4b",
       "width": 0,
-      "x": 1054,
+      "x": 1060,
       "y": 610,
       "zOrder": 5,
       "numberProperties": [],
@@ -252,7 +252,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "f32cf460-97b3-4be8-b050-c114d341a46c",
+      "persistentUuid": "efeba7db-8e6a-44ff-b001-dfc5a0d22e1d",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -267,7 +267,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BengkelBG",
-      "persistentUuid": "8cc086a4-211c-45e3-874b-51ae4b6e3f77",
+      "persistentUuid": "0fa0c61e-5fb8-4587-9af7-835b72e4634c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -309,7 +309,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnBeli",
-      "persistentUuid": "8330d702-4537-4e0e-9872-87bd3239972a",
+      "persistentUuid": "bffdaa64-f2c1-4866-9347-a8586ef7d782",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -352,11 +352,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 130,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 130,
                         "y": 64
                       },
                       {
@@ -400,11 +400,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 130,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 130,
                         "y": 64
                       },
                       {
@@ -424,7 +424,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnKembali",
-      "persistentUuid": "3fcb6a44-f83d-4d85-a43a-8e3ef8a28964",
+      "persistentUuid": "89e491ba-7206-4303-952d-8f60d255f1c5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -461,11 +461,11 @@
                         "y": 12
                       },
                       {
-                        "x": 184,
+                        "x": 178,
                         "y": 12
                       },
                       {
-                        "x": 184,
+                        "x": 178,
                         "y": 64
                       },
                       {
@@ -509,11 +509,11 @@
                         "y": 12
                       },
                       {
-                        "x": 184,
+                        "x": 178,
                         "y": 12
                       },
                       {
-                        "x": 184,
+                        "x": 178,
                         "y": 64
                       },
                       {
@@ -532,7 +532,7 @@
     {
       "assetStoreId": "",
       "name": "TeksChipB",
-      "persistentUuid": "563da3f1-0df7-4e8e-bd25-74d35312c038",
+      "persistentUuid": "16010975-8ea3-407a-9200-d812bc7724fe",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -563,7 +563,7 @@
     {
       "assetStoreId": "",
       "name": "TeksPesanB",
-      "persistentUuid": "aa704b50-1856-4e6f-905e-2e3de5ea075b",
+      "persistentUuid": "5586a570-1a4f-4097-bd22-afce07855e71",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -594,7 +594,7 @@
     {
       "assetStoreId": "",
       "name": "Harga1",
-      "persistentUuid": "b8d8dba9-18fe-418c-b18a-52ea9e2ca688",
+      "persistentUuid": "f1092d50-77e4-46c3-9775-7794139eb600",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -625,7 +625,7 @@
     {
       "assetStoreId": "",
       "name": "Harga2",
-      "persistentUuid": "58ba19f3-bdf7-46dc-b202-e44cfc214c42",
+      "persistentUuid": "27ac0b13-c96e-4b37-90c8-5b905cb54aca",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -656,7 +656,7 @@
     {
       "assetStoreId": "",
       "name": "Harga3",
-      "persistentUuid": "50ea4295-0955-448b-b516-a180d8a761ad",
+      "persistentUuid": "5c46cd72-5bd2-4cdb-838d-d16ba992b08d",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -687,7 +687,7 @@
     {
       "assetStoreId": "",
       "name": "Harga4",
-      "persistentUuid": "4df28991-010a-404b-9354-66ebdbbe7cc7",
+      "persistentUuid": "53d74f02-ae75-4bbb-9753-675d2eb1998e",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -719,7 +719,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "027955db-1bd6-4350-8e2b-59186a153ceb",
+      "persistentUuid": "3b67e2f5-dec2-48de-8d6c-689b2f3e97e7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],

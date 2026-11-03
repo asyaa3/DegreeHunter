@@ -5491,6 +5491,18 @@
           "comment": "Robot tersembunyi (tersembunyi = 1) hanya bisa ditembak saat skill Pindai Gerak aktif."
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          },
+          "comment": "tersembunyi <= ScanAktif: saat Pindai Gerak mati hanya robot biasa (0) yang bisa kena; saat aktif (1) semua robot bisa kena. Jangan pakai OR di sini: OR tidak memilih robot tersembunyi."
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5508,33 +5520,14 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "inverted": false,
+                "value": "NumberObjectVariable"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Musuh",
-                    "tersembunyi",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "ScanAktif",
-                    "=",
-                    "1"
-                  ]
-                }
+              "parameters": [
+                "Musuh",
+                "tersembunyi",
+                "<=",
+                "Variable(ScanAktif)"
               ]
             }
           ],
@@ -8997,6 +8990,23 @@
                 "EnergiFill",
                 "=",
                 "max(0,GlobalVariable(Energi))/max(1,GlobalVariable(EnergiMax))"
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "HUDDepan",
+                "=",
+                "min(10, max(5, Variable(NyawaMaks))) - 5"
               ]
             }
           ],

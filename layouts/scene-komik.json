@@ -62,7 +62,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Halaman",
-      "persistentUuid": "21695401-3b3a-4b96-8fc2-b72711631b38",
+      "persistentUuid": "029e4209-172b-4448-ac42-978e9dfe566b",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -78,9 +78,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnNext",
-      "persistentUuid": "3ed69cc7-8d44-4424-a642-839ccd9e6683",
+      "persistentUuid": "8134d3d5-1af6-4e74-95cf-0d2db2d3f101",
       "width": 0,
-      "x": 1124,
+      "x": 1128,
       "y": 636,
       "zOrder": 5,
       "numberProperties": [],
@@ -94,9 +94,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "BtnSkip",
-      "persistentUuid": "f1eefdc8-6638-469c-8ba1-a359b3df7b00",
+      "persistentUuid": "b824ce52-62fb-4d66-bbbd-734d384523b3",
       "width": 0,
-      "x": 970,
+      "x": 978,
       "y": 636,
       "zOrder": 5,
       "numberProperties": [],
@@ -110,9 +110,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "TeksHal",
-      "persistentUuid": "02d87d8b-99a1-4589-b1a3-c451f09e79a5",
+      "persistentUuid": "dadc08ed-f70e-49b1-b909-7dd5a3537609",
       "width": 0,
-      "x": 886,
+      "x": 894,
       "y": 676,
       "zOrder": 5,
       "numberProperties": [],
@@ -126,7 +126,7 @@
       "keepRatio": true,
       "layer": "Transisi",
       "name": "Tirai",
-      "persistentUuid": "abce9b84-e31d-4928-a72b-50493441692d",
+      "persistentUuid": "f972ecc9-43f9-402a-b8fc-7fed0aaf5d1e",
       "width": 0,
       "x": 0,
       "y": 0,
@@ -141,7 +141,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Halaman",
-      "persistentUuid": "950de0d5-74e1-46f3-a174-1d2efef3874e",
+      "persistentUuid": "155eae09-1e94-4127-a86b-9d33f33a7b8b",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -850,7 +850,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnNext",
-      "persistentUuid": "6e147327-b27c-4b52-9802-cccb7497ea9c",
+      "persistentUuid": "56d78c8c-ac1a-4064-9074-639699f44f26",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -887,11 +887,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 64
                       },
                       {
@@ -935,11 +935,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 64
                       },
                       {
@@ -959,7 +959,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "BtnSkip",
-      "persistentUuid": "46285ade-f0f0-4410-84e5-59d08e4a5b45",
+      "persistentUuid": "e41932d2-7171-4e5a-b918-332b53eaed70",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -996,11 +996,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 64
                       },
                       {
@@ -1044,11 +1044,11 @@
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 12
                       },
                       {
-                        "x": 136,
+                        "x": 132,
                         "y": 64
                       },
                       {
@@ -1067,7 +1067,7 @@
     {
       "assetStoreId": "",
       "name": "TeksHal",
-      "persistentUuid": "6b609daa-6763-4a2a-802b-21cbdaa94a53",
+      "persistentUuid": "3739e6d3-77be-420b-a534-ccffa98ed0e6",
       "type": "TextObject::Text",
       "variables": [],
       "effects": [],
@@ -1099,7 +1099,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tirai",
-      "persistentUuid": "81708dac-9238-4741-97c0-210cd5b7b033",
+      "persistentUuid": "78df9d6f-5a4f-42b8-b526-cb154bfeab16",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
