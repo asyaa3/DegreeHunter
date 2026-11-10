@@ -6813,6 +6813,38 @@
         "userAdded": true
       },
       {
+        "file": "ui2/fx/tanda_bahaya_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/tanda_bahaya_0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/tanda_bahaya_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/tanda_bahaya_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/tanda_bahaya_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/tanda_bahaya_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "ui2/fx/tanda_bahaya_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ui2/fx/tanda_bahaya_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
         "file": "ui2/hud/bos_bar_bg.png",
         "kind": "image",
         "metadata": "",
