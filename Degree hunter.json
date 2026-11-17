@@ -8516,6 +8516,16 @@
       "name": "TipSkill5",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "DevMode",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "DevTap",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
